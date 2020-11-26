@@ -1,0 +1,318 @@
+@media (min-width: 0px) and (max-width: 767px) {
+  .xl-text2 {
+    font-size: 30px;
+    text-align: center;
+}
+
+.m-text1 p{
+  text-align: center;
+}
+
+.blog-content{
+  display: block;
+}
+.about{
+  display: block;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+.form-sub{
+  display: block;
+}
+
+.blog h3:after{
+    display: none;
+}
+
+.side-menu .main-menu {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.side-menu .main-menu > li > a {
+    font-size: 18px;
+    }
+
+input.s-text7.w-full{
+  width: 100%;
+}
+
+input{
+    border: solid 2px #a0d1af;
+}
+
+.mask-item{
+    align-items: center;
+}
+
+h2.caption2-slide1.animated.visible-false.m-b-33{
+    text-align: center;
+}
+
+i.fa.fa-phone{
+    margin-right:2%;
+    color: #fff;
+}
+
+i.fa.fa-envelope {
+   margin-right:2%;
+   color: #fff;
+}
+
+i.fa.fa-map-marker{
+   margin-right:2%;
+   color: #fff;
+}
+
+
+.fa {
+    color: #a0d1af;
+}
+
+.text1-img{
+    display: block;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.about_info1 h3 {
+    font-size: 30px;
+}
+
+
+.father-flex{
+    display: block;
+}
+
+.text1{
+    width: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 5%;
+}
+
+.about_info1 h6{
+    margin-left: 0;
+}
+
+.about_info1 h3 {
+    font-size: 30px;
+}
+
+
+
+
+.overlay h3{
+  font-size: 2rem!important;
+  padding: 10px;
+}
+
+.here{
+  margin-left: 0;
+}
+.four {
+ width: 100%;
+}
+
+.w-size1 {
+    width: auto;
+}
+
+.five{
+	width: 100%;
+}
+
+.logo-footer img {
+    width: 35%;
+}
+
+
+.text-banner h1 {
+    color: #fff;
+}
+
+.text-banner h1:after
+{
+    display: none;
+}
+
+.text-banner p {
+
+    margin-top: 4%;
+    color: #fff;
+}
+
+.text-banner h3 {
+    color: #fff;
+}
+
+i.fa.fa-facebook{
+    color: #fff;
+}
+
+i.fa.fa-instagram{
+    color: #fff;
+}
+
+.btn-whatsapp .face{
+    left: 1rem;
+}
+
+.btn-whatsapp .insta{
+    left: 1rem;
+}
+
+
+
+.logo-mobile img {
+    max-height: 40px;
+}
+
+
+
+
+.text-banner {
+    position: absolute;
+    top: 0;
+    background: rgb(0 0 0 / 28%);
+    bottom: 0;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.cards-products {
+    padding-bottom: 100px;
+    justify-content: center;
+}
+
+.ftco-footer .ftco-footer-widget h2{
+    margin-left: 0;
+}
+
+.reasons h6 {
+    font-size: 30px;
+}
+
+
+.logo-footer{
+	text-align: center;
+    margin-bottom: 3%;
+    justify-content: center!important;
+}
+
+
+
+.header {
+    height: 60vh;
+}
+
+.form
+{
+    width: 100%;
+}
+
+.form h5{
+    margin-bottom: 10%;
+}
+
+.slider-nav.slick-initialized.slick-slider{
+    display: none;
+}
+
+.banner img {
+ width: 100%;
+ height: 100vh;
+}
+
+.slider-for ul.slick-dots
+{
+    display: none!important;
+}
+
+.slick-dotted.slick-slider
+{
+    margin-left: 0;
+}
+
+.card-item img{
+    width: auto;
+}
+.card-body{
+    width: auto;
+}
+.blog-item{
+    display: block!important;
+}
+
+.text-misa{
+    width: 100%;
+}
+
+.blog-img img{
+    width: auto;
+}
+.acceder{
+    display: block;
+}
+
+.item-acceder{
+    width: auto;
+}
+
+.item-acceder{
+    margin-top: 10%;
+}
+.text-misa h3:after{
+    display: none;
+}
+}
+
+
+
+
+@media (min-width: 768px) and (max-width: 1024px) {
+.here{
+    margin-left: 15%;
+}
+
+.blog h3:after{
+    display: none;
+}
+
+
+.side-menu .main-menu {
+    margin-bottom: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.side-menu .main-menu > li > a {
+    font-size: 26px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1366px){
+.topbar-child2{
+    width: auto;
+}
+
+.card-item{
+    width: 322px!important;
+          margin-left: 36px;
+}
+}
