@@ -1,3 +1,11 @@
+    
+
+    $(document).ready(function () {
+        setTimeout(function () {
+          $('.elipse').fadeOut(300);
+        }, 3000)
+      });
+
 $('.multiple-card').slick({
   autoplay:true,
   autoplaySpeed: 6000,
@@ -215,7 +223,7 @@ $('.multiple-team').slick({
       $(this).off('click');
     });
 
-    $(".item-menu-mobile").on( "click", function() {
+    $(".item-menu-mobile2").on( "click", function() {
       $('.wrap-side-menu').hide(); //oculto mediante id
 
       $('.wrap-side-menu').css('display','none');

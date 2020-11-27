@@ -31,6 +31,26 @@
 	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/media.css">
 	<!--===============================================================================================-->
 </head>
+	
+	<div class="elipse">
+    <img src="<?php echo get_template_directory_uri(); ?>/assets/images/red.png" alt="">
+  </div>
+
+
+      <style>
+        .elipse{
+        background: #fff;
+        position: fixed;
+        z-index: 9999999;
+        height: 100%;
+        width: 100%;
+        overflow: hidden;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        }
+
+        </style>
 
 <body >
 
@@ -221,32 +241,45 @@
 
 		<!-- Menu Mobile -->
 		<div class="wrap-side-menu" >
-			<nav class="side-menu">
-				<ul class="main-menu">
+			<nav class="side-menu ">
+				<ul class="main-menu main_menu">
 					
 
 					<li class="item-menu-mobile">
-						<a href="index.html">Quiénes somos</a>
+						<a>Quiénes somos <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
+								<ul class="sub_menu">
+									<li><a href="index.html">Lorem 1</a></li>
+									<li><a href="home-02.html">Lorem 2</a></li>
+									<li><a href="home-03.html">Lorem 3</a></li>
+								</ul>
 
 						
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="#">Nuestros servicios</a>
+														<a>Nuestros servicios  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
+								<ul class="sub_menu">
+									<li><a href="index.html">Lorem 1</a></li>
+									<li><a href="home-02.html">Lorem 2</a></li>
+									<li><a href="home-03.html">Lorem 3</a></li>
+								</ul>
+
 					</li>
 
-					<li class="item-menu-mobile">
+					<li class="item-menu-mobile2">
 						<a href="#recientes">Tu portal</a>
 					</li>
-					<li class="item-menu-mobile">
+					<li class="item-menu-mobile2">
 						<a href="#about">Pagos</a>
 					</li>
 
-					<li class="item-menu-mobile">
+					<li class="item-menu-mobile2">
 						<a href="#footer">Contacto</a>
 					</li>
 				</ul>
 			</nav>
 		</div>
 	</header>
+	
+
 <a href="#" class="toTop"> ↑ </a>
