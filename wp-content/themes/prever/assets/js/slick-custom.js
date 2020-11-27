@@ -49,8 +49,8 @@
             autoplaySpeed: 6000,
             arrows: true,
             appendArrows: $('.wrap-slick1'),
-            prevArrow:'<button class="arrow-slick1 prev-slick1"><img src="assets/images/arrow2.svg"></button>',
-            nextArrow:'<button class="arrow-slick1 next-slick1"><img src="assets/images/flecha3.svg"></button>',  
+            prevArrow:'<button class="arrow-slick1 prev-slick1"></button>',
+            nextArrow:'<button class="arrow-slick1 next-slick1"></button>',  
         });
 
         $('.slick1').on('afterChange', function(event, slick, currentSlide){ 

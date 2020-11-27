@@ -17,6 +17,45 @@
   padding-bottom: 100px;
 }
 
+.card-body h6{
+    height: auto;
+}
+
+.card-item img {
+    width: 320px;
+    }
+ .icon-serv{
+    top: 45%;
+ }
+.card-item{margin-left: 0;
+height: auto;}
+.servicios h3 {
+    font-size: 26px;
+    line-height: 1.2;
+    }
+
+    .blog h3{
+        font-size: 26px;
+    }
+    section.blog {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section.cards-options.container {
+  
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
+    .servicios h3:before{display: none;}
+
+    section.servicios {
+    padding-top: 65px;
+    padding-left: 20px;
+    padding-right: 20px;
+    }
+
 .form-sub{
   display: block;
 }
@@ -105,6 +144,17 @@ i.fa.fa-map-marker{
     font-size: 30px;
 }
 
+button.arrow-slick1.next-slick1.slick-arrow{
+    right: 30px;
+}
+
+button.arrow-slick1.prev-slick1.slick-arrow{
+    left: 30px;
+}
+
+a.btn-oficial.flex-c-m.size2.s-text2.bgwhite.hov1.trans-0-4{
+    width: auto;
+}
 
 
 
@@ -129,7 +179,7 @@ i.fa.fa-map-marker{
 }
 
 .logo-footer img {
-    width: 35%;
+    width: 60%;
 }
 
 
@@ -246,14 +296,13 @@ i.fa.fa-instagram{
     margin-left: 0;
 }
 
-.card-item img{
-    width: auto;
-}
-.card-body{
-    width: auto;
-}
 .blog-item{
     display: block!important;
+}
+
+.card-services {
+    padding-left: 25px;
+    padding-right: 25px;
 }
 
 .text-misa{
@@ -291,6 +340,11 @@ i.fa.fa-instagram{
     display: none;
 }
 
+.item-acceder h6 {
+    font-size: 20px;
+    height: 40px;
+}
+
 
 .side-menu .main-menu {
     margin-bottom: 0;
@@ -308,11 +362,24 @@ i.fa.fa-instagram{
 
 @media (min-width: 1024px) and (max-width: 1366px){
 .topbar-child2{
-    width: auto;
+    width: 63%;
 }
 
 .card-item{
-    width: 322px!important;
-          margin-left: 36px;
+    width: 272px!important;
+          margin-left: 41px;
+}
+
+.card-item img {
+    width: 272px;
+}
+
+.card-body {
+    width: 272px;
+    padding: 35px;
+}
+
+.flex-button2{
+    width: 235px;
 }
 }
