@@ -58,7 +58,7 @@
 	<!-- header fixed -->
 	<div class="wrap_header fixed-header2 trans-0-4">
 		<!-- Logo -->
-		<a href="index.html" class="logo">
+		<a href="<?php echo bloginfo('url');?>" class="logo">
 			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="IMG-LOGO">
 		</a>
 
@@ -67,7 +67,7 @@
 			<nav class="menu">
 				<ul class="main_menu">
 					<li>
-						<a href="index.html">Quiénes somos <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<a href="index.html">Quiénes somos </a><i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
 						<ul class="sub_menu">
 							<li><a href="index.html">Lorem 1</a></li>
 							<li><a href="home-02.html">Lorem 2</a></li>
@@ -77,7 +77,7 @@
 					</li>
 
 					<li>
-						<a href="#">Nuestros servicios  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
+						<a href="#">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
 						<ul class="sub_menu">
 							<li><a href="index.html">Lorem 1</a></li>
 							<li><a href="home-02.html">Lorem 2</a></li>
@@ -105,12 +105,15 @@
 							<div>
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
 							</div>
-							<div class="button_cta">
+							<div class="button_cta button-other">
 								<a href="">
-									Línea Gratuita Nacional<br>
+									<p>
+										Línea Gratuita Nacional
 									<span class="number">018000 518910</span>
-								</div>
-							</a>
+									</p>
+									
+							
+							</a>	</div>
 						</button>
 			</div>
 		</div>
@@ -125,20 +128,20 @@
 			<div class="topbar2">
 
 				<!-- Logo2 -->
-				<a href="index.html" class="logo2">
+				<a href="<?php echo bloginfo('url');?>" class="logo2">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="IMG-LOGO">
 				</a>
 
 				<div class="topbar-child2">
-					<button  class="flex-button">
+					<button  class="flex-button-2">
 						<div class="button_cta">
 							<a href="">
-								¿NECESITAS REPORTAR <br> UN SERVICIO?
-							</div>
-						<!-- 	<div>
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg">
-							</div> -->
+								<p>
+									¿NECESITAS REPORTAR UN SERVICIO?
+								</p>						
+							
 						</a>
+						</div>
 					</button>
 
 					<button style="justify-content: space-around;" class="flex-button2">
@@ -156,12 +159,15 @@
 							<div>
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
 							</div>
-							<div class="button_cta">
+							<div class="button_cta button-other">
 								<a href="">
-									Línea Gratuita Nacional<br>
+									<p>
+										Línea Gratuita Nacional
 									<span class="number">018000 518910</span>
-								</div>
-							</a>
+									</p>
+									
+								
+							</a></div>
 						</button>
 					</div>
 				</div>
@@ -174,7 +180,7 @@
 					<nav class="menu">
 						<ul class="main_menu">
 							<li>
-								<a href="index.html">Quiénes somos <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
+								<a href="index.html">Quiénes somos </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
 								<ul class="sub_menu">
 									<li><a href="index.html">Lorem 1</a></li>
 									<li><a href="home-02.html">Lorem 2</a></li>
@@ -184,7 +190,7 @@
 							</li>
 
 							<li>
-								<a href="#">Nuestros servicios  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
+								<a href="#">Nuestros servicios  </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
 								<ul class="sub_menu">
 									<li><a href="index.html">Lorem 1</a></li>
 									<li><a href="home-02.html">Lorem 2</a></li>
@@ -215,7 +221,7 @@
 		<!-- Header Mobile -->
 		<div class="wrap_header_mobile">
 			<!-- Logo moblie -->
-			<a href="index.html" class="logo-mobile">
+			<a href="<?php echo bloginfo('url');?>" class="logo-mobile">
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="IMG-LOGO">
 			</a>
 

@@ -7,12 +7,21 @@
 .m-text1 p{
   text-align: center;
 }
+	.main_menu > li{
+		padding-top:0;
+		padding-bottom:0;
+	}
 .main_menu > li > .sub_menu {
     top: 77%;
     left: 12%;
     position: absolute;
     border-top: 8px solid #33508d;
     width: 100%;
+}
+	.blog-img {
+    width: auto;
+    height: auto;
+    object-fit: cover;
 }
 
 .blog-content{
@@ -162,9 +171,15 @@ button.arrow-slick1.prev-slick1.slick-arrow{
 
 a.btn-oficial.flex-c-m.size2.s-text2.bgwhite.hov1.trans-0-4{
     width: auto;
+	    text-align: center;
+    padding: 30px;
 }
-
-
+	h2.caption2-slide1.animated.visible-false.m-b-30{
+		font-size:16px;
+	}
+	.card-item:hover .parrafo{
+		right:0;
+	}
 
 .overlay h3{
   font-size: 2rem!important;
@@ -173,6 +188,7 @@ a.btn-oficial.flex-c-m.size2.s-text2.bgwhite.hov1.trans-0-4{
 
 .here{
   margin-left: 0;
+text-align:center;
 }
 .four {
  width: 100%;
@@ -312,14 +328,15 @@ i.fa.fa-instagram{
     padding-left: 25px;
     padding-right: 25px;
 }
-
+.cards-options {
+    padding-left: 20px;
+	padding-right: 20px;}
 .text-misa{
     width: 100%;
+	padding:20px;
 }
 
-.blog-img img{
-    width: auto;
-}
+
 .acceder{
     display: block;
 }
@@ -337,17 +354,50 @@ i.fa.fa-instagram{
 }
 
 
+@media (min-width: 1024px) and (max-width: 1366px) {
+	.card-body{
+		width:auto;
+	}
+	
+	.icon-serv {
+    position: absolute;
+    top: 27%;
+	}
+	
+	.card-body h6 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #33508d;
+    margin-bottom: 5%;
+    height: 50px;
+}
 
+	.card-body h6{
+		height:auto;
+	}
+	.card-item:hover .parrafo{
+		left:0;
+		right:0;
+	}
+}
 
 @media (min-width: 768px) and (max-width: 1024px) {
 .here{
     margin-left: 15%;
 }
 
+	.blog h3 {
+    font-size: 25px;
+	}
+	.servicios h3:before{
+		    bottom: -40%;
+	}
 .blog h3:after{
     display: none;
 }
-
+.cards-options {
+    padding-left: 35px;
+	padding-right: 35px;}
 .item-acceder h6 {
     font-size: 20px;
     height: 40px;
@@ -365,29 +415,143 @@ i.fa.fa-instagram{
 
 .side-menu .main-menu > li > a {
     font-size: 26px;
-    }
+    
+	}
+	.text-misa {
+    background: #f7f7f7;
+    width: 41%;
+    padding: 70px 20px;
+    height: 40vh;
 }
 
-@media (min-width: 1024px) and (max-width: 1366px){
-.topbar-child2{
-    width: 63%;
 }
 
-.card-item{
-    width: 272px!important;
-          margin-left: 41px;
+
+@media (min-width: 768px) and (max-width: 1366px){
+
+	
+.card-item:hover .parrafo {
+    position: absolute;
+    top: -3%;
+    bottom: 7px;
+    left: 13px;
+    right: 13px;
+    /* right: 0; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-weight: bold;
+    background: #3ca9cb;
+    transition: .5s;
+    transform: scale(1.1);
+    border-radius: 5px;
+    align-content: center;
+}
+	
+	.blog-item {
+display: flex!important;
+}
+.blog-img{
+width: 59%;
+height:50vh;
 }
 
-.card-item img {
-    width: 272px;
+.blog-img img {
+width: 100%;
+height: 50vh;
+object-fit: cover;
+}
+
+.text-misa h3{
+font-size: 30px;
+color: #e75401;
+position: relative;
+margin-bottom: 7%;
+font-weight: bold;
+margin-top: 2%;
+text-align: left;
+}
+
+.text-misa h3:after{
+position: absolute;
+content: '';
+background: #e75401;
+/* top: 0; */
+bottom: -40%;
+left: 0;
+right: 0;
+height: 2px;
+width: 80px;
+}
+
+.fecha{
+margin-top: 4%;
+}
+
+.fecha p{
+font-weight: bold;
+color: #e75401;
+}
+
+.text-misa {
+background: #f7f7f7;
+width: 41%;
+padding: 35px 50px;
+height:50vh;
+
+}
+
+.text-misa p{
+	font-weight: bold;
+    font-family: 'Gotham';
+	 font-size: 16px;
+}
+
+.text-misa h6{
+	font-size:16px;
+	 font-family: 'Gotham Book';
+	line-height:1.5;
+	margin-top:11%;
+	
+}
+	.icon-serv {
+    position: absolute;
+    top: 45%;
+    bottom: 0;
+    right: 8%;
+}
+.card-item {
+position: relative;
+    height: 420px;
+    position: relative;
+    box-shadow: 0 1px 2px 0px rgba(0,0,0,0.2);
+    /* margin-left: -2px; */
+    margin-top: 2%;
+    margin-right: 10px;
+    margin-bottom: 2%;
+    transition: .5s;
+    border-radius: 5px;
+    width: 283px;
+}
+
+	.icon-serv {
+    position: absolute;
+    top: 43%;
+    bottom: 0;
+    right: 5%;
 }
 
 .card-body {
-    width: 272px;
-    padding: 35px;
+    width: 283px;
+    padding: 26px;
+}
+	.slick-prev:hover, .slick-prev:focus, .slick-prev{
+left:-30px;
+	}
+
+
+
 }
 
-.flex-button2{
-    width: 235px;
-}
-}
+

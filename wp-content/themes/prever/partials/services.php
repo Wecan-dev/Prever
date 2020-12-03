@@ -1,8 +1,6 @@
-
-
 	<section class="servicios">
 		<h4>NUESTROS SERVICIOS</h4>
-		<h3>Diseñados especialmente <span style="color: #33508d">para ti y tu familia</span></h3>
+		<h3>Diseñados especialmente para <span style="color: #33508d"> ti y tu familia</span></h3>
 		<div class="card-services">
 			<div class="multiple-items">
 				<div class="card-item ">
@@ -113,7 +111,8 @@
 						</div>
 					</div> 
 					</div>
-				</div><div class="card-item">
+				</div>
+				<div class="card-item">
 					<div class="overlay-card">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/card1.png">
 						<div class="icon-serv">

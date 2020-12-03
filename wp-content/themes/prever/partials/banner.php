@@ -1,4 +1,3 @@
-
 	<section class="slide1">
 		<div class="wrap-slick1">
 
@@ -8,11 +7,11 @@
 					<div class="content-principal">
 						<div class="mask-item m-text1  ">
 							<div class="here">
-								<h1 class="caption1-slide1 xl-text2  p-b-6 animated visible-false m-b-22" data-appear="fadeInUp">
+								<h1 class="caption1-slide1 xl-text2  p-b-6 animated visible-false" data-appear="fadeInUp">
 									Previfamilia
 								</h1>
 
-								<h2 class="caption2-slide1 animated visible-false m-b-33" data-appear="fadeInDown">
+								<h2 class="caption2-slide1 animated visible-false m-b-30" data-appear="fadeInDown">
 									Un servicio exequial para proteger <br> a los que más amas
 								</h2>
 
@@ -31,11 +30,11 @@
 					<div class="content-principal">
 						<div class="mask-item m-text1  ">
 							<div class="here">
-								<h1 class="caption1-slide1 xl-text2  p-b-6 animated visible-false m-b-22" data-appear="fadeInUp">
+								<h1 class="caption1-slide1 xl-text2  p-b-6 animated visible-false" data-appear="fadeInUp">
 									Previfamilia
 								</h1>
 
-								<h2 class="caption2-slide1 animated visible-false m-b-33" data-appear="fadeInDown">
+								<h2 class="caption2-slide1 animated visible-false m-b-30" data-appear="fadeInDown">
 									Un servicio exequial para proteger <br> a los que más amas
 								</h2>
 

@@ -1,4 +1,4 @@
-	<section class="cards-options container">
+	<section class="cards-options ">
 		<div class="acceder">
 			<div class="item-acceder">
 				<div style="text-align: center;">

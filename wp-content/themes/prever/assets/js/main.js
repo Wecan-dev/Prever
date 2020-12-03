@@ -6,6 +6,34 @@
         }, 3000)
       });
 
+
+
+ $('.multiple-items').slick({
+    dots: true,
+    autoplay: false,
+    dots: false,
+    slidesToScroll: 4,
+	    slidesToShow: 4,
+        adaptiveWidth: true,
+    responsive: [
+    {
+    breakpoint: 700,
+    settings: {
+      arrows: false,
+      dots: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+    }
+  }
+  ]});
+
 $('.multiple-card').slick({
   autoplay:true,
   autoplaySpeed: 6000,
@@ -286,30 +314,6 @@ $('.multiple-team').slick({
 
 
 
-  jQuery('.multiple-items').slick({
-    dots: true,
-    autoplay: false,
-    dots: false,
-    slidesToShow: 4,
-    slidesToScroll: 4,
-    responsive: [
-    {
-    breakpoint: 700,
-    settings: {
-      arrows: false,
-      dots: false,
-      slidesToShow: 1,
-      slidesToScroll: 1
-    }
-  },
-  {
-    breakpoint: 1024,
-    settings: {
-      slidesToShow: 2,
-      slidesToScroll: 2,
-    }
-  }
-  ]});
 
   jQuery('.single-item').slick({
     dots: true,

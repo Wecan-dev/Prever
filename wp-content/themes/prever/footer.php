@@ -1,15 +1,14 @@
 	<footer class="ftco-footer ftco-section">
-		<div class="container">
+		<div class="footer-padding">
 
 			<div class="row mb-5">
 				<div class="col-md-3 logo-footer">
 					<div class="ftco-footer-widget">
 						<div class="logo-footer" style="justify-content: flex-start;">
-
-							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg">
+								<a href="<?php echo bloginfo('url');?>">
+							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg"></a>
 						</div>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-						tempor incididunt ut labore et dolore magna aliqua.</p>
+						<p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec facilisi magna natoque, per.</p>
 						<div class="ftco-footer-social list-unstyled ">
 							<li class="ftco-animate"><a href="#"></a><i class="fa fa-facebook" aria-hidden="true"></i></li>
 							<li class="ftco-animate"><a href="#"></a><i class="fa fa-instagram" aria-hidden="true"></i></li>
@@ -28,7 +27,7 @@
 								<li ><a href="	">Políticas de datos</a></li>
 								<li ><a href="	">FAQS</a></li>
 								<li ><a href="	">Red prestadora de servicios</a></li>
-								<li ><a href="	">Contacto</a></li>
+							
 
 							</ul>
 						</div>
@@ -55,9 +54,9 @@
 						<h2 class="ftco-heading-2">Contacto</h2>
 						<div class="block-237 ">
 							<ul>
-								<li><img style="width: 10%; margin-right: 3px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/loca.svg"><span style="color: #fff;">Lorem 1</span></li>
+								<li><img style="width: 10%; margin-right: 3px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/loca.svg"><span style="color: #fff; font-family: 'Gotham Book';">Lorem ipsum 001</span></li>
 								<li><a href="#"><img style="width: 10%;margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/envelope.svg"><span class="text">correo: lorem@info.com</span></a></li>
-								<li ><a href="#"><img style="width: 10%; margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-call.svg"><span class="text">Teléfono: +00 000 000 000</span></a></li>
+								<li ><a href="#"><img style="width: 10%; margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-call.svg"><span class="text">Teléfono: +00 (0) 000 00</span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -65,15 +64,15 @@
 			</div>
 
 		</div>
-		<div class=" copy text-center">
+		<a href="https://branch.com.co/" target="_blank" class=" copy text-center">
 			<p style="margin-bottom: 0;
-			background: #33508d;
-			padding-top: 25px;
-			padding-bottom: 25px;
-			color: #fff!important;
-			font-weight: bold;">Copyright 2020 Branch Group - Sitios Web
+    background: #fff;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    color: #000!important;
+    font-weight: bold;">Copyright 2020 Branch Group - Sitios Web
 		</p>
-	</div>
+	</a>
 </footer>
 
 

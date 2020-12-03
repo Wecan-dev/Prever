@@ -3026,14 +3026,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .s-text2 {
-	font-family: Poppins, sans-serif;
-	font-size: 15px;
+	font-family: 'Gotham';
+	font-size: 16px;
 	color: #111111;
 	text-transform: uppercase;
 }
 
 .s-text3 {
-	font-family: Poppins, sans-serif;
+	font-family:'Gotham';
 	font-size: 16px;
 	color: #222;
     font-weight: bold;
@@ -3041,7 +3041,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .s-text4 {
-	font-family: Poppins, sans-serif;
+	font-family: 'Gotham';
 	font-size: 15px;
 	color: white;
 	text-transform: uppercase;
@@ -3049,14 +3049,14 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .s-text5 {
-	font-family: Poppins, sans-serif;
+	font-family:'Gotham';
 	font-size: 15px;
 	color: #999999;
 	line-height: 1;
 }
 
 .s-text6 {
-	font-family: Poppins, sans-serif;
+	font-family:'Gotham';
 	font-size: 13px;
 	color: #999999;
 	line-height: 1.8;
@@ -3070,7 +3070,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .s-text8, .s-text8 a {
-	font-family: Poppins, sans-serif;
+	font-family: 'Gotham';
 	font-size: 13px;
 	    color: #222222;
     font-weight: bold;
@@ -3078,7 +3078,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 }
 
 .s-text9 {
-	font-family: Poppins, sans-serif;
+	font-family'Gotham';
 	font-size: 13px;
 	color: #adadad;
 	line-height: 1.8;
@@ -3420,7 +3420,7 @@ font-family: Poppins, sans-serif;
 
 .xl-text2 {
     font-family:'Gotham';
-    font-size: 40px;
+    font-size: 60px;
     color: white;
     line-height: 1.2;
     letter-spacing: 2px;
@@ -3428,7 +3428,7 @@ font-family: Poppins, sans-serif;
 }
 
 .xl-text3 {
-	font-family: Poppins-Bold;
+	font-family:'Gotham';
 	font-size: 60px;
 	color: #111111;
 	line-height: 1.2;
