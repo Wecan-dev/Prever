@@ -1494,7 +1494,7 @@
 .m-b-27 {margin-bottom: 27px;}
 .m-b-28 {margin-bottom: 28px;}
 .m-b-29 {margin-bottom: 29px;}
-.m-b-30 {margin-bottom: 30px;}
+.m-b-30 {margin-bottom: 8px;}
 .m-b-31 {margin-bottom: 31px;}
 .m-b-32 {margin-bottom: 32px;}
 .m-b-33 {margin-bottom: 33px;}
@@ -3027,7 +3027,7 @@ TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
 
 .s-text2 {
 	font-family: 'Gotham';
-	font-size: 16px;
+	font-size: 12px;
 	color: #111111;
 	text-transform: uppercase;
 }
@@ -3425,6 +3425,8 @@ font-family: Poppins, sans-serif;
     line-height: 1.2;
     letter-spacing: 2px;
     font-weight: 800;
+	margin-left:5px;
+	padding-bottom:2px;
 }
 
 .xl-text3 {
@@ -3472,7 +3474,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 
 .size2 {
 	width: 100%;
-	height: 46px;
+	height: 44px;
 }
 
 .size3 {
@@ -3593,9 +3595,7 @@ SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE SHAPE
 /*[ Width Size ]
 ///////////////////////////////////////////////////////////
 */
-.w-size1 {
-	width: 161px;
-}
+
 
 .w-size2 {
 	width: 179px;

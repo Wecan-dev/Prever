@@ -8,18 +8,18 @@
 								<a href="<?php echo bloginfo('url');?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg"></a>
 						</div>
-						<p>Lorem ipsum dolor sit amet consectetur adipiscing elit donec facilisi magna natoque, per.</p>
+						<p>Prever Siempre a tu Lado acompañándote en los momentos más difíciles.</p>
 						<div class="ftco-footer-social list-unstyled ">
-							<li class="ftco-animate"><a href="#"></a><i class="fa fa-facebook" aria-hidden="true"></i></li>
-							<li class="ftco-animate"><a href="#"></a><i class="fa fa-instagram" aria-hidden="true"></i></li>
+								<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/fb.svg"></a></li>
+								<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg"></a></li>
 							<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/instagram.svg"></a></li>
-							<li class="ftco-animate"><a href="#"></a><i class="fa fa-linkedin" aria-hidden="true"></i></li>
+								<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg"></a></li>
 						</div>
 					</div>
 				</div>
 
-				<div class="col-md-3 logo-footer">
-					<div class="ftco-footer-widget">
+				<div class="col-md-3 txt-left logo-footer">
+					<div class="ftco-footer-widget left-nosotros">
 						<h2 class="ftco-heading-2">Nosotros</h2>
 						<div class="block-237 ">
 							<ul>
@@ -35,8 +35,8 @@
 
 				</div>
 				<div class="col-md-3 logo-footer">
-					<div class="ftco-footer-widget">
-						<h2 class="ftco-heading-2">Menú</h2>
+					<div class="ftco-footer-widget left-menu">
+						<h2 class="ftco-heading-2 line">Menú</h2>
 						<div class="block-237 ">
 							<ul>
 								<li ><a href="	">Quiénes somos</a></li>
@@ -49,14 +49,14 @@
 					</div>
 
 				</div>
-				<div class="col-md-3 logo-footer">
-					<div class="ftco-footer-widget">
-						<h2 class="ftco-heading-2">Contacto</h2>
+				<div class="col-md-3 logo-footer txt-left2">
+					<div class="ftco-footer-widget right-contact">
+						<h2 class="ftco-heading-2 line2">Contacto</h2>
 						<div class="block-237 ">
 							<ul>
-								<li><img style="width: 10%; margin-right: 3px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/loca.svg"><span style="color: #fff; font-family: 'Gotham Book';">Lorem ipsum 001</span></li>
-								<li><a href="#"><img style="width: 10%;margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/envelope.svg"><span class="text">correo: lorem@info.com</span></a></li>
-								<li ><a href="#"><img style="width: 10%; margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-call.svg"><span class="text">Teléfono: +00 (0) 000 00</span></a></li>
+								<li><img class="icon-this" style="width: 10%; margin-right: 3px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/loca.svg"><a style="color: #fff;">Colombia</a></li>
+								<li><a href="mailto:encontacto@prever.com.co"><img class="icon-this" style="width: 10%;margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/envelope.svg"><span class="text">correo: encontacto@prever.com.co</span></a></li>
+								<li ><a href="tel:18000518910"><img class="icon-this" style="width: 10%; margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-call.svg"><span class="text">Teléfono: Línea Nacional Gratuita 01 8000 51 89 10</span></a></li>
 							</ul>
 						</div>
 					</div>
@@ -64,15 +64,14 @@
 			</div>
 
 		</div>
-		<a href="https://branch.com.co/" target="_blank" class=" copy text-center">
-			<p style="margin-bottom: 0;
+		
+			<p style="text-align: center; margin-bottom: 0;
     background: #fff;
     padding-top: 25px;
     padding-bottom: 25px;
-    color: #000!important;
-    font-weight: bold;">Copyright 2020 Branch Group - Sitios Web
+    color: #000!important;">Copyright 2020 <a style=" font-weight:normal;color:#000;" href="https://branch.com.co/" target="_blank" class=" copy text-center">Branch Group </a> - Sitios Web
 		</p>
-	</a>
+	
 </footer>
 
 

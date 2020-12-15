@@ -68,20 +68,23 @@
 				<ul class="main_menu">
 					<li>
 						<a href="index.html">Quiénes somos </a><i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
-						<ul class="sub_menu">
+						<!--<ul class="sub_menu">
 							<li><a href="index.html">Lorem 1</a></li>
 							<li><a href="home-02.html">Lorem 2</a></li>
 							<li><a href="home-03.html">Lorem 3</a></li>
-						</ul>
+						</ul>-->
 
 					</li>
 
 					<li>
 						<a href="#">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
 						<ul class="sub_menu">
-							<li><a href="index.html">Lorem 1</a></li>
-							<li><a href="home-02.html">Lorem 2</a></li>
-							<li><a href="home-03.html">Lorem 3</a></li>
+							<li><a href="#l">Planes Familiares</a></li>
+							<li><a href="#">Planes Empresariales</a></li>
+							<li><a href="#">Planes Mascotas</a></li>
+							<li><a href="#">En Centros Memoriales</a></li>
+							<li><a href="#">Ayuda al Duelo</a></li>
+							<li><a href="#">Club de Beneficios</a></li>
 						</ul>
 					</li>
 
@@ -102,11 +105,11 @@
 <div class="header-icons">
 			<div class="header-wrapicon2">
 						<button style="justify-content: space-around;" class="flex-button">
-							<div>
+							<div class="phone">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
 							</div>
 							<div class="button_cta button-other">
-								<a href="">
+								<a href="tel:018000518910">
 									<p>
 										Línea Gratuita Nacional
 									<span class="number">018000 518910</span>
@@ -151,18 +154,18 @@
 						</div>
 						<div class="button_cta2">
 							<a href="">
-								RED DE SERVICIOS
+								NUESTRA RED DE SERVICIOS
 							</a>	</div>
 
 						</button>
 						<button style="justify-content: space-around;" class="flex-button">
-							<div>
+							<div class="phone">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
 							</div>
 							<div class="button_cta button-other">
-								<a href="">
+								<a href="tel:018000518910">
 									<p>
-										Línea Gratuita Nacional
+										Línea Gratuita Nacional <br>
 									<span class="number">018000 518910</span>
 									</p>
 									
@@ -181,20 +184,23 @@
 						<ul class="main_menu">
 							<li>
 								<a href="index.html">Quiénes somos </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
-								<ul class="sub_menu">
+								<!--<ul class="sub_menu">
 									<li><a href="index.html">Lorem 1</a></li>
 									<li><a href="home-02.html">Lorem 2</a></li>
 									<li><a href="home-03.html">Lorem 3</a></li>
-								</ul>
+								</ul>-->
 
 							</li>
 
 							<li>
-								<a href="#">Nuestros servicios  </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
+								<a href="#">Nuestros servicios </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
 								<ul class="sub_menu">
-									<li><a href="index.html">Lorem 1</a></li>
-									<li><a href="home-02.html">Lorem 2</a></li>
-									<li><a href="home-03.html">Lorem 3</a></li>
+									<li><a href="#l">Planes Familiares</a></li>
+									<li><a href="#">Planes Empresariales</a></li>
+									<li><a href="#">Planes Mascotas</a></li>
+									<li><a href="#">En Centros Memoriales</a></li>
+									<li><a href="#">Ayuda al Duelo</a></li>
+									<li><a href="#">Club de Beneficios</a></li>
 								</ul>
 							</li>
 
@@ -263,7 +269,7 @@
 					</li>
 
 					<li class="item-menu-mobile">
-														<a>Nuestros servicios  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
+														<a>Nuestros productos  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
 								<ul class="sub_menu">
 									<li><a href="index.html">Lorem 1</a></li>
 									<li><a href="home-02.html">Lorem 2</a></li>

@@ -1,12 +1,11 @@
 	<section class="cards-options ">
 		<div class="acceder">
 			<div class="item-acceder">
-				<div style="text-align: center;">
+				<div class="icon-there" style="text-align: center; ">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon1.svg">
 				</div>
 				<h6>Tu Portal</h6>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. </p>
+				<p>Administra la información de tu plan de manera rápida y segura. </p>
 				<button class="acc-btn">
 					<a href="">Acceder </a>
 					<div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></div>
@@ -14,24 +13,22 @@
 			</div>
 
 			<div class="item-acceder">
-				<div style="text-align: center;">
+				<div class="icon-there" style="text-align: center;">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon2.svg">
 				</div>
 				<h6>Pagos</h6>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. </p>
+				<p>Consulta y realiza tus pagos. </p>
 				<button class="acc-btn">
 					<a href="">Acceder </a>
 					<div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></div>
 				</button>
 			</div>
 			<div class="item-acceder">
-				<div style="text-align: center;">
+				<div class="icon-there" style="text-align: center;">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon3.svg">
 				</div>
 				<h6>Red Prestadora de <br> Servicios</h6>
-				<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-				tempor incididunt ut labore et dolore magna aliqua. </p>
+				<p>Conoce nuestra red de Funerarias y Centros Memoriales a nivel nacional.</p>
 				<button class="acc-btn">
 					<a href="">Acceder </a>
 					<div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></div>
