@@ -63,10 +63,10 @@
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 					</li>
 
@@ -175,14 +175,14 @@
 
 							<li class="active-menu3">
 								<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-								<ul class="sub_menu">
+											<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 							</li>
 
@@ -251,14 +251,14 @@
 
 					<li class="item-menu-mobile">
 						<a>Nuestros servicios  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
-												<ul class="sub_menu">
+									<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 
 					</li>
@@ -287,7 +287,7 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/care.png">
 			</div>
 			<div class=" text-second">
-				<p style="font-weight: bold; color:#000; font-size: 16px;">PREVIFAMILIA</p>
+				<p class="subtitulo-second" style="font-weight: bold; color:#000; font-size: 16px;">PREVIFAMILIA</p>
 				<h6 style="color:#000; font-size: 35.4px;">Especialmente para <span style="color: #33508d">ti y tu familia</span></h6>
 				<p>Es un servicio integral pensado en el bienestar y tranquilidad tuyo y de tu familia. Según cada categoría, podrás encontrar una serie de beneficios que se adaptan a tus necesidades.</p>
 
@@ -295,18 +295,17 @@
 			</div>
 		</section>
 		<section class="recaudos">
-			<h6>Planes Previfamilia</h6>
+			<h6  class="subtitulo-second">Planes Previfamilia</h6>
 			<h5>Lorem ipsum es el texto</h5>
-			<p>Cobertura a nivel Nacional</p>
+			<p class="subtitulo-recaudos">Cobertura a nivel Nacional</p>
 			<div class="card-plan">
 				<div class="card-item-plan">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/7.png">
 
 					<div class="text-plan">
 						<h6>Previfamilia Clásico</h6>
-						<p>Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en
+						<p class="p-before">Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en
 						</p>
-						<hr>
 						<ul>
 							<li> <i class="fa fa-check" aria-hidden="true"></i>	
 								Traslado nacional.
@@ -342,9 +341,9 @@
 
 							<div class="text-plan">
 								<h6>Previfamilia Especial</h6>
-								<p>Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en
+								<p class="p-before">Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en
 								</p>
-								<hr>
+							
 								<ul>
 									<li> <i class="fa fa-check" aria-hidden="true"></i>	
 										Traslado nacional.
@@ -377,9 +376,9 @@
 
 						<div class="text-plan">
 							<h6>Previfamilia Excelencia</h6>
-							<p>Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en
+							<p class="p-before">Lorem ipsum es el texto que se usa habitualmente en diseño gráfico en
 							</p>
-							<hr>
+						
 						<ul>
 									<li> <i class="fa fa-check" aria-hidden="true"></i>	
 										Traslado nacional.

@@ -49,7 +49,50 @@
 		justify-content: center;
 		align-items: center;
 	}
+	.text-there p, .text-middle p{
+		    font-size: 15px;
+			color: #000;
+			margin: 0px;
+			font-family: Gotham;
+			font-weight: normal;
+			font-stretch: normal;
+			font-style: normal;
+			line-height: 2.2;
+			letter-spacing: 0.21px;
+			color: #000000;
+		
+	}
+		/* width */
+		section.privacy::-webkit-scrollbar {
+		  width: 6px;
+		}
 
+		/* Track */
+		section.privacy::-webkit-scrollbar-track {
+		 
+		  border-radius: 0px;
+			 background: #d8d8d8; 
+		}
+
+		/* Handle */
+		section.privacy::-webkit-scrollbar-thumb {
+		  background: #3faaf5; 
+		  border-radius: 0px;
+		}
+
+		/* Handle on hover */
+		section.privacy::-webkit-scrollbar-thumb:hover {
+		  background: #b30000; 
+		}
+		section.privacy {
+		padding-top: 80px;
+		padding-left: 0;
+		padding-right: 40px;
+		overflow-y: scroll;
+		height: 100vh;
+		overflow-x: hidden;
+		margin: 50px 70px;
+	}	
 </style> 
 
 <body >
@@ -81,12 +124,11 @@
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
-						</ul>
-					</li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
+						</ul>					</li>
 
 					<li>
 						<a href="#">Tu portal</a>
@@ -192,14 +234,14 @@
 
 									<li>
 										<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-											<ul class="sub_menu">
+													<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 									</li>
 
@@ -271,14 +313,14 @@
 
 					<li class="item-menu-mobile">
 						<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
-										<ul class="sub_menu">
+												<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 
 					</li>
@@ -307,8 +349,10 @@
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/text1.png"></div>
 		<div class="text-there">
 		<h6>1. ÁMBITO DE APLICACIÓN DE LA POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES DEL GRUPO PREVER</h6>
-
-El GRUPO EMPRESARIAL PREVER, conformado por PREVER S.A., sociedad comercial identificada con NIT 890.911.585-5, constituida por ESCRITURA PÚBLICA No.2018 otorgada en la Notaria No.2 de Medellín el 30 de Agosto de 1972, inscrita en la Cámara de Comercio de Medellín, el 6 de Septiembre de 1972, bajo el No.2723, folio 2723 libro IX., con domicilio en la ciudad de Medellín, empresa colombiana líder en la prestación de servicios exequiales y productos de previsión, en calidad de matriz del GRUPO EMPRESARIAL PREVER, y por las siguientes empresas subordinadas: Prever Previsión General SAS, Siempre SA, Jardines de la Esperanza SA, Soluciones la Esperanza SAS y Prever SA Y CIA SCA.</div>
+		<p>
+			El GRUPO EMPRESARIAL PREVER, conformado por PREVER S.A., sociedad comercial identificada con NIT 890.911.585-5, constituida por ESCRITURA PÚBLICA No.2018 otorgada en la Notaria No.2 de Medellín el 30 de Agosto de 1972, inscrita en la Cámara de Comercio de Medellín, el 6 de Septiembre de 1972, bajo el No.2723, folio 2723 libro IX., con domicilio en la ciudad de Medellín, empresa colombiana líder en la prestación de servicios exequiales y productos de previsión, en calidad de matriz del GRUPO EMPRESARIAL PREVER, y por las siguientes empresas subordinadas: Prever Previsión General SAS, Siempre SA, Jardines de la Esperanza SA, Soluciones la Esperanza SAS y Prever SA Y CIA SCA
+			</p>
+		</div>
 
 	</div>
 <div class="text-middle">
@@ -317,8 +361,11 @@ El GRUPO EMPRESARIAL PREVER, conformado por PREVER S.A., sociedad comercial iden
 	
 		<div class="text-there">
 		<h6>2. EJERCICIO DE LOS DERECHOS DEL TITULAR.</h6>
-
-GRUPO PREVER garantiza que el ejercicio de su derecho fundamental de Habeas Data, se efectuará conforme la normatividad vigente en materia de protección de datos y a lo estipulado en la presente POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES. Si usted como titular de datos personales desea consultar, reclamar, modificar, actualizar, rectificar, suprimir o revocar la autorización otorgada respecto del tratamiento de sus datos en cualquiera de las empresas listadas en el numeral 1 de la presente POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES, puede ponerse en contacto a través de los canales que hemos dispuesto para tal fin, los cuales se identifican a continuación: página web, a la que se accede a través de la dirección electrónica http://www.prever.com.co/privacidad así mismo, la consulta o reclamo podrá realizarse vía correo electrónico dirigiendo su comunicación a la</div>
+			<p>
+				
+GRUPO PREVER garantiza que el ejercicio de su derecho fundamental de Habeas Data, se efectuará conforme la normatividad vigente en materia de protección de datos y a lo estipulado en la presente POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES. Si usted como titular de datos personales desea consultar, reclamar, modificar, actualizar, rectificar, suprimir o revocar la autorización otorgada respecto del tratamiento de sus datos en cualquiera de las empresas listadas en el numeral 1 de la presente POLÍTICA DE TRATAMIENTO DE DATOS PERSONALES, puede ponerse en contacto a través de los canales que hemos dispuesto para tal fin, los cuales se identifican a continuación: página web, a la que se accede a través de la dirección electrónica http://www.prever.com.co/privacidad así mismo, la consulta o reclamo podrá realizarse vía correo electrónico dirigiendo su comunicación a la
+			</p>
+		</div>
 	<div class="text1-img">
 		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/text2.png"></div>
 	</div>

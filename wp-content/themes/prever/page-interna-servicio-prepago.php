@@ -59,14 +59,14 @@
 
 					<li class="active-menu3">
 						<a href="#">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
-						<ul class="sub_menu">
+										<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 					</li>
 
@@ -175,14 +175,14 @@
 
 							<li class="active-menu3">
 								<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-								<ul class="sub_menu">
+										<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 							</li>
 
@@ -251,14 +251,14 @@
 
 					<li class="item-menu-mobile">
 						<a>Nuestros servicios  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
-												<ul class="sub_menu">
+									<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 
 					</li>
@@ -285,15 +285,17 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/fam.png">
 			</div>
 			<div class=" text-second">
-				<p style="font-weight: bold; color:#000; font-size: 16px;">Lorem</p>
+				<p class="subtitulo-second" style="font-weight: bold; color:#000; font-size: 16px;">Lorem</p>
 				<h6 style="color:#000; font-size: 30px;">Con Servicio Exequial  <span style="color: #33508d">Prepago</span></h6>
 				<p>Adquieres un servicio en propiedad con el cual puedes proteger a toda tu familia, mientras vives al 100!, 100% protegido.</p>
 
 
 			</div>
+			</div>
 		</section>
+	
 		<section class="recaudos">
-			<h6>ELIGE</h6>
+			<h6 class="subtitulo-second">ELIGE</h6>
 			<h5>3 Tipos de Plan</h5>
 	
 			<div class="card-plan">

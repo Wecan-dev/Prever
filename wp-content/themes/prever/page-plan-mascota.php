@@ -1,4 +1,4 @@
-<<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <?php wp_head(); ?>
 <head>
@@ -59,14 +59,14 @@
 
 					<li class="active-menu3">
 						<a href="#">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
-						<ul class="sub_menu">
+									<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 					</li>
 
@@ -175,14 +175,14 @@
 
 							<li class="active-menu3">
 								<a href="#">Nuestros servicios </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-								<ul class="sub_menu">
+										<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 							</li>
 
@@ -251,14 +251,14 @@
 
 					<li class="item-menu-mobile">
 						<a>Nuestros servicios  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
-												<ul class="sub_menu">
+									<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 
 					</li>
@@ -286,7 +286,7 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mascota.png">
 			</div>
 			<div class=" text-second">
-				<p style="font-weight: bold; color:#000; font-size: 16px;">Lorem</p>
+				<p class="subtitulo-second" style="font-weight: bold; color:#000; font-size: 16px;">Lorem</p>
 				<h6 style="color:#000;">Previmascota</h6>
 				<p>¿Has pensado en el momento en que tu mascota ya no esté contigo?<br><br>
 
@@ -294,20 +294,21 @@
 
 
 			</div>
+			
+			</div>
 		</section>
 		<section class="recaudos">
-			<h6>ELIGE</h6>
+			<h6 class="subtitulo-second">ELIGE</h6>
 			<h5> Tipos de Planes</h5>
-			<p>Cobertura a nivel nacional.</p>
-			<div class="card-plan container">
-				<div class="card-item-plan2">
+			<p class="subtitulo-recaudos">Cobertura a nivel nacional.</p>
+			<div class="card-plan">
+				<div class="card-item-plan">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/doug.png">
 
 					<div class="text-plan">
 						<h6>Por 1 año</h6>
-						<p>Cubrirás por 1 año desde una (1) hasta tres (3) mascotas, donde solo se prestará un (1) servicio por el año. Es decir, la primera mascota que lo necesite, será la que reciba estos beneficios:
+						<p class="p-before p2-before">Cubrirás por 1 año desde una (1) hasta tres (3) mascotas, donde solo se prestará un (1) servicio por el año. Es decir, la primera mascota que lo necesite, será la que reciba estos beneficios:
 						</p>
-						<hr>
 						<ul>
 							<li> <i class="fa fa-check" aria-hidden="true"></i>	
 								Recogida del cuerpo en el lugar del fallecimiento. Si se encuentra fuera del área de cobertura establecida al momento del contrato, se deberá pagar una tarifa adicional.
@@ -325,14 +326,13 @@ El pago debe ser anual.
 					</div>	</div>
 
 
-					<div class="card-item-plan2">
+					<div class="card-item-plan">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/cat.png">
 
 						<div class="text-plan">
 							<h6>Por 2 años</h6>
-							<p>Cubrirás por 2 años desde una (1) hasta tres (3) mascotas, donde solo se prestará un (1) servicio por año. Es decir, 1 mascota por año, será la que reciba estos beneficios:
+							<p class="p-before p2-before">Cubrirás por 2 años desde una (1) hasta tres (3) mascotas, donde solo se prestará un (1) servicio por año. Es decir, 1 mascota por año, será la que reciba estos beneficios:
 							</p>
-							<hr>
 							<ul>
 
 								<li> <i class="fa fa-check" aria-hidden="true"></i>	
@@ -352,7 +352,8 @@ En el caso de la biotransformación, se entregará una planta con las cenizas. (
 					
 
 					</div>
-			</div>
+	
+	
 			</section>
 
 

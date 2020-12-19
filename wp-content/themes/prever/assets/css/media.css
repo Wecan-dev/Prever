@@ -3,9 +3,31 @@
     font-size: 30px;
     text-align: center;
 }
-	.text-first h6::before,.text-bg h6::before{
-		display: none;
+    .text-first h6::before,.text-bg h6::before{
+        display: none;
+    }
+	.publicacion-item p{
+		width:auto;
 	}
+
+    .publicaciones-flex{
+    display: block;
+}
+
+.icon-publicacion{
+    width: auto;
+}
+
+.publicacion-item{
+      display: flex;
+    justify-content: center;
+    flex-direction: column;
+	text-align:center;
+}
+
+.image-publicacion{
+    width: auto;
+}
 .m-text1 p{
   text-align: center;
 }
@@ -149,7 +171,7 @@ width: auto;
     .planes h3 {
     font-size: 25px;
     padding-top: 50px;
-		    padding-left: 7px;
+            padding-left: 7px;
     padding-right: 7px;
 }
     .work-flex {
@@ -161,6 +183,7 @@ width: auto;
 
 .img-second{
     width: auto;
+	height:auto;
 }
 
 .text-second{
@@ -206,10 +229,10 @@ width: auto;
     .ftco-footer .ftco-footer-widget h2{
         width:auto;
     }
-	
-	.img-call{
-		display:none;
-	}
+    
+    .img-call{
+        display:none;
+    }
     .blog-img {
     width: auto;
     height: auto;
@@ -634,15 +657,15 @@ padding: 20px;
 .text-first {
     padding-left: 20px;
     padding-right: 20px;
-	padding-bottom:5%;
+    padding-bottom:5%;
     }
 .submit{
     display: block;
     width: 100%;
 }
-	.call-center input{
-		    width: 100%;
-	}
+    .call-center input{
+            width: 100%;
+    }
 
 .text-bg {
     padding-left: 20px;
@@ -670,12 +693,12 @@ padding: 20px;
     }
 .img-first{
        width: auto;
-	margin-bottom:5%;
+    margin-bottom:5%;
 }
 
 .text-bg{
     width: auto; 
-	    padding-top: 20px;
+        padding-top: 20px;
     padding-bottom: 20px;
 }
 
@@ -746,13 +769,13 @@ section.ayuda {
 }
 }
 @media only (min-width: 1024px) and (max-width: 1366px){
-	.text-first p {
+    .text-first p {
     line-height: 30px;
 }
 }
-	
+    
 @media only (min-width: 1024px) and (max-width: 1366px) {
-	
+    
     .card-body{
         width:auto;
     }
@@ -779,25 +802,31 @@ section.ayuda {
 .here{
     margin-left: 15%;
 }
-	section.about {
+    section.about {
     padding-top: 90px;
 }
-	.call-text {
+    .call-text {
     padding-right: 20px;
     width: 100%;
     padding-left: 20px;
 }
-	
-	.red-texto {
-		padding-left: 20px;}
-	.text-bg {
+
+.img-this{
+ margin-right: auto;
+ width: auto; 
+  margin-left: auto;
+}
+    
+    .red-texto {
+        padding-left: 20px;}
+    .text-bg {
     width: 50%;
     padding-left: 20px;
-		padding-right: 20px;}
+        padding-right: 20px;}
 .text-first {
     width: 50%;
     padding-left: 20px;
-	padding-right: 20px;}
+    padding-right: 20px;}
 .text1{
     display: block;
 }
@@ -847,44 +876,44 @@ section.privacy {
     top: 49%;
     right: 1%;
 }
-	.duelo-flex {
+    .duelo-flex {
     display: flex;
     padding-right: 20px;
-		padding-left: 20px;}
-	.duelo-text{
-		   padding-right: 20px;
-		padding-left: 20px;
-	}
-	.card-recaudos_item{
-		display:block;
-	}
-	
-	.card-recaudos{
-		display:block;
-	}
-	.marcas{
-		display:block;
-	}
-	.marca-item{
-		margin-bottom:10%;
-	}
-	.tab2{
-		width:100%;
-	}
-	.card-recaudos_item{
-		margin-bottom: 10%;
-		height:auto;
-	}
-	.card-recaudos_item{
-		text-align:center;
-	}
-	
-	.marca-item{
-		width:auto;
-	}
-	.recaudos h5{
-		margin-bottom:15%;
-	}
+        padding-left: 20px;}
+    .duelo-text{
+           padding-right: 20px;
+        padding-left: 20px;
+    }
+    .card-recaudos_item{
+        display:block;
+    }
+    
+    .card-recaudos{
+        display:block;
+    }
+    .marcas{
+        display:block;
+    }
+    .marca-item{
+        margin-bottom:10%;
+    }
+    .tab2{
+        width:100%;
+    }
+    .card-recaudos_item{
+        margin-bottom: 10%;
+        height:auto;
+    }
+    .card-recaudos_item{
+        text-align:center;
+    }
+    
+    .marca-item{
+        width:auto;
+    }
+    .recaudos h5{
+        margin-bottom:15%;
+    }
 .cart-item{
     width: 284px!important;
 }
@@ -907,7 +936,7 @@ section.privacy {
 .beneficios-text {
     width: auto;
     margin-bottom: 5%;
-	}
+    }
 
 .duelo-img img {
     width: auto;
@@ -916,7 +945,7 @@ section.privacy {
 
 .servicios h3 {
     font-size: 26px;
-	}
+    }
     .icon-serv2 {
     position: absolute;
     top: 25%;
@@ -961,7 +990,7 @@ section.ayuda {
 
 
 span.fa.fa-search.form-control-feedback{
-    left: 6%;
+    left: 22%;
 }
 .ayuda h5::before {
 
@@ -1096,8 +1125,8 @@ width: 100%;
             padding: 28px 76px;
     }
 .text-misa p {
-    font-weight: bold;
-    font-size: 18.3px;
+   font-weight: 600;
+    font-size: 16px;
 }
 
     .logo2 img {
@@ -1156,4 +1185,4 @@ width: 100%;
 }
 
 
-	
+    

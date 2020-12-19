@@ -23,9 +23,9 @@
 						<h2 class="ftco-heading-2">Nosotros</h2>
 						<div class="block-237 ">
 							<ul>
-								<li ><a href="	">Trabaje con nosotros</a></li>
-								<li ><a href="	">Políticas de datos</a></li>
-								<li ><a href="	">FAQS</a></li>
+								<li ><a href="<?php echo bloginfo('url').'/index.php/trabaja-con-nosotros';?>">Trabaje con nosotros</a></li>
+								<li ><a href="<?php echo bloginfo('url').'/index.php/privacidad-de-datos';?>">Políticas de datos</a></li>
+								<li ><a href="<?php echo bloginfo('url').'/index.php/preguntas-frecuentes';?>">FAQS</a></li>
 								<li ><a href="	">Red prestadora de servicios</a></li>
 							
 
@@ -39,10 +39,10 @@
 						<h2 class="ftco-heading-2 line">Menú</h2>
 						<div class="block-237 ">
 							<ul>
-								<li ><a href="	">Quiénes somos</a></li>
-								<li ><a href="	">Nuestros servicios</a></li>
+								<li ><a href="<?php echo bloginfo('url').'/index.php/quienes-somos';?>">Quiénes somos</a></li>
+								<li ><a href="<?php echo bloginfo('url').'/index.php/nuestros-servicios';?>">Nuestros servicios</a></li>
 								<li ><a href="	">Tu portal</a></li>
-								<li ><a href="	">Pagos</a></li>
+								<li ><a href="<?php echo bloginfo('url').'/index.php/pagos';?>">Pagos</a></li>
 
 							</ul>
 						</div>
@@ -69,7 +69,7 @@
     background: #fff;
     padding-top: 25px;
     padding-bottom: 25px;
-    color: #000!important;">Copyright 2020 <a style=" font-weight:normal;color:#000;" href="https://branch.com.co/" target="_blank" class=" copy text-center">Branch Group </a> - Sitios Web
+    color: #000!important;font-size: 13px;">Copyright 2020 <a style=" font-weight:normal;color:#000;" href="https://branch.com.co/" target="_blank" class=" copy text-center">Branch Group </a> - Sitios Web
 		</p>
 	
 </footer>

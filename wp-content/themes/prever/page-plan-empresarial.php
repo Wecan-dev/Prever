@@ -59,14 +59,14 @@
 
 					<li class="active-menu3">
 						<a href="#">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
-						<ul class="sub_menu">
+										<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 					</li>
 
@@ -175,14 +175,14 @@
 
 							<li class="active-menu3">
 								<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-								<ul class="sub_menu">
+											<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 							</li>
 
@@ -255,10 +255,10 @@
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 
 					</li>
@@ -287,18 +287,19 @@
 				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/principal.png">
 			</div>
 			<div class=" text-second">
-				<p style="font-weight: bold; color:#000; font-size: 16px;">Lorem</p>
+				<p class="subtitulo-second" style="font-weight: bold; color:#000; font-size: 16px;">Lorem</p>
 				<h6 style="color:#000;">Plan Empresarial</h6>
 				<p>Plan de Previsión Exequial especialmente dirigido a funcionarios de empresas, cooperativas, fondos de empleados, sindicatos, agremiaciones y/o asociaciones, que buscan proteger a sus familias. <br>
 				Este plan está dirigido a empresas con más de 5 trabajadores. En caso de que la empresa no cumpla con esta condición, aplica el plan PYMES con los mismos componentes.</p>
 
 
 			</div>
+			</div>
 		</section>
 		<section class="recaudos">
-			<h6>ELIGE</h6>
+			<h6 class="subtitulo-second">ELIGE</h6>
 			<h5> Tipos de Planes</h5>
-			<p>Cobertura a nivel nacional.</p>
+			<p class="subtitulo-recaudos">Cobertura a nivel nacional.</p>
 			<div class="card-plan">
 				<div class="card-item-plan">
 					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/one.png">

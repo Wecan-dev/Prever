@@ -77,14 +77,14 @@
 
 					<li>
 						<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
-						<ul class="sub_menu">
+										<ul class="sub_menu">
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 					</li>
 
@@ -196,10 +196,10 @@
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 									</li>
 
@@ -275,10 +275,10 @@
 							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
 								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
+						
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 						</ul>
 
 					</li>
@@ -305,7 +305,7 @@
 		<div class="first-content">
 			<div class="text-first">
 				<div class="text-first-1">
-				<p style="font-weight: bold; color:#33508D;">LOREM IPSUM</p>
+				<p style="font-weight: 600;color: #33508D;font-size: 15px;">LOREM IPSUM</p>
 				<h6>Nuestra Misión</h6>
 				<p>Actualmente, innovamos con una propuesta actualizada de nuestro portafolio de soluciones, para ofrecerle a todos nuestros clientes paquetes de previsión, asistencias y Club de Beneficios que se adapten a sus necesidades. Es por esto que queremos poner a tu disposición, planes y servicios PREVER que brindan una atención oportuna, digna, respetuosa y con altos estándares.
 				</p>
@@ -322,7 +322,7 @@
 			</div>
 			<div class="text-bg">
 				<div class="text-bg-2">
-				<p style="font-weight: bold ;">LOREM IPSUM</p>
+				<p style="font-weight: 600;color: #fff;font-size: 15px">LOREM IPSUM</p>
 				<h6>Nuestra Visión</h6>
 				<p>Un Grupo de carácter nacional con proyección internacional, innovador en el desarrollo y comercialización de productos en previsión. Nos anticipamos con un portafolio de soluciones, a las necesidades surgidas en momentos inesperados que afectan el bienestar y la tranquilidad de las personas, sus familias y las empresas.
 				</p>
