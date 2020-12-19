@@ -5,11 +5,11 @@
 # Cualquier cambio en las directivas que hay entre esos marcadores se sobreescribirán.
 <IfModule mod_rewrite.c>
 RewriteEngine On
-RewriteBase /web-prever/
+RewriteBase /Prever/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
 RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule . /web-prever/index.php [L]
+RewriteRule . /Prever/index.php [L]
 </IfModule>
 
 # END WordPress

@@ -34,6 +34,31 @@
   }
   ]});
 
+
+ $('.multiple-logo').slick({
+    dots: false,
+    autoplay: false,
+    arrows:true,
+    slidesToScroll: 3,
+      slidesToShow: 3,
+    responsive: [
+    {
+    breakpoint: 700,
+    settings: {
+      arrows: false,
+      dots: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+    }
+  }
+  ]});
 $('.multiple-card').slick({
   autoplay:true,
   autoplaySpeed: 6000,
@@ -344,19 +369,31 @@ $('.multiple-team').slick({
 
   
 
-        $(document).ready(function () {
+ $(document).ready(function () {
   $('.toTop').on('click', function (e) {
     e.preventDefault();
     $('html,body').animate({ // 有些瀏覽器只支援html，有些只支援body 所以兩個都寫進去
       scrollTop: 0,
     }, 700)
   });
-  $('nav').on('click','a', function (e) {
-    e.preventDefault();
-    const anchor = $(this).attr('href');
-    const linkScroll = $(anchor).offset().top;
-    $('html,body').stop().animate({ 
-      scrollTop: linkScroll -43
-    },700)
-  });
+ 
 });
+
+
+
+function openCity(evt, cityName) {
+  var i, tabcontent, tablinks;
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();

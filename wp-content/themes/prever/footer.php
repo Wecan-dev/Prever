@@ -10,9 +10,9 @@
 						</div>
 						<p>Prever Siempre a tu Lado acompañándote en los momentos más difíciles.</p>
 						<div class="ftco-footer-social list-unstyled ">
-								<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/fb.svg"></a></li>
+								<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/fb3.svg"></a></li>
 								<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg"></a></li>
-							<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/instagram.svg"></a></li>
+							<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/youtube3.svg"></a></li>
 								<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg"></a></li>
 						</div>
 					</div>

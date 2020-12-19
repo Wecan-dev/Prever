@@ -10,8 +10,8 @@
 					<div class="icon-serv">
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/card1.svg">
 					</div>
-					<div class="card-body">
-						<h6>Previfamilia</h6>
+					<div class="card-body-home">
+						<h6>Previfamilia</h6> 
 						<p>Un plan de previsión exequial que te brinda tranquilidad.</p>
 						<div class="arrow-link">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha-card.svg">
@@ -35,7 +35,7 @@
 						<div class="icon-serv">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/card2.svg">
 						</div>
-						<div class="card-body">
+						<div class="card-body-home">
 							<h6>Previmascota</h6>
 							<p>¡Ellos también merecen estar protegidos!</p>
 							<div class="arrow-link">
@@ -61,7 +61,7 @@
 						<div class="icon-serv">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/card3.svg">
 						</div>
-						<div class="card-body">
+						<div class="card-body-home">
 							<h6>Servicio Exequial <br> Prepago</h6>
 							<p>Planes prepagados que van de acuerdo con tus necesidades.</p>
 							<div class="arrow-link">
@@ -88,7 +88,7 @@
 						<div class="icon-serv">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/card4.svg">
 						</div>
-						<div class="card-body">
+						<div class="card-body-home">
 							<h6>Planes <br> Empresariales</h6>
 							<p>Diseñados a la medida de las necesidades de tu empresa.</p>
 							<div class="arrow-link">
@@ -114,7 +114,7 @@
 						<div class="icon-serv">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/card1.svg">
 						</div>
-						<div class="card-body">
+						<div class="card-body-home">
 							<h6>En Centros Memoriales</h6>
 							<p>Productos innovadores y ecológicos que encontrarás en nuestros Centros Memoriales.</p>
 							<div class="arrow-link">
