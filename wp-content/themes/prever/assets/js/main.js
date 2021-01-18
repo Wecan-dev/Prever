@@ -6,7 +6,30 @@
         }, 3000)
       });
 
-
+$('.slider-planes').slick({
+    dots: false,
+    autoplay: false,
+    dots: false,
+    slidesToScroll: 1,
+	    slidesToShow: 3,
+    responsive: [
+    {
+    breakpoint: 700,
+    settings: {
+      arrows: false,
+      dots: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 1,
+    }
+  }
+  ]});
 
  $('.multiple-items').slick({
     dots: true,
@@ -34,6 +57,31 @@
   }
   ]});
 
+ $('.multiple-items2').slick({
+    dots: true,
+    autoplay: false,
+    dots: false,
+    slidesToScroll: 4,
+	    slidesToShow: 4,
+        adaptiveWidth: true,
+    responsive: [
+    {
+    breakpoint: 700,
+    settings: {
+      arrows: false,
+      dots: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 2,
+      slidesToScroll: 2,
+    }
+  }
+  ]});
 
  $('.multiple-logo').slick({
     dots: false,
@@ -397,3 +445,6 @@ function openCity(evt, cityName) {
 
 // Get the element with id="defaultOpen" and click on it
 document.getElementById("defaultOpen").click();
+
+
+

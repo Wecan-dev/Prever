@@ -36,7 +36,7 @@
 </head>
 
 <div class="elipse">
-	<img src="<?php echo get_template_directory_uri(); ?>/assets/images/red.png" alt="">
+<div id="circle2"></div>
 </div>
 
 
@@ -54,7 +54,6 @@
 	}
 
 </style> 
-
 <body >
 
 
@@ -69,10 +68,11 @@
 		<div class="wrap_menu">
 			<nav class="menu">
 				<ul class="main_menu">
-					<li>
-						<a href="<?php echo bloginfo('url');?>/index.php/quienes-somos">Quiénes somos </a>
+					<li class="<?php if(is_page( 20 ) or is_page( 26 )){echo 'active-menu';}?>">
+						<a>Quiénes somos </a>
 						<i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
 						<ul class="sub_menu">
+							<li ><a href="<?php echo bloginfo('url');?>/index.php/quienes-somos">Quiénes somos</a>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
 							
 						</ul>
@@ -81,24 +81,33 @@
 					<li>
 						<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
 						<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-						
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a>
+							<ul class="sub_menu">
+									<li><a href="<?php echo bloginfo('url');?>/category/planes-de-prevision-exequial/">Planes de Previsión</a></li>
+									<li><a href="<?php echo bloginfo('url');?>/category/servicios-exequiales-en-propiedad/">Servicios Exequiales en propiedad</a></li>
+							
+							
+								</ul>
+							
+							</li>
+							
+							
+							<li><a href="<?php echo bloginfo('url');?>/category/planes-empresariales/">Plan Empresarial</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/category/previmascota/">Planes Mascotas</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/index.php/club-de-beneficios">Club de Beneficios</a></li>
+							
 						</ul>
 					</li>
 
 					<li>
-						<a href="#">Tu portal</a>
+						<a href="https://tuportalprever.com.co/api/empresarial/modules/login.php">Tu portal</a>
 					</li>
 					<li>
 						<a href="<?php echo bloginfo('url');?>/index.php/pagos">Pagos</a>
 					</li>
 
-					<li>
+					<li class="<?php if(is_page( 21 )){echo 'active-menu';}?>">
 						<a href="<?php echo bloginfo('url');?>/index.php/contacto">Contacto</a>
 					</li>
 				</ul>
@@ -114,7 +123,10 @@
 					<div class="button_cta button-other">
 						<a href="tel:018000518910">
 							<p>
+								
+								¿Necesitas reportar un servicio? 
 								Línea Gratuita Nacional
+								
 								<span class="number">018000 518910</span>
 							</p>
 							
@@ -139,27 +151,31 @@
 					</a>
 
 					<div class="topbar-child2">
-						<button  class="flex-button-2">
-							<div class="button_cta">
-								<a href="">
-									<p>
-										¿NECESITAS REPORTAR UN SERVICIO?
-									</p>						
-								</a>
-							</div>
-						</button>
-
+						
+		
 						<button style="justify-content: space-around;" class="flex-button2">
 							
 							<div class="red">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/red.png">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/red1.png">
 							</div>
 							<div class="button_cta2">
-								<a href="">
+								<a href="<?php echo bloginfo('url');?>/nuestros-servicios">
 									NUESTRA RED DE SERVICIOS
 								</a>	</div>
 
 							</button>
+							<?php if ( wp_is_mobile() ) : ?>
+								<a class="main-btn__green" href="https://api.whatsapp.com/send?phone=573187570637">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/whatsapp.png">
+									Adquiere un Plan Exequial
+								</a>
+							<?php else : ?>
+								<a class="main-btn__green" href="https://web.whatsapp.com/send?phone=573187570637">
+									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/whatsapp.png">
+									Adquiere un Plan Exequial
+								</a>
+							<?php endif; ?>
+							
 							<button style="justify-content: space-around;" class="flex-button">
 								<div class="phone">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
@@ -167,7 +183,9 @@
 								<div class="button_cta button-other">
 									<a href="tel:018000518910">
 										<p>
-											Línea Gratuita Nacional <br>
+											
+											¿Necesitas reportar un servicio? 
+										Línea Gratuita Nacional <br>
 											<span class="number">018000 518910</span>
 										</p>
 										
@@ -184,9 +202,10 @@
 						<div class="wrap_menu">
 							<nav class="menu">
 								<ul class="main_menu">
-									<li>
-										<a  href="<?php echo bloginfo('url');?>/index.php/quienes-somos">Quiénes somos </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
+									<li class="<?php if(is_page( 20 ) or is_page( 26 )){echo 'active-menu';}?>">
+										<a>Quiénes somos </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
 										<ul class="sub_menu">
+											<li><a href="<?php echo bloginfo('url');?>/index.php/quienes-somos">Quiénes somos</a></li>
 											<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
 								
 										</ul>
@@ -194,28 +213,35 @@
 									</li>
 
 									<li>
-										<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-											<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-					
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-						
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
-													<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
+										<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
+						<ul class="sub_menu">
+							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a>
+							<ul class="sub_menu">
+								<li><a href="<?php echo bloginfo('url');?>/category/planes-de-prevision-exequial/">Planes de Previsión</a></li>
+									<li><a href="<?php echo bloginfo('url');?>/category/servicios-exequiales-en-propiedad/">Servicios Exequiales en propiedad</a></li>
+							
+								</ul>
+							
+							</li>
+							
+							
+							<li><a href="<?php echo bloginfo('url');?>/category/planes-empresariales/">Plan Empresarial</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/category/previmascota/">Planes Mascotas</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/index.php/club-de-beneficios">Club de Beneficios</a></li>
+							
 						</ul>
 									</li>
 
 											<li>
-						<a href="#">Tu portal</a>
+						<a href="https://prever.com.co/club-de-beneficios/#1571928741283-8a776011-ac90">Tu portal</a>
 					</li>
 
 							<li>
 						<a href="<?php echo bloginfo('url');?>/index.php/pagos">Pagos</a>
 					</li>
 
-					<li>
+					<li class="<?php if(is_page( 21 )){echo 'active-menu';}?>">
 						<a href="<?php echo bloginfo('url');?>/index.php/contacto">Contacto</a>
 					</li>
 
@@ -263,9 +289,11 @@
 				<ul class="main-menu main_menu">
 					
 
-					<li class="item-menu-mobile">
-						<a href="<?php echo bloginfo('url').'/index.php/quienes-nosotros';?>">Quiénes somos</a> <i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
+					<li class="item-menu-mobile <?php if(is_page( 20 ) or is_page( 26 )){echo 'active-menu';}?>">
+						<a href="">Quiénes somos</a> <i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
 						<ul class="sub_menu">
+							<li><a href="<?php echo bloginfo('url');;?>'/index.php/quienes-somos">Quiénes somos</a></li>
+			
 							<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
 						
 						</ul>
@@ -274,27 +302,36 @@
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
-										<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-				
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
-												<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
+						<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
+						<ul class="sub_menu">
+							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a>
+							<ul class="sub_menu">
+										<li><a href="<?php echo bloginfo('url');?>/category/planes-de-prevision-exequial/">Planes de Previsión</a></li>
+									<li><a href="<?php echo bloginfo('url');?>/category/servicios-exequiales-en-propiedad/">Servicios Exequiales en propiedad</a></li>
+							
+							
+								</ul>
+							
+							</li>
+							
+							
+							<li><a href="<?php echo bloginfo('url');?>/category/planes-empresiariales/">Plan Empresarial</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/category/previmascota/">Planes Mascotas</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/index.php/club-de-beneficios">Club de Beneficios</a></li>
+							
 						</ul>
 
 					</li>
 
 					<li class="item-menu-mobile2">
-						<a href="#">Tu portal</a>
+						<a href="https://prever.com.co/club-de-beneficios/#1571928741283-8a776011-ac90">Tu portal</a>
 					</li>
 					<li class="item-menu-mobile2">
 						<a href="<?php echo bloginfo('url');?>/index.php/pagos">Pagos</a>
 					</li>
 
-					<li class="item-menu-mobile2">
+					<li class="item-menu-mobile2 <?php if(is_page( 21 )){echo 'active-menu';}?>">
 						<a href="<?php echo bloginfo('url');?>/index.php/contacto">Contacto</a>
 					</li>
 				</ul>

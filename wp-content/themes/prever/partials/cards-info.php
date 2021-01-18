@@ -1,38 +1,19 @@
-	<section class="cards-options ">
+<section class="cards-options ">
 		<div class="acceder">
+			<?php $args = array( 'post_type' => 'Metodos');?>   
+			  <?php $loop = new WP_Query( $args ); ?>
+			  <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 			<div class="item-acceder">
 				<div class="icon-there" style="text-align: center; ">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon1.svg">
+					<img src="<?php echo get_the_post_thumbnail_url(); ?>">
 				</div>
-				<h6>Tu Portal</h6>
-				<p>Administra la información de tu plan de manera rápida y segura. </p>
+				<h6><?php the_title(); ?></h6>
+				<?php the_content(); ?>
 				<button class="acc-btn">
-					<a href="">Acceder </a>
+					<a href="<?php the_field( 'url_boton' ); ?>">Acceder </a>
 					<div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></div>
 				</button>
 			</div>
-
-			<div class="item-acceder">
-				<div class="icon-there" style="text-align: center;">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon2.svg">
-				</div>
-				<h6>Pagos</h6>
-				<p>Consulta y realiza tus pagos. </p>
-				<button class="acc-btn">
-					<a href="">Acceder </a>
-					<div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></div>
-				</button>
-			</div>
-			<div class="item-acceder">
-				<div class="icon-there" style="text-align: center;">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icon3.svg">
-				</div>
-				<h6>Red Prestadora de <br> Servicios</h6>
-				<p>Conoce nuestra red de Funerarias y Centros Memoriales a nivel nacional.</p>
-				<button class="acc-btn">
-					<a href="">Acceder </a>
-					<div><img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></div>
-				</button>
-			</div>
+			<?php endwhile; ?>
 		</div>
-	</section>
+</section>

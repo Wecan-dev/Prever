@@ -10,10 +10,10 @@
 						</div>
 						<p>Prever Siempre a tu Lado acompañándote en los momentos más difíciles.</p>
 						<div class="ftco-footer-social list-unstyled ">
-								<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/fb3.svg"></a></li>
-								<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg"></a></li>
-							<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/youtube3.svg"></a></li>
-								<li style="border: none;" class="ftco-animate"><a href="#"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg"></a></li>
+								<li style="border: none;" class="ftco-animate"><a target="_blank" href="https://www.facebook.com/PreverCol/"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/fb3.svg"></a></li>
+								<li style="border: none;" class="ftco-animate"><a  target="_blank" href="https://www.instagram.com/prevercol/?hl=es-la"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/insta.svg"></a></li>
+							<li style="border: none;" class="ftco-animate"><a target="_blank" href="https://www.youtube.com/channel/UC4SdWFf5EA-HkH1cigzfaRA"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/youtube3.svg"></a></li>
+								<li style="border: none;" class="ftco-animate"><a target="_blank" href="https://co.linkedin.com/company/prever-soluciones-exequiales?trk=similar-pages_result-card_full-click"><img class="you" src="<?php echo get_template_directory_uri(); ?>/assets/images/in.svg"></a></li>
 						</div>
 					</div>
 				</div>
@@ -23,7 +23,7 @@
 						<h2 class="ftco-heading-2">Nosotros</h2>
 						<div class="block-237 ">
 							<ul>
-								<li ><a href="<?php echo bloginfo('url').'/index.php/trabaja-con-nosotros';?>">Trabaje con nosotros</a></li>
+								<li ><a href="<?php echo bloginfo('url').'/index.php/trabaja-con-nosotros';?>">Trabaja con nosotros</a></li>
 								<li ><a href="<?php echo bloginfo('url').'/index.php/privacidad-de-datos';?>">Políticas de datos</a></li>
 								<li ><a href="<?php echo bloginfo('url').'/index.php/preguntas-frecuentes';?>">FAQS</a></li>
 								<li ><a href="	">Red prestadora de servicios</a></li>
@@ -41,7 +41,7 @@
 							<ul>
 								<li ><a href="<?php echo bloginfo('url').'/index.php/quienes-somos';?>">Quiénes somos</a></li>
 								<li ><a href="<?php echo bloginfo('url').'/index.php/nuestros-servicios';?>">Nuestros servicios</a></li>
-								<li ><a href="	">Tu portal</a></li>
+								<li ><a href="https://prever.com.co/club-de-beneficios/#1571928741283-8a776011-ac90">Tu portal</a></li>
 								<li ><a href="<?php echo bloginfo('url').'/index.php/pagos';?>">Pagos</a></li>
 
 							</ul>
@@ -54,9 +54,9 @@
 						<h2 class="ftco-heading-2 line2">Contacto</h2>
 						<div class="block-237 ">
 							<ul>
-								<li><img class="icon-this" style="width: 10%; margin-right: 3px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/loca.svg"><a style="color: #fff;">Colombia</a></li>
-								<li><a href="mailto:encontacto@prever.com.co"><img class="icon-this" style="width: 10%;margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/envelope.svg"><span class="text">correo: encontacto@prever.com.co</span></a></li>
-								<li ><a href="tel:18000518910"><img class="icon-this" style="width: 10%; margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-call.svg"><span class="text">Teléfono: Línea Nacional Gratuita 01 8000 51 89 10</span></a></li>
+								<li><img class="icon-this" style="width: 10%; margin-right: 3px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/loca.svg"><a href="https://www.google.com/maps/uv?pb=!1s0x8e3f9a9720c5cd1d:0x6d74d982e0b275a4!3m1!7e115!4s/maps/place/Carrera%2B11A%2B%2523%2B98%2B-%2B50%2BEdificio%2BPunto%2B99%2BOf.%2B304/@4.6819601,-74.0446691,3a,75y,106.14h,90t/data%3D*213m4*211e1*213m2*211slHeoyY-SWoxR8r9KI5A8yg*212e0*214m2*213m1*211s0x8e3f9a9720c5cd1d:0x6d74d982e0b275a4?sa%3DX!5sCarrera+11A+%23+98+-+50+Edificio+Punto+99+Of.+304+-+Buscar+con+Google!15zQ2dJZ0FRPT0&imagekey=!1e2!2slHeoyY-SWoxR8r9KI5A8yg&hl=es-419&sa=X&ved=2ahUKEwiqlMDGj5zuAhU5GFkFHYEMCswQpx8wE3oECCEQCA" target="_blank" style="color: #fff;">Carrera 11A # 98 - 50 Edificio Punto 99 Of. 304</a></li>
+								<li><a target="_blank" href="mailto:encontacto@prever.com.co"><img class="icon-this" style="width: 10%;margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/envelope.svg"><span class="text">correo: encontacto@prever.com.co</span></a></li>
+								<li ><a target="_blank" href="tel:17440959"><img class="icon-this" style="width: 10%; margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-call.svg"><span class="text">Teléfono: (1) 7440959</span></a></li>
 							</ul>
 						</div>
 					</div>

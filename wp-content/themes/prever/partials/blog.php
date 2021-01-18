@@ -1,32 +1,23 @@
 	<section class="blog">
 		<h3>Nuestros Homenajes</h3>
 		<div class="single-item">
+			<?php $args = array( 'post_type' => 'Homenaje');?>   
+			  <?php $loop = new WP_Query( $args ); ?>
+			  <?php while ( $loop->have_posts() ) : $loop->the_post(); ?>
 			<div class="blog-item">
 				<div class="blog-img">
-					<img src="http://159.89.229.55/Prever/wp-content/uploads/2020/12/Ensename-Despedirme-1.jpg">
+					<img src="<?php echo get_the_post_thumbnail_url(); ?>">
 				</div>
 				<div class="text-misa">
-					<p style="letter-spacing: 1.2px;">Taller del Duelo</p>
-					<h3>Enséñame a  Despedirme</h3>
-					<h6>Te apoyamos con herramientas para afrontar los sentimientos de duelo con fortaleza y esperanza.</h6>
+					<p style="letter-spacing: 1.2px;"><?php the_field( 'tipo_de_homenaje' ); ?></p>
+					<h3><?php the_title(); ?></h3>
+					<h6><?php the_content(); ?></h6>
 					<div class="fecha">
-						<p>Diciembre 17 | 4:00 p.m. </p>
+						<p><?php the_field( 'fecha' ); ?> |  <?php the_field( 'hora' ); ?></p>
 					</div>
 				</div>
 			</div>
-			<div class="blog-item">
-				<div class="blog-img">
-					<img src="http://159.89.229.55/Prever/wp-content/uploads/2020/12/Ensename-Despedirme-1.jpg">
-				</div>
-				<div class="text-misa">
-					<p>Por nuestros fieles difuntos</p>
-					<h3>Ceremonia <br> Eucarística</h3>
-					<h6>Unámonos en oración para honrar la <br>vida y el recuerdo de nuestros <br> seres queridos</h6>
-					<div class="fecha">
-						<p>Domingos |  10:00 am - 11:00 am </p>
-					</div>
-				</div>
-			</div>
+			<?php endwhile; ?>
 		</div>
 	</section>
 

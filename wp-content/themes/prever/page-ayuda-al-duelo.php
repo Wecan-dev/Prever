@@ -1,353 +1,104 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php wp_head(); ?>
-<head>
-	<title>Prever</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/images/red.png"/>
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/bootstrap/css/bootstrap.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/animate/animate.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css-hamburgers/hamburgers.min.css">
-	<!--===============================================================================================-->
-
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/daterangepicker/daterangepicker.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/slick/slick-theme.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/lightbox2/css/lightbox.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/util.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/media.css">
-	<!--===============================================================================================-->
-</head>
-<style>
-	section.recaudos{
-		    padding-top: 30px;
-		
-	}
-	</style>
-
-
-<body >
-
-
-	<!-- header fixed -->
-	<div class="wrap_header fixed-header2 trans-0-4">
-		<!-- Logo -->
-		<a href="<?php echo bloginfo('url');?>" class="logo">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="IMG-LOGO">
-		</a>
-
-		<!-- Menu -->
-		<div class="wrap_menu">
-			<nav class="menu">
-				<ul class="main_menu">
-					<li>
-						<a href="<?php echo bloginfo('url');?>/index.php/quienes-somos" >Quiénes somos </a>
-						<i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-						<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
-							
-						</ul>
-					</li>
-
-					<li class="active-menu3">
-						<a href="#">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
-						<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-empresariales">Planes Empresariales</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
-						</ul>
-					</li>
-
-					<li>
-						<a href="#">Tu portal</a>
-					</li>
-					<li>
-						<a href="<?php echo bloginfo('url');?>/index.php/pagos">Pagos</a>
-					</li>
-
-					<li >
-						<a href="<?php echo bloginfo('url');?>/index.php/contacto">Contacto</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		<!-- Header Icon -->
-		<div class="header-icons">
-			<div class="header-wrapicon2">
-				<button style="justify-content: space-around;" class="flex-button">
-					<div class="phone">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
-					</div>
-					<div class="button_cta button-other">
-						<a href="tel:018000518910">
-							<p>
-								Línea Gratuita Nacional
-								<span class="number">018000 518910</span>
-							</p>
-
-							
-						</a>	</div>
-					</button>
-				</div>
-			</div>
-		</div>
-
-
-
-		<!-- Header -->
-		<header class="header2">
-			<!-- Header desktop -->
-			<div class="container-menu-header-v2">
-				<div class="topbar2">
-
-					<!-- Logo2 -->
-					<a href="<?php echo bloginfo('url');?>" class="logo2">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="IMG-LOGO">
-					</a>
-
-					<div class="topbar-child2">
-						<button  class="flex-button-2">
-							<div class="button_cta">
-								<a href="">
-									<p>
-										¿NECESITAS REPORTAR UN SERVICIO?
-									</p>						
-
-								</a>
-							</div>
-						</button>
-
-						<button style="justify-content: space-around;" class="flex-button2">
-
-							<div class="red">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/red.png">
-							</div>
-							<div class="button_cta2">
-								<a href="">
-									NUESTRA RED DE SERVICIOS
-								</a>	</div>
-
-							</button>
-							<button style="justify-content: space-around;" class="flex-button">
-								<div class="phone">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
-								</div>
-								<div class="button_cta button-other">
-									<a href="tel:018000518910">
-										<p>
-											Línea Gratuita Nacional <br>
-											<span class="number">018000 518910</span>
-										</p>
-
-
-									</a></div>
-								</button>
-							</div>
-						</div>
-					</div>
-
-					<div class="wrap_header">
-
-						<!-- Menu -->
-						<div class="wrap_menu">
-							<nav class="menu">
-								<ul class="main_menu">
-								<li>
-										<a target="_blank" href="<?php echo bloginfo('url');?>/index.php/quienes-somos">Quiénes somos </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-										<ul class="sub_menu">
-											<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
-								
-										</ul>
-
-									</li>
-
-							<li class="active-menu3">
-								<a href="#">Nuestros servicios </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-						<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-						
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
-						</ul>
-							</li>
-
-							<li>
-								<a href="#">Tu portal</a>
-							</li>
-							<li>
-								<a href="<?php echo bloginfo('url');?>/index.php/pagos">Pagos</a>
-							</li>
-
-							<li  >
-								<a href="<?php echo bloginfo('url');?>/index.php/contacto">Contacto</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-
-				<!-- Header Icon -->
-				<div class="header-icons">
-				</div>
-			</div>
-		</div>
-
-		<!-- Header Mobile -->
-		<div class="wrap_header_mobile">
-			<!-- Logo moblie -->
-			<a href="<?php echo bloginfo('url');?>" class="logo-mobile">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="IMG-LOGO">
-			</a>
-
-			<!-- Button show menu -->
-			<div class="btn-show-menu">
-				<!-- Header Icon mobile -->
-				<div class="header-icons-mobile">
-					<!-- <a href="#" class="header-wrapicon1 dis-block">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
-					</a> -->
-
-					<span class="linedivide2"></span>
-
-				</div>
-
-				<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
-					<span class="hamburger-box">
-						<span class="hamburger-inner"></span>
-					</span>
-				</div>
-			</div>
-		</div>
-
-		<!-- Menu Mobile -->
-		<div class="wrap-side-menu" >
-			<nav class="side-menu ">
-				<ul class="main-menu main_menu">
-					
-
-					<li class="item-menu-mobile">
-						<a href="<?php echo bloginfo('url');?>/index.php/quienes-somos">Quiénes somos <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
-						<ul class="sub_menu">
-									<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
-					
-						</ul>
-
-						
-					</li>
-
-					<li class="item-menu-mobile">
-						<a>Nuestros servicios  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
-										<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-						
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
-						</ul>
-
-					</li>
-
-					<li class="item-menu-mobile2">
-						<a href="#">Tu portal</a>
-					</li>
-					<li class="item-menu-mobile2">
-						<a href="<?php echo bloginfo('url');?>/index.php/pagos">Pagos</a>
-					</li>
-
-					<li class="item-menu-mobile2">
-						<a href="<?php echo bloginfo('url');?>/index.php/contacto">Contacto</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	
+<?php get_header(); ?>
 	<a href="#" class="toTop"> ↑ </a>
 
 	<section class="pagos">
 		<div class="work-flex">
 			<div class="img-second">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/yellow.png">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Ayuda.jpg">
 			</div>
 			<div class=" text-second">
 				<p style="font-weight: bold; color:#000; font-size: 16px;">AYUDA AL DUELO</p>
-				<h6 style="color:#000; font-size: 35px;">Enseñame a <span style="color: #33508d">despedirme</span></h6>
-				<p>Enséñame a despedirme’ es una colección de 8 guías que nacen de nuestro compromiso con el cuidado de las familias que confían en nosotros y que están viviendo una situación de duelo.</p>
+				<h6 style="color:#000; font-size: 35px;">Enséñame a<span style="color: #33508d"> Despedirme</span></h6>
+				<p> Enséñame a despedirme es una colección de 8 guías que nacen de nuestro compromiso con el cuidado de las familias que confían en nosotros y que están viviendo una situación de duelo.</p>
 
+<!--<p>
+	Nuestro objetivo es que familiares y allegados sepan actuar mediante la resolución de dudas frecuentes, así como ofrecerles  herramientas, a través de un lenguaje sencillo y accesible, para una gestión emocional más eficaz.
+
+	
+				</p>-->
 
 			</div>
 		</section>
 
 	<section class="recaudos">
 		<h6>ÍNDICE DE PUBLICACIONES</h6>
-		<h5>"enséñame a despedirme"</h5>
+		<h5>"Enséñame a Despedirme"</h5>
+		<p>
+			Podrás encontrar estas publicaciones en nuestras funerarias. Además, puedes descargarlas de manera gratuita haciendo clic en cada título.
+		</p>
 <div class="publicaciones-flex">
 	<div class="icon-publicacion">
 		<div class="publicacion-item">
-			<div class="item-pub">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/estrella.svg">
-		</div>
+			
 			<p>
-				Despedida cuando no es posible velación <br>
-				Para descargar en versión folleto <span style="    color: #33508d;
-    font-weight: 800;">haz clic aquí</span>
+				Edición Especial – Despedida cuando no es posible velación. 
+				<span  style="    color: #33508d;
+    font-weight: 800;"><a style="    color: #33508d;" target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/images/DESPEDIDA-SIN-VELACI%C3%93N_PREVER_SIEMPRE_191020.pdf">haz clic aquí.</a></span> <br>
 			</p>
 		</div>
 			<div class="publicacion-item">
-				<div class="item-pub">
-			<img class="img-this" src="<?php echo get_template_directory_uri(); ?>/assets/images/persons.svg">
-		</div>
+				
 			<p>
-				1. Dudas habituales de los adultos sobre el proceso de duelo en los niños. <br>
-				Para descargar en versión folleto <span style="    color: #33508d;
-    font-weight: 800;">haz clic aquí</span>
+				1. Dudas habituales de los adultos sobre el proceso de duelo en los niños. <span style="    color: #33508d;
+    font-weight: 800;"> <a style="    color: #33508d;" target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/images/ENSÉÑAME-A-DESPEDIRME_1_PREVER_WEB.pdf">haz clic aquí.</a></span> <br>
+			
 			</p>
 		</div>
 			<div class="publicacion-item">
-				<div class="item-pub">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/dog-icon.png">
-		</div>
+				
 			<p>
-				2. Duelo por la muerte de mi mascota.<br>
-				Para descargar en versión folleto <span style="    color: #33508d;
-    font-weight: 800;">haz clic aquí</span>
+				2. Duelo por la muerte de mi mascota. <span style="    color: #33508d;
+    font-weight: 800;"> <a style="    color: #33508d;" target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/images/ENSÉÑAME-A-DESPEDIRME_2_PREVER_DIGITAL.pdf">haz clic aquí.</a></span><br>
+				
 			</p>
 		</div>
 			<div class="publicacion-item">
-				<div class="item-pub">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/abuelos.png">
-		</div>
+				
 			<p>
-				3. Duelo en personas mayores.<br>
-				Para descargar en versión folleto <span style="    color: #33508d;
-    font-weight: 800;">haz clic aquí</span>
+				3. Duelo en personas mayores. <span style="    color: #33508d;
+    font-weight: 800;"> <a style="    color: #33508d;" target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/images/PREVER_DUELO-EN-PERSONAS-MAYORES.pdf">haz clic aquí.</a></span><br>
+				
+			</p>
+		</div>
+		<div class="publicacion-item">
+				
+			<p>
+				4. Duelo tras la muerte de mi pareja. <br>
+				
+			</p>
+		</div>
+		<div class="publicacion-item">
+				
+			<p>
+				5. Duelo perinatal y neonatal. <br>
+				
+			</p>
+		</div>
+		<div class="publicacion-item">
+				
+			<p>
+				6. Duelo en caso de suicidio.<br>
+				
+			</p>
+		</div>
+		<div class="publicacion-item">
+				
+			<p>
+				7. Duelo en el aula. <br>
+				
+			</p>
+		</div>
+		<div class="publicacion-item">
+				
+			<p>
+				8. Duelo en personas con discapacidad.<br>
+				
 			</p>
 		</div>
 	</div>
 
 	<div class="image-publicacion">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/flor.png">
+		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/duelo2.jpg">
 	</div>
 </div>
 		

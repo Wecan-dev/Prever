@@ -2,11 +2,10 @@
 <section class="error-found">
 	<h2>404</h2>
 
-	<h6>Lo sentimos</h6>
-	<p> No podemos encontrar la página que estás buscando</p>
+	<h6>Lo sentimos, no podemos encontrar la página que estás buscando </h6>
 
 		<div class="btn-back">
-		<button class="btn-cta2"><a href="">Regresar a Inicio</a></button>
+		<button class="btn-cta2"><a href="<?php echo bloginfo('url');?>/">Regresar al inicio</a></button>
 	</div>
 </section>
 

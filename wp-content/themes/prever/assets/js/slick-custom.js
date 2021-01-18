@@ -1,5 +1,4 @@
 
-
 (function ($) {
     // USE STRICT
     "use strict";
@@ -41,7 +40,7 @@
             slidesToShow: 1,
             slidesToScroll: 1,
             fade: true,
-            dots: false,
+            dots: true,
             appendDots: $('.wrap-slick1-dots'),
             dotsClass:'slick1-dots',
             infinite: true,
@@ -87,6 +86,7 @@
         $('.slick2').slick({
             slidesToShow: 4,
             slidesToScroll: 4,
+			dots: true,
             infinite: true,
             autoplay: false,
             autoplaySpeed: 6000,

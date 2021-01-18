@@ -2,18 +2,98 @@
   .xl-text2 {
     font-size: 30px;
     text-align: center;
+	  margin-top:0;
 }
     .text-first h6::before,.text-bg h6::before{
         display: none;
     }
+	
+	.btn-prepago{
+    display: block;
+}
 	.publicacion-item p{
 		width:auto;
 	}
+	
+	.btn-cta img {
+    width: 11%;
+}
+	
+	button.btn-1 {
+    background: #fff;
+    padding: 7px 20px;
+    border: 1px solid #ddd;
+    border-radius: 30px;
+    /* padding: 20px; */
+    width: 75%;
+    margin-bottom: 5%;
+    display: flex;
+    justify-content: center;
+    height: 63px;
+    align-items: center;
+}
+	
+	.mayor-text h6::before{
+		display:none;
+	}
+	
+	.btn-prepago {
 
+    text-align: -webkit-center;
+}
+	
+	.flex-redime {
+    display:block;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+	
+	div.text-second{
+		padding-left:0;
+	}
+.main-content__grid {
+	display: block;   }
     .publicaciones-flex{
     display: block;
 }
-
+	
+	.card-club-principal {
+width:auto;
+		margin-bottom: 15%; 
+	margin-left:0;
+	margin-right:0;}
+	
+	.process-model li img {
+    display: block;
+    height: 82px;
+		width: 38px;  }
+	
+	.process-model li {
+    display: inline-block;
+    width: 33%;
+	 }
+	
+	.process-model {
+    list-style: none;
+    padding: 0;
+    position: relative;
+    width: 85%;
+		
+			 }
+	.more-icon-preocess.process-model li::after{
+		display:none;
+	}
+	
+	ul.nav.nav-tabs.process-model.more-icon-preocess li {
+    flex: 0 0 12.5%;
+    margin-left: 5px;
+		margin-bottom: 15px;
+}
+	
+.frm_combo_inputs_container, .frm_grid_container, .frm_form_fields .frm_section_heading, .frm_form_fields .frm_fields_container{
+	display:block!important;
+	}
 .icon-publicacion{
     width: auto;
 }
@@ -23,11 +103,64 @@
     justify-content: center;
     flex-direction: column;
 	text-align:center;
+	padding-left:0;
 }
 
 .image-publicacion{
     width: auto;
 }
+	
+	.text-second-beneficios{
+		width:auto;
+	}
+	.text-plan {
+
+    min-height: 65rem;
+}
+	.text-second-beneficios h6 {
+    
+    margin-bottom: 18%;
+}
+	
+	.text-second-beneficios {
+
+    padding-left:0px;
+    padding-top: 20px;
+		  }
+	
+	.recaudos h5 {
+    font-size: 20px;
+			  }
+	
+	.process-model li i {
+  
+    height: 50px;
+    width: 50px;
+
+    font-size: 25px;	  }
+	
+	.process-model li::after{
+		right:30px;
+	}
+	.faqs_acc{
+		padding:0;
+	}
+	#accordion .panel-title a{
+		padding:20px;
+	}
+	.process-model li p {
+		font-size: 10px;  }
+	
+	#accordion .panel-title a{
+		font-size:15px;
+	}
+	
+	#accordion .panel-title a::after, #accordion .panel-title a.collapsed::after {
+
+    right: 25px;
+
+    top: 30%;
+	  }
 .m-text1 p{
   text-align: center;
 }
@@ -115,6 +248,7 @@ section.recaudos {
     padding-left: 20px;
 
     padding-right: 20px;
+	padding-bottom:0;
     }
 .mayor-img img{
     display: none;
@@ -153,6 +287,8 @@ width: auto;
     margin-bottom: 10%;
     padding-bottom: 50px;
     padding-top: 50px;
+	    margin-left: 20px;
+    margin-right: 20px;
 }
     .main_menu > li{
         padding-top:0;
@@ -200,7 +336,23 @@ width: auto;
 
 .logos-adjuntar{
     width: auto;
-}
+	display:block;
+	text-align:center;
+	}
+	
+	.text-second, .text-second-1{
+		width:auto;
+		padding-left:0;
+	}
+	
+	.text-second-1 h6 {
+    height: 43px;
+		font-size: 25px; }
+	
+	.text-second h6::before, .text-second-1 h6::before{
+		display:none;
+		    margin-bottom: 3%;
+	}
 
 .adjuntar {
     background: #f7f7f7;
@@ -292,7 +444,7 @@ section.cards-options.container {
     .servicios h3:before{display: none;}
 
     section.servicios {
-    padding-top: 65px;
+    padding-top: 150px;
     padding-left: 20px;
     padding-right: 20px;
     }
@@ -664,7 +816,7 @@ padding: 20px;
     width: 100%;
 }
     .call-center input{
-            width: 100%;
+            width: 100%!important;
     }
 
 .text-bg {
@@ -768,14 +920,17 @@ section.ayuda {
     display: none;
 }
 }
-@media only (min-width: 1024px) and (max-width: 1366px){
-    .text-first p {
+@media only (min-width: 768px) and (max-width: 1366px){
+.text-there {
+    width: 52%;
+}
+	
+}
+    
+@media only (min-width: 1020px) and (max-width: 1366px) {
+        .text-first p {
     line-height: 30px;
 }
-}
-    
-@media only (min-width: 1024px) and (max-width: 1366px) {
-    
     .card-body{
         width:auto;
     }
@@ -796,12 +951,34 @@ section.ayuda {
         left:0;
         right:0;
     }
+	.item-slick1:last-child .here{
+		margin-left:50%;
+	}
 }
 
 @media (min-width: 768px) and (max-width: 1024px) {
 .here{
     margin-left: 15%;
 }
+	
+	.main-content__grid{
+		display:block;
+	}
+	
+	.recaudos h5::before{
+		display:none;
+	}
+	
+	.process-model li::after{
+		display:none;
+	}
+	.card-club-principal {
+ 
+   width:auto;
+		margin-bottom: 20%;  }
+	.img-call{
+		display:none;
+	}
     section.about {
     padding-top: 90px;
 }
@@ -810,7 +987,13 @@ section.ayuda {
     width: 100%;
     padding-left: 20px;
 }
+	.tab-content .faqs_acc{
+		padding:0px;
+	}
+	
+	.text-second-beneficios h6::before {
 
+		top: 78px; }
 .img-this{
  margin-right: auto;
  width: auto; 
@@ -876,6 +1059,11 @@ section.privacy {
     top: 49%;
     right: 1%;
 }
+	
+	.duelo-flex{
+		padding-left:20px;
+		padding-right:20px;
+	}
     .duelo-flex {
     display: flex;
     padding-right: 20px;
@@ -970,8 +1158,23 @@ section.planes {
 
 .work-flex{
         padding-top: 150px;
+	    padding-left: 20px;
+    padding-right: 20px;
 }
-
+	
+	.redes-flex {
+    display: flex;
+    justify-content: end;
+		  }
+	
+	.flex-adjuntar{
+		   padding-left: 20px;
+    padding-right: 20px;
+	}
+	
+	.text-second-1 h6{
+		height:auto;
+	}
 .text-second h6::before{
     bottom: -20%;
 }
@@ -1080,9 +1283,7 @@ span.fa.fa-search.form-control-feedback{
  
     padding-left: 20px!important;
     }
-    .map iframe{
-        height: auto!important;
-    }
+   
 }
 
 @media (min-width:900px) and (max-height: 1440px){
@@ -1107,7 +1308,7 @@ height:50vh;
     font-size: 17px;
     line-height: 1.9;
 }
-    
+
     .number {
     font-size: 19px;
     letter-spacing: 1.2px;
@@ -1125,7 +1326,7 @@ width: 100%;
             padding: 28px 76px;
     }
 .text-misa p {
-   font-weight: 600;
+   font-weight: 500;
     font-size: 16px;
 }
 
@@ -1154,12 +1355,8 @@ width: 100%;
 }
     
 
-    
-
-    .icon-serv{
-        top:47%;
-    }
-    card-item {
+   
+    .card-item {
     position: relative;
         height: 425px;}
     

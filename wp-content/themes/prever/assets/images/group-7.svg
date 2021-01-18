@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="31" height="36" viewBox="0 0 31 36">
+    <defs>
+        <path id="rjjswcaela" d="M0 0.029L7.956 0.029 7.956 34 0 34z"/>
+        <path id="qyewe2vv4c" d="M0.075 0.029L7.94 0.029 7.94 34 0.075 34z"/>
+    </defs>
+    <g fill="none" fill-rule="evenodd">
+        <g>
+            <g>
+                <g transform="translate(-765 -560) translate(765 560.712) translate(0 .288)">
+                    <mask id="xs1x4rzxbb" fill="#fff">
+                        <use xlink:href="#rjjswcaela"/>
+                    </mask>
+                    <path fill="#34548B" stroke="#365789" d="M.63.997V33.03l6.696-5.077V6.068L.63.997zM.314 34c-.049 0-.098-.012-.143-.035-.105-.056-.172-.168-.172-.291V.354C0 .233.067.12.172.065.278.008.405.019.5.09L7.827 5.64c.08.062.129.16.129.263V28.12c0 .104-.048.202-.13.263L.502 33.937C.446 33.98.38 34 .315 34h0z" mask="url(#xs1x4rzxbb)"/>
+                </g>
+                <g transform="translate(-765 -560) translate(765 560.712) translate(23 .288)">
+                    <mask id="kpcduksend" fill="#fff">
+                        <use xlink:href="#qyewe2vv4c"/>
+                    </mask>
+                    <path fill="#34548B" stroke="#365789" d="M.697 27.954l6.62 5.077V.997l-6.62 5.07v21.887zM7.629 34c-.065 0-.13-.021-.184-.063L.202 28.382c-.08-.061-.127-.159-.127-.263V5.902c0-.104.047-.201.127-.263L7.445.091c.095-.072.22-.083.325-.027.104.056.17.168.17.29v33.32c0 .123-.066.235-.17.29-.045.024-.093.036-.141.036h0z" mask="url(#kpcduksend)"/>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

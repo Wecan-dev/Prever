@@ -1,519 +1,396 @@
-<!DOCTYPE html>
-<html lang="en">
-<?php wp_head(); ?>
-<head>
-	<title>Prever</title>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<!--===============================================================================================-->
-	<link rel="icon" type="image/png" href="<?php echo get_template_directory_uri(); ?>/assets/images/red.png"/>
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/bootstrap/css/bootstrap.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/font-awesome-4.7.0/css/font-awesome.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/fonts/Linearicons-Free-v1.0.0/icon-font.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/animate/animate.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/css-hamburgers/hamburgers.min.css">
-	<!--===============================================================================================-->
+<?php get_header();  ?>
 
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/daterangepicker/daterangepicker.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/slick/slick.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/slick/slick-theme.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/vendor/lightbox2/css/lightbox.min.css">
-	<!--===============================================================================================-->
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/util.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/main.css">
-	<link rel="stylesheet" type="text/css" href="<?php echo get_template_directory_uri(); ?>/assets/css/media.css">
-	<!--===============================================================================================-->
-</head>
-
-
-
-<body >
-
-
-	<!-- header fixed -->
-	<div class="wrap_header fixed-header2 trans-0-4">
-		<!-- Logo -->
-		<a href="<?php echo bloginfo('url');?>" class="logo">
-			<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="IMG-LOGO">
-		</a>
-
-		<!-- Menu -->
-		<div class="wrap_menu">
-			<nav class="menu">
-				<ul class="main_menu">
-					<li >
-						<a href="<?php echo bloginfo('url').'/index.php/quienes-somos';?>">Quiénes somos </a><i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
-						<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
-
-						</ul>
-
-					</li>
-
-					<li>
-						<a href="#">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
-										<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-						
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
-						</ul>
-					</li>
-
-					<li>
-						<a href="#recientes">Tu portal</a>
-					</li>
-					<li>
-						<a href="<?php echo bloginfo('url');?>/index.php/pagos">Pagos</a>
-					</li>
-
-					<li class="active-menu2">
-						<a href="<?php echo bloginfo('url');?>/index.php/contacto">Contacto</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-		<!-- Header Icon -->
-		<div class="header-icons">
-			<div class="header-wrapicon2">
-				<button style="justify-content: space-around;" class="flex-button">
-					<div class="phone">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
-					</div>
-					<div class="button_cta button-other">
-						<a href="tel:018000518910">
-							<p>
-								Línea Gratuita Nacional
-								<span class="number">018000 518910</span>
-							</p>
-
-							
-						</a>	</div>
-					</button>
-				</div>
-			</div>
-		</div>
-
-
-
-		<!-- Header -->
-		<header class="header2">
-			<!-- Header desktop -->
-			<div class="container-menu-header-v2">
-				<div class="topbar2">
-
-					<!-- Logo2 -->
-					<a href="<?php echo bloginfo('url');?>" class="logo2">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="IMG-LOGO">
-					</a>
-
-					<div class="topbar-child2">
-						<button  class="flex-button-2">
-							<div class="button_cta">
-								<a href="">
-									<p>
-										¿NECESITAS REPORTAR UN SERVICIO?
-									</p>						
-
-								</a>
-							</div>
-						</button>
-
-						<button style="justify-content: space-around;" class="flex-button2">
-
-							<div class="red">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/red.png">
-							</div>
-							<div class="button_cta2">
-								<a href="">
-									NUESTRA RED DE SERVICIOS
-								</a>	</div>
-
-							</button>
-							<button style="justify-content: space-around;" class="flex-button">
-								<div class="phone">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
-								</div>
-								<div class="button_cta button-other">
-									<a href="tel:018000518910">
-										<p>
-											Línea Gratuita Nacional <br>
-											<span class="number">018000 518910</span>
-										</p>
-
-
-									</a></div>
-								</button>
-							</div>
-						</div>
-					</div>
-
-					<div class="wrap_header">
-
-						<!-- Menu -->
-						<div class="wrap_menu">
-							<nav class="menu">
-								<ul class="main_menu">
-									<li>
-										<a href="<?php echo bloginfo('url');?>/index.php/quienes-somos">Quiénes somos </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-											<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
-
-						</ul>
-
-
-							
-							</li>
-
-							<li>
-								<a href="#">Nuestros servicios </a><i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
-										<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-						
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
-						</ul>
-							</li>
-
-							<li>
-								<a href="#">Tu portal</a>
-							</li>
-							<li>
-								<a href="<?php echo bloginfo('url');?>/index.php/pagos">Pagos</a>
-							</li>
-
-							<li  class="active-menu2">
-								<a href="<?php echo bloginfo('url');?>/index.php/contacto">Contacto</a>
-							</li>
-						</ul>
-					</nav>
-				</div>
-
-				<!-- Header Icon -->
-				<div class="header-icons">
-				</div>
-			</div>
-		</div>
-
-		<!-- Header Mobile -->
-		<div class="wrap_header_mobile">
-			<!-- Logo moblie -->
-			<a href="<?php echo bloginfo('url');?>" class="logo-mobile">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo.svg" alt="IMG-LOGO">
-			</a>
-
-			<!-- Button show menu -->
-			<div class="btn-show-menu">
-				<!-- Header Icon mobile -->
-				<div class="header-icons-mobile">
-					<!-- <a href="#" class="header-wrapicon1 dis-block">
-						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/icons/icon-header-01.png" class="header-icon1" alt="ICON">
-					</a> -->
-
-					<span class="linedivide2"></span>
-
-				</div>
-
-				<div class="btn-show-menu-mobile hamburger hamburger--squeeze">
-					<span class="hamburger-box">
-						<span class="hamburger-inner"></span>
-					</span>
-				</div>
-			</div>
-		</div>
-
-		<!-- Menu Mobile -->
-		<div class="wrap-side-menu" >
-			<nav class="side-menu ">
-				<ul class="main-menu main_menu">
-					
-
-					<li class="item-menu-mobile">
-						<a href="<?php echo bloginfo('url');?>/index.php/quienes-somos">Quiénes somos <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
-						<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
-
-						</ul>
-
-						
-					</li>
-
-					<li class="item-menu-mobile">
-						<a>Nuestros productos  <i style="color: #000; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i></a>
-								<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-familiares">Interna Familiares</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/interna-servicio-prepago">Interna Servicio Prepago</a></li>
-						
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-empresarial">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/plan-mascota">Planes Mascotas</a></li>
-								<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
-						</ul>
-
-					</li>
-
-					<li class="item-menu-mobile2">
-						<a href="#recientes">Tu portal</a>
-					</li>
-					<li class="item-menu-mobile2">
-						<a href="<?php echo bloginfo('url');?>/index.php/pagos">Pagos</a>
-					</li>
-
-					<li class="item-menu-mobile2">
-						<a href="<?php echo bloginfo('url');?>/index.php/contacto">Contacto</a>
-					</li>
-				</ul>
-			</nav>
-		</div>
-	</header>
-	
 	<a href="#" class="toTop"> ↑ </a>
 
-	<section class="ayuda">
-		<h6>¿Necesitas ayuda?</h6> 
-		<h5> Comunícate con nuestra Línea Nacional Gratuita 01 8000 518910 para que podamos atender tu solicitud.</h5>
-		<div class="buscador has-search">
-			<span class="fa fa-search form-control-feedback"></span> <input  placeholder="Buscar por ciudad / barrio" type="search" name=""> 
-			<div class="btn-search">
-				<a href="">Buscar</a>
-			</div>
-		</div>
-<div class="about-content ">
-		<div class="tab">
-			<button class="tablinks" onclick="openCity(event, 'Fundaciones')" id="defaultOpen">
-				<a href="#resultados">
-					<p>Lorem Impsun</p> <i class="fa fa-angle-right" aria-hidden="true"></i> </a>
-				</button>
-				<button class="tablinks" onclick="openCity(event, 'convocatorias')">
-					<a href="#resultados">
-						<p>Lorem Impsun</p> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-					</button>
-					<button class="tablinks" onclick="openCity(event, 'eventos')">
-						<a href="#resultados">
-							<p>Lorem Impsun</p> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-						</button>
-						<button class="tablinks" onclick="openCity(event, 'Noticias')">
-							<a href="#resultados">
-								<p>Lorem Impsun</p> <i class="fa fa-angle-right" aria-hidden="true"></i></a>
-							</button>
-						</div>
-						<div id="Fundaciones" class="tabcontent">
-							<div class="text-content">
-							<div class="map2">
-								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/map2.png">
-							</div>
 
-							<div class="text-left-content">
-								<h6>Lorem Ipsum</h6>
-								<div class="flex-star">
-									<div>5/5</div> <div class="ec-stars-wrapper">
-										<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-										<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-										<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-										<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-										<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-									</div>  <div>(20 reviews)</div></div>
-									<div class="text-horario">
-										<div class="pin">
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
-											<p>Medellín Carrera 49 # <br> 54 - 47</p>
-										</div>
-										<hr>
-										<div class="pin">
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
-											<p>Phone: (4) 6040417 <br> Fax: (4) 6040417</p>
-										</div>
-										<hr>
-										<div class="pin">
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png">
-											<p>Email: lorem@ipsum.co</p>
-										</div>
-										<hr>
 
-										<div class="pin">
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/time.svg">
-											<p>Horas de Operación <br> 7:30 am a 5:30 pm</p>
-										</div>
 
-									</div>
-								</div>
-								</div>
-							</div>
-							<div id="convocatorias" class="tabcontent">
-	<div class="text-content">
-								<div class="map2">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/map2.png">
-								</div>
+<section class="ayuda">
+<h6>Encuentra Nuestras oficinas Administrativas de Prever</h6>
+<h5>o comunícate en la línea nacional 01 8000 81 59 10</h5>
+<div class="row_content">
+<div class="row-contact__tabs">
+    <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
+      <a class="nav-link active" id="Armenia-tab" data-toggle="pill" href="#Armenia" role="tab" aria-controls="Armenia" aria-selected="true">
+        <p>Armenia</p> <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </a>
+      <a class="nav-link" id="Bogota-tab" data-toggle="pill" href="#Bogota" role="tab" aria-controls="Bogota" aria-selected="false">
+        <p>Bogotá</p> <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </a>
+      <a class="nav-link" id="Cali-tab" data-toggle="pill" href="#Cali" role="tab" aria-controls="Cali" aria-selected="false">
+        <p>Cali</p> <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </a>
+      <a class="nav-link" id="Manizales-tab" data-toggle="pill" href="#Manizales" role="tab" aria-controls="Manizales" aria-selected="false">
+        <p>Manizales</p> <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </a>
+      <a class="nav-link" id="Medellin-tab" data-toggle="pill" href="#Medellin" role="tab" aria-controls="Medellin" aria-selected="false">
+        <p>Medellín</p> <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </a>
+      <a class="nav-link" id="Pereira-tab" data-toggle="pill" href="#Pereira" role="tab" aria-controls="Pereira" aria-selected="false">
+        <p>Pereira</p> <i class="fa fa-angle-right" aria-hidden="true"></i>
+      </a>
+    </div>
+</div>
+<div class="row-contact__content">
+    <div class="tab-content" id="v-pills-tabContent">
+      <div class="tab-pane fade show active" id="Armenia" role="tabpanel" aria-labelledby="Armenia-tab">
+        <div id="Fundaciones" class="tabcontent">
+                    <div class="text-content">
+                        <div class="map2">
+							<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d127272.16977332806!2d-75.6483011!3d4.548016500000016!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sve!4v1610737322913!5m2!1ses-419!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        
+                        </div>
+                        <div class="text-left-content">
+                            <h6>Armenia</h6>
+                            <!-- <div class="flex-star">
+                            <div>5/5</div>
+                            <div class="ec-stars-wrapper">
+                                <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+                                <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+                                <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+                                <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+                                <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+                            </div>
+                            <div>(20 reviews)</div>
+                        </div> -->
+                        <div class="text-horario">
+                            <div class="pin">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
+                                <p>Carrera 13A # 2 Norte – 01  <br> 54 - 47</p>
+                            </div>
+                            <hr>
+                            <div class="pin">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
+                                <p>Teléfono: (6) 735 83 15</p>
+                            </div>
+                            <hr>
+                            <div class="pin">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png">
+                                <p>Email: encontacto@prever.com.co</p>
+                            </div>
+                            <hr>
+                            <div class="pin">
+                                <img src="<?php echo get_template_directory_uri(); ?>/assets/images/time.svg">
+                                <p>Horario de Atención  <br> 7:30 am a 5:30 pm</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="Bogota" role="tabpanel" aria-labelledby="Bogota-tab">
+        <div id="convocatorias" class="tabcontent">
+            <div class="text-content">
+                <div class="map2">
+					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127248.15890290834!2d-74.03061!3d4.681938!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses-419!2sus!4v1610737508384!5m2!1ses-419!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                 
+                <div class="text-left-content">
+                    <h6>Bogotá</h6>
+                    <!-- <div class="flex-star">
+                        <div>5/5</div>
+                        <div class="ec-stars-wrapper">
+                            <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+                            <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+                            <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+                            <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+                            <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+                        </div>
+                        <div>(20 reviews)</div>
+                    </div> -->
+                    <div class="text-horario">
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
+                            <p>Carrera 11B No 97-56 Edificio APICE 97 Piso 2. </p>
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
+                            <p>Teléfono: (1) 774 09 59</p>
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png">
+                            <p>Email: encontacto@prever.com.co</p>
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/time.svg">
+                            <p>Horario de Atención  <br> 7:30 am a 5:30 pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="Cali" role="tabpanel" aria-labelledby="Cali-tab">
+        <div id="eventos" class="tabcontent">
+            <div class="text-content">
+                <div class="map2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127437.03489567741!2d-76.508908!3d3.492739!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses-419!2sve!4v1610739813107!5m2!1ses-419!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
+                <div class="text-left-content">
+                    <h6>Cali</h6>
+                    <!-- <div class="flex-star">
+                        <div>5/5</div> 
+                        <div class="ec-stars-wrapper">
+                            <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+                            <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+                            <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+                            <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+                            <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+                        </div>  
+                        <div>(20 reviews)</div>
+                    </div> -->
+                    <div class="text-horario">
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
+                            <p>Calle 64N # 5BN – 146 Centro Empresa Local 110 Sector G.  </p>
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
+                            <p>Teléfono: (2) 489 38 77</p>
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png">
+                            <p>Email: encontacto@prever.com.co</p>
+                        </div>
+                        <hr>
 
-								<div class="text-left-content">
-									<h6>Lorem Ipsum 2</h6>
-									<div class="flex-star">
-										<div>5/5</div> <div class="ec-stars-wrapper">
-											<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-											<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-											<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-											<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-											<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-										</div>  <div>(20 reviews)</div></div>
-										<div class="text-horario">
-											<div class="pin">
-												<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
-												<p>Medellín Carrera 49 # <br> 54 - 47</p>
-											</div>
-											<hr>
-											<div class="pin">
-												<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
-												<p>Phone: (4) 6040417 <br> Fax: (4) 6040417</p>
-											</div>
-											<hr>
-											<div class="pin">
-												<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png">
-												<p>Email: lorem@ipsum.co</p>
-											</div>
-											<hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/time.svg">
+                            <p>Horario de Atención  <br> 7:30 am a 5:30 pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="Manizales" role="tabpanel" aria-labelledby="Manizales-tab">
+        <div id="Noticias" class="tabcontent">
+            <div class="text-content">
+                <div class="map2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127175.98050316714!2d-75.484328!3d5.063278!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses-419!2sus!4v1610740844035!5m2!1ses-419!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
 
-											<div class="pin">
-												<img src="<?php echo get_template_directory_uri(); ?>/assets/images/time.svg">
-												<p>Horas de Operación <br> 7:30 am a 5:30 pm</p>
-											</div>
+                <div class="text-left-content">
+                    <h6>Manizales</h6>
+                    <!-- <div class="flex-star">
+                        <div>5/5</div> 
+                        <div class="ec-stars-wrapper">
+                            <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+                            <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+                            <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+                            <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+                            <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+                        </div>  
+                        <div>(20 reviews)</div>
+                    </div> -->
+                    <div class="text-horario">
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
+                            <p>Calle 50 # 24 – 05 </p>
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
+                            <p>Teléfono: (6) 895 68 99</p>
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png">
+                            <p>Email: encontacto@prever.com.co</p>
+                        </div>
+                        <hr>
 
-										</div>
-									</div>
-								</div>
-							</div>
-								<div id="eventos" class="tabcontent">
-										<div class="text-content">
-									<div class="map2">
-										<img src="<?php echo get_template_directory_uri(); ?>/assets/images/map2.png">
-									</div>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/time.svg">
+                            <p>Horario de Atención <br> 7:30 am a 5:30 pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="Medellin" role="tabpanel" aria-labelledby="Medellin-tab">
+        <div id="Noticias" class="tabcontent">
+            <div class="text-content">
+                <div class="map2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126914.64859389543!2d-75.551012!3d6.252825!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses-419!2sus!4v1610740876629!5m2!1ses-419!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
 
-									<div class="text-left-content">
-										<h6>Lorem Ipsum 3</h6>
-										<div class="flex-star">
-											<div>5/5</div> <div class="ec-stars-wrapper">
-												<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-												<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-												<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-												<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-												<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-											</div>  <div>(20 reviews)</div></div>
-											<div class="text-horario">
-												<div class="pin">
-													<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
-													<p>Medellín Carrera 49 # <br> 54 - 47</p>
-												</div>
-												<hr>
-												<div class="pin">
-													<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
-													<p>Phone: (4) 6040417 <br> Fax: (4) 6040417</p>
-												</div>
-												<hr>
-												<div class="pin">
-													<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png">
-													<p>Email: lorem@ipsum.co</p>
-												</div>
-												<hr>
+                <div class="text-left-content">
+                    <h6>Medellín</h6>
+                    <!-- <div class="flex-star">
+                        <div>5/5</div> 
+                        <div class="ec-stars-wrapper">
+                            <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+                            <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+                            <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+                            <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+                            <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+                        </div>  
+                        <div>(20 reviews)</div>
+                    </div> -->
+                    <div class="text-horario">
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
+                            <p>Carrera 49 # 54 – 47   </p>
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
+                            <p>Teléfono: (4) 604 04 17</p>
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png">
+                            <p>Email: encontacto@prever.com.co</p>
+                        </div>
+                        <hr>
 
-												<div class="pin">
-													<img src="<?php echo get_template_directory_uri(); ?>/assets/images/time.svg">
-													<p>Horas de Operación <br> 7:30 am a 5:30 pm</p>
-												</div>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/time.svg">
+                            <p>Horario de Atención  <br> 7:30 am a 5:30 pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <div class="tab-pane fade" id="Pereira" role="tabpanel" aria-labelledby="Pereira-tab">
+        <div id="Noticias" class="tabcontent">
+            <div class="text-content">
+                <div class="map2">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127224.19793771094!2d-75.705994!3d4.811875!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses-419!2sus!4v1610742157687!5m2!1ses-419!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                </div>
 
-											</div>
-										</div>
-									</div>
-								</div>
-									<div id="Noticias" class="tabcontent">
-											<div class="text-content">
-										<div class="map2">
-											<img src="<?php echo get_template_directory_uri(); ?>/assets/images/map2.png">
-										</div>
+                <div class="text-left-content">
+                    <h6>Pereira</h6>
+                    <!-- <div class="flex-star">
+                        <div>5/5</div> 
+                        <div class="ec-stars-wrapper">
+                            <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
+                            <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
+                            <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
+                            <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
+                            <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
+                        </div>  
+                        <div>(20 reviews)</div>
+                    </div> -->
+                    <div class="text-horario">
+                        <div class="pin">
+							<a href="https://www.google.com/maps/dir//Prever,+Cra.+13b,+Pereira,+Risaralda,+Colombia/@4.81127,-75.7760627,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x8e38875a4fbd160b:0x3fdc3a93b412bba8!2m2!1d-75.7060221!2d4.8112736">
+								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
+                            <p>Carrera 13BIS # 32 -51   </p>
+							</a>
+                            
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
+                            <p>Teléfono: (6) 340 21 56</p>
+                        </div>
+                        <hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png">
+                            <p>Email: encontacto@prever.com.co</p>
+                        </div>
+                        <hr>
 
-										<div class="text-left-content">
-											<h6>Lorem Ipsum 4</h6>
-											<div class="flex-star">
-												<div>5/5</div> <div class="ec-stars-wrapper">
-													<a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-													<a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-													<a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-													<a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-													<a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-												</div>  <div>(20 reviews)</div></div>
-												<div class="text-horario">
-													<div class="pin">
-														<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
-														<p>Medellín Carrera 49 # <br> 54 - 47</p>
-													</div>
-													<hr>
-													<div class="pin">
-														<img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
-														<p>Phone: (4) 6040417 <br> Fax: (4) 6040417</p>
-													</div>
-													<hr>
-													<div class="pin">
-														<img src="<?php echo get_template_directory_uri(); ?>/assets/images/mail.png">
-														<p>Email: lorem@ipsum.co</p>
-													</div>
-													<hr>
+                        <div class="pin">
+                            <img src="<?php echo get_template_directory_uri(); ?>/assets/images/time.svg">
+                            <p>Horario de Atención <br> 7:30 am a 5:30 pm</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 
-													<div class="pin">
-														<img src="<?php echo get_template_directory_uri(); ?>/assets/images/time.svg">
-														<p>Horas de Operación <br> 7:30 am a 5:30 pm</p>
-													</div>
+</section>
 
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>
 
-						<section class="formulario">
-							<h6>NECESITAS INFORMACIÓN</h6>
-							<h5>Comunicate con nosotros</h5>
-							<div class="flex-form">
-								<div class="assitent">
-									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/assitent.png">
-								</div>
-								<div class="form">
-									<div class="form-group has-search">
-										<span class="fa fa-user form-control-feedback"></span>
-										<input type="text" class="form-control" placeholder="Nombre">
-									</div>
-									<div class="form-group has-search">
-										<span class="fa fa-user form-control-feedback"></span>
-										<input type="text" class="form-control" placeholder="Apellido">
-									</div>
-									<div class="form-group has-search">
-										<span class="fa fa-envelope form-control-feedback"></span>
-										<input type="email" class="form-control" placeholder="Correo">
-									</div>
 
-									<div class="form-group has-search">
-										<span class="fa fa-pencil form-control-feedback"></span>
-										<textarea class="form-control" placeholder="Mensaje" cols="40" rows="5"></textarea>
-									</div>
-
-									<div class="btn-sub">
-										<button class="btn-cta"><a href="">Enviar <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></a></button>
-									</div>
-								</div>
-							</div>
-						</section>
-						<style type="text/css">
-
-						</style>
-						<?php get_footer(); ?>
+<section class="formulario">
+<h6>¿Necesitas ayuda? </h6>
+<h5>Quiero que me contacten</h5>
+<div class="flex-form">
+    <div class="assitent">
+        <img src="<?php echo get_template_directory_uri(); ?>/assets/images/assitent.png">
+    </div>
+	<div class="form">
+	<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 5, 'title' => false, 'description' => false ) ); ?>
+		   </div>
+   
+</div>
+</section>
+<style type="text/css">
+	.frm_submit{
+		
+		margin-top: 4rem;
+	}
+	.frm_form_field{
+		
+		position:relative;
+	}
+	.flex-form .fa{
+		
+		position: absolute;
+    top: 4.5rem;
+    left: 2rem;
+    color: #33508d;
+	}
+	.frm_fields_container{
+		
+		
+		    flex-direction: column !important;
+	}
+	input[type="text"],input[type="tel"],
+	input[type="email"]{
+		display: block;
+    width: 100%;
+    padding: 0.5rem 0.75rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 2.375rem;
+    height: 62.9px;
+    font-size: 15px;
+    padding-left: 50px;
+	}
+	
+	textarea{
+		display: block;
+    width: 100%;
+    padding: 2rem 0.75rem .5rem;
+    font-size: 1rem;
+    line-height: 1.25;
+    color: #495057;
+    background-color: #fff;
+    background-image: none;
+    background-clip: padding-box;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 0.25rem;
+    transition: border-color ease-in-out 0.15s, box-shadow ease-in-out 0.15s;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 2.375rem;
+    height: 100px;
+    font-size: 15px;
+    padding-left: 50px;
+		
+	}
+</style>
+<?php get_footer(); ?>
