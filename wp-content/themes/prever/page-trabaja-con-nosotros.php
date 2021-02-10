@@ -42,28 +42,29 @@
 	<section class="work">
 		<div class="work-flex">
 			<div class="img-second">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Trabaja-nosotos.jpg">
+				<img src="<?php echo get_theme_mod('trabaja_item_4') ?>">
 			</div>
 			<div class=" text-second-1">
-				<p style="font-weight: bold; color:#000; font-size: 16px;">Únete al mejor equipo</p>
-				<h6 style="color:#000">Trabaja con nosotros</h6>
-				<p>Somos una Compañía que te ofrece seguridad, permanencia y beneficios para ti y tu familia.</p>
+				<p style="font-weight: bold; color:#000; font-size: 16px;"><?php echo get_theme_mod('trabaja_item_1') ?></p>
+				<h6 style="color:#000"><?php echo get_theme_mod('trabaja_item_2') ?></h6>
+				<p><?php echo get_theme_mod('trabaja_item_3') ?></p>
 					
 		
 					<hr class="hr-icons">
 					<div class="redes-flex">
 						<div class="icon-redes">
-							<a target="_blank" href="https://www.facebook.com/PreverCol/">
+							
+							<a target="_blank" href="<?php echo get_theme_mod('linktrabaja_item_1') ?>">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/fb.svg">
 							</a>
-							<a target="_blank" href="https://www.instagram.com/prevercol/?hl=es-la">
+							<a target="_blank" href="<?php echo get_theme_mod('linktrabaja_item_2') ?>">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/in3.svg">
 							</a>
-							<a  target="_blank" href="https://www.youtube.com/channel/UC4SdWFf5EA-HkH1cigzfaRA">
+							<a  target="_blank" href="<?php echo get_theme_mod('linktrabaja_item_3') ?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/instagram (1).svg">
 							
 							</a>
-							<a target="_blank" href="https://co.linkedin.com/company/prever-soluciones-exequiales?trk=similar-pages_result-card_full-click">
+							<a target="_blank" href="<?php echo get_theme_mod('linktrabaja_item_4') ?>">
 							<img src="<?php echo get_template_directory_uri(); ?>/assets/images/linkedin (1).svg">
 							</a>
 			
@@ -78,8 +79,15 @@
 		<section class="adjuntar">
 			<div class="flex-adjuntar">
 				<div class="logos-adjuntar">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/logo-ee.png">
-					<img src="<?php echo get_template_directory_uri(); ?>/assets/images/computrabajo.png">
+					
+					<a target="_blank" href="<?php echo get_theme_mod('urltrabaja_item_1') ?>">
+					<img src="<?php echo get_theme_mod('logotrabaja_item_1') ?>">
+					</a>
+					<a target="_blank" href="<?php echo get_theme_mod('urltrabaja_item_2') ?>" >
+						<img src="<?php echo get_theme_mod('logotrabaja_item_2') ?>">
+					</a>
+					
+				
 				</div>
 				<div class="form-adjuntar">
 				<div class="form-group has-search addj">

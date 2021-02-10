@@ -33,6 +33,17 @@
 	<link rel="preconnect" href="https://fonts.gstatic.com">
 	<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600;700;800&display=swap" rel="stylesheet">
 	<!--===============================================================================================-->
+	
+	
+	<!-- Google Tag Manager -->
+<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-5H47RHL');</script>
+<!-- End Google Tag Manager -->
+
+	
 </head>
 
 <div class="elipse">
@@ -55,6 +66,10 @@
 
 </style> 
 <body >
+	<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-5H47RHL"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
 
 
 	<!-- header fixed -->
@@ -78,13 +93,13 @@
 						</ul>
 					</li>
 
-					<li>
+					<li  class="<?php if(is_page( 29 ) ){echo 'active-menu';}?>">
 						<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
 						<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a>
+							<li><a target="_blank" href="<?php echo bloginfo('url');?>/category/planes-familiares">Planes Familiares</a>
 							<ul class="sub_menu">
-									<li><a href="<?php echo bloginfo('url');?>/category/planes-de-prevision-exequial/">Planes de Previsión</a></li>
-									<li><a href="<?php echo bloginfo('url');?>/category/servicios-exequiales-en-propiedad/">Servicios Exequiales en propiedad</a></li>
+									<li><a target="_blank"  href="<?php echo bloginfo('url');?>/category/planes-de-prevision-exequial/">Planes de Previsión</a></li>
+									<li><a target="_blank"  href="<?php echo bloginfo('url');?>/category/servicios-exequiales-en-propiedad/">Servicios Exequiales en propiedad</a></li>
 							
 							
 								</ul>
@@ -92,10 +107,11 @@
 							</li>
 							
 							
-							<li><a href="<?php echo bloginfo('url');?>/category/planes-empresariales/">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/category/previmascota/">Planes Mascotas</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/index.php/club-de-beneficios">Club de Beneficios</a></li>
+							<li><a target="_blank"  href="<?php echo bloginfo('url');?>/category/planes-empresariales/">Plan Empresarial</a></li>
+							<li><a target="_blank"  href="<?php echo bloginfo('url');?>/category/previmascota/">Planes Mascotas</a></li>
+							<li><a target="_blank" href="<?php echo bloginfo('url');?>/category/en-centros-memoriales/">Centros Memoriales</a></li>
+							<li><a  href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
+							<li><a  href="<?php echo bloginfo('url');?>/index.php/club-de-beneficios">Club de Beneficios</a></li>
 							
 						</ul>
 					</li>
@@ -121,7 +137,7 @@
 						<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
 					</div>
 					<div class="button_cta button-other">
-						<a href="tel:018000518910">
+						<a target="_blank" href="tel:018000518910">
 							<p>
 								
 								¿Necesitas reportar un servicio? 
@@ -165,12 +181,12 @@
 
 							</button>
 							<?php if ( wp_is_mobile() ) : ?>
-								<a class="main-btn__green" href="https://api.whatsapp.com/send?phone=573187570637">
+								<a target="_blank" class="main-btn__green" href="https://api.whatsapp.com/send?phone=573187570637">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/whatsapp.png">
 									Adquiere un Plan Exequial
 								</a>
 							<?php else : ?>
-								<a class="main-btn__green" href="https://web.whatsapp.com/send?phone=573187570637">
+								<a target="_blank" class="main-btn__green" href="https://web.whatsapp.com/send?phone=573187570637">
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/whatsapp.png">
 									Adquiere un Plan Exequial
 								</a>
@@ -181,7 +197,7 @@
 									<img src="<?php echo get_template_directory_uri(); ?>/assets/images/phone.svg">
 								</div>
 								<div class="button_cta button-other">
-									<a href="tel:018000518910">
+									<a target="_blank" href="tel:018000518910">
 										<p>
 											
 											¿Necesitas reportar un servicio? 
@@ -215,18 +231,19 @@
 									<li>
 										<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
 						<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a>
+							<li><a href="<?php echo bloginfo('url');?>/category/planes-familiares">Planes Familiares</a>
 							<ul class="sub_menu">
-								<li><a href="<?php echo bloginfo('url');?>/category/planes-de-prevision-exequial/">Planes de Previsión</a></li>
-									<li><a href="<?php echo bloginfo('url');?>/category/servicios-exequiales-en-propiedad/">Servicios Exequiales en propiedad</a></li>
+								<li><a target="_blank" href="<?php echo bloginfo('url');?>/category/planes-de-prevision-exequial/">Planes de Previsión</a></li>
+									<li><a target="_blank" href="<?php echo bloginfo('url');?>/category/servicios-exequiales-en-propiedad/">Servicios Exequiales en propiedad</a></li>
 							
 								</ul>
 							
 							</li>
 							
 							
-							<li><a href="<?php echo bloginfo('url');?>/category/planes-empresariales/">Plan Empresarial</a></li>
-							<li><a href="<?php echo bloginfo('url');?>/category/previmascota/">Planes Mascotas</a></li>
+							<li><a target="_blank" href="<?php echo bloginfo('url');?>/category/planes-empresariales/">Plan Empresarial</a></li>
+							<li><a target="_blank" href="<?php echo bloginfo('url');?>/category/previmascota/">Planes Mascotas</a></li>
+							<li><a target="_blank" href="<?php echo bloginfo('url');?>/category/en-centros-memoriales/">Centros Memoriales</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/club-de-beneficios">Club de Beneficios</a></li>
 							
@@ -234,7 +251,7 @@
 									</li>
 
 											<li>
-						<a href="https://prever.com.co/club-de-beneficios/#1571928741283-8a776011-ac90">Tu portal</a>
+						<a href="https://tuportalprever.com.co/api/empresarial/modules/login.php">Tu portal</a>
 					</li>
 
 							<li>
@@ -290,11 +307,10 @@
 					
 
 					<li class="item-menu-mobile <?php if(is_page( 20 ) or is_page( 26 )){echo 'active-menu';}?>">
-						<a href="">Quiénes somos</a> <i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
+						<a href-"#">Quiénes somos</a> <i style="color: #000; margin-left: 7px; font-weight:bold;" class="fa fa-angle-down" aria-hidden="true"></i>
 						<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');;?>'/index.php/quienes-somos">Quiénes somos</a></li>
-			
-							<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
+								<li><a href="<?php echo bloginfo('url');?>/index.php/quienes-somos">Quiénes somos</a></li>
+											<li><a href="<?php echo bloginfo('url');?>/index.php/trabaja-con-nosotros">Trabaja con nosotros</a></li>
 						
 						</ul>
 
@@ -302,10 +318,11 @@
 					</li>
 
 					<li class="item-menu-mobile">
-						<a href="<?php echo bloginfo('url');?>/index.php/nuestros-servicios">Nuestros servicios </a> <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
+						<a href="#">Nuestros servicios</a>  <i style="color: #000; font-weight:bold; margin-left: 7px;" class="fa fa-angle-down" aria-hidden="true"></i>
 						<ul class="sub_menu">
-							<li><a href="<?php echo bloginfo('url');?>/index.php/planes-familiares">Planes Familiares</a>
+							<li><a  href="<?php echo bloginfo('url');?>/category/planes-familiares">Planes Familiares</a>
 							<ul class="sub_menu">
+								<li><a href="<?php echo bloginfo('url');?>/category/planes-de-prevision-exequial/">Nuestros servicios </a></li>
 										<li><a href="<?php echo bloginfo('url');?>/category/planes-de-prevision-exequial/">Planes de Previsión</a></li>
 									<li><a href="<?php echo bloginfo('url');?>/category/servicios-exequiales-en-propiedad/">Servicios Exequiales en propiedad</a></li>
 							
@@ -315,8 +332,9 @@
 							</li>
 							
 							
-							<li><a href="<?php echo bloginfo('url');?>/category/planes-empresiariales/">Plan Empresarial</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/category/planes-empresariales/">Plan Empresarial</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/category/previmascota/">Planes Mascotas</a></li>
+							<li><a href="<?php echo bloginfo('url');?>/category/en-centros-memoriales/">Centros Memoriales</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/ayuda-al-duelo">Ayuda al Duelo</a></li>
 							<li><a href="<?php echo bloginfo('url');?>/index.php/club-de-beneficios">Club de Beneficios</a></li>
 							
@@ -325,10 +343,10 @@
 					</li>
 
 					<li class="item-menu-mobile2">
-						<a href="https://prever.com.co/club-de-beneficios/#1571928741283-8a776011-ac90">Tu portal</a>
+						<a href="https://tuportalprever.com.co/api/empresarial/modules/login.php">Tu portal</a>
 					</li>
 					<li class="item-menu-mobile2">
-						<a href="<?php echo bloginfo('url');?>/index.php/pagos">Pagos</a>
+						<a href="<?php echo bloginfo('url');?>/pagos">Pagos</a>
 					</li>
 
 					<li class="item-menu-mobile2 <?php if(is_page( 21 )){echo 'active-menu';}?>">

@@ -6,17 +6,64 @@
         }, 3000)
       });
 
+
+$('.main-banner__content').slick({
+    dots: false,
+    autoplay: false,
+    dots: false,
+	      arrows: true,
+    slidesToScroll: 1,
+	    slidesToShow: 1,
+	prevArrow:'<button class="arrow-slick1 prev-slick1"></button>',
+            nextArrow:'<button class="arrow-slick1 next-slick1"></button>', 
+    responsive: [
+    {
+    breakpoint: 700,
+    settings: {
+      arrows: true,
+      dots: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+		{
+    breakpoint: 320,
+    settings: {
+      arrows: true,
+      dots: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+  {
+    breakpoint: 1024,
+    settings: {
+      slidesToShow: 1,
+      slidesToScroll: 1,
+    }
+  }
+  ]});
 $('.slider-planes').slick({
     dots: false,
     autoplay: false,
     dots: false,
+	      arrows: true,
     slidesToScroll: 1,
 	    slidesToShow: 3,
     responsive: [
     {
     breakpoint: 700,
     settings: {
-      arrows: false,
+      arrows: true,
+      dots: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+		{
+    breakpoint: 320,
+    settings: {
+      arrows: true,
       dots: false,
       slidesToShow: 1,
       slidesToScroll: 1
@@ -35,6 +82,7 @@ $('.slider-planes').slick({
     dots: true,
     autoplay: false,
     dots: false,
+	  arrows: true,
     slidesToScroll: 4,
 	    slidesToShow: 4,
         adaptiveWidth: true,
@@ -42,7 +90,16 @@ $('.slider-planes').slick({
     {
     breakpoint: 700,
     settings: {
-      arrows: false,
+      arrows: true,
+      dots: false,
+      slidesToShow: 1,
+      slidesToScroll: 1
+    }
+  },
+		{
+    breakpoint: 320,
+    settings: {
+      arrows: true,
       dots: false,
       slidesToShow: 1,
       slidesToScroll: 1

@@ -5,7 +5,7 @@
 	<section class="about">
 	<?php if (get_theme_mod('mision_item_4') != NULL){?>
 		<div class="first-content">
-			<div class="text-first">
+			<div class="text-first text-first__pa">
 				<div class="text-first-1">
 				<p style="font-weight: 600;color: #33508D;font-size: 15px;"><?php echo get_theme_mod('mision_item_1') ?></p>
 				<h6><?php echo get_theme_mod('mision_item_2') ?></h6>
@@ -13,9 +13,15 @@
 				</p>
 					</div>
 			</div>
-			<div class="img-first">
-				<img src="<?php echo get_theme_mod('mision_item_4') ?>">
+			<div class="text-first text-first__pa">
+				<div class="text-first-1">
+				<p style="font-weight: 600;color: white;font-size: 15px;"><?php echo get_theme_mod('vision_item_1') ?></p>
+				<h6><?php echo get_theme_mod('vision_item_2') ?></h6>
+				<p><?php echo get_theme_mod('vision_item_3') ?>
+				</p>
+					</div>
 			</div>
+			
 		</div>
 		<?php }
 		?>
@@ -27,13 +33,13 @@
 		<div class="first-content">
 		<?php if (get_theme_mod('vision_item_4') != NULL){?>
 					<div class="img-first">
-				<img src="<?php echo get_theme_mod('vision_item_4') ?>">
+				<img src="<?php echo get_theme_mod('quienes_somos_img') ?>">
 			</div>
 			<div class="text-bg">
 				<div class="text-bg-2">
-				<p style="font-weight: 600;color: #fff;font-size: 15px"><?php echo get_theme_mod('vision_item_1') ?></p>
-				<h6><?php echo get_theme_mod('vision_item_2') ?></h6>
-				<p><?php echo get_theme_mod('vision_item_3') ?>
+				
+				<h6><?php echo get_theme_mod('calidad_item_2') ?></h6>
+				<p><?php echo get_theme_mod('calidad_item_3') ?>
 				</p>
 			</div>
 			</div>
@@ -110,11 +116,11 @@
 			<?php echo get_theme_mod('call_item_3') ?>
 			</p>
 			
-			<!--
+			
 			<div class="submit">
-			<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 3, 'title' => false, 'description' => false ) ); ?>
+			<!--< ?php echo FrmFormsController::get_form_shortcode( array( 'id' => 3, 'title' => false, 'description' => false ) ); ?>-->
 		</div>
-		-->
+		
 		</div>
 	</div>
 	<?php }

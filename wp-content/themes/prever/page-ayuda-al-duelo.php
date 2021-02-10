@@ -1,15 +1,53 @@
 <?php get_header(); ?>
+
+<?php
+
+$ayudasubtituloseccion1 = get_theme_mod('ayuda_seccion1_item_1');
+$ayudatituloseccion1 = get_theme_mod('ayuda_seccion1_item_2');
+$ayudadescripcionseccion1 = get_theme_mod('ayuda_seccion1_item_3');
+$ayudaimagenseccion1 = get_theme_mod('ayuda_seccion1_item_4');
+
+
+$ayudatituloseccion2 = get_theme_mod('ayuda_seccion1_item_1');
+$ayudasubtituloseccion2 = get_theme_mod('ayuda_seccion2_item_2');
+$ayudadescripcionseccion2 = get_theme_mod('ayuda_seccion3_item_3');
+$ayudaimagenseccion2 = get_theme_mod('ayuda_seccion2_item_4');
+
+
+	
+		
+$ayudalist = get_theme_mod('ayuda_seccion2_list');
+$ayudalist1 = get_theme_mod('ayuda_seccion2_list1');
+$ayudalist2 = get_theme_mod('ayuda_seccion2_list2');
+$ayudalist3 = get_theme_mod('ayuda_seccion2_list3');
+$ayudalist4 = get_theme_mod('ayuda_seccion2_list4');
+$ayudalist5 = get_theme_mod('ayuda_seccion2_list5');
+$ayudalist6 = get_theme_mod('ayuda_seccion2_list6');
+$ayudalist7 = get_theme_mod('ayuda_seccion2_list7');
+$ayudalist8 = get_theme_mod('ayuda_seccion2_list8');
+$ayudalistpdf = get_theme_mod('ayuda_seccion2_listpdf');
+$ayudalistpdf1 = get_theme_mod('ayuda_seccion2_listpdf1');
+$ayudalistpdf2 = get_theme_mod('ayuda_seccion2_listpdf2');
+$ayudalistpdf3 = get_theme_mod('ayuda_seccion2_listpdf3');
+$ayudalistpdf4 = get_theme_mod('ayuda_seccion2_listpdf4');
+$ayudalistpdf5 = get_theme_mod('ayuda_seccion2_listpdf5');
+$ayudalistpdf6 = get_theme_mod('ayuda_seccion2_listpdf6');
+$ayudalistpdf7 = get_theme_mod('ayuda_seccion2_listpdf7');
+$ayudalistpdf8 = get_theme_mod('ayuda_seccion2_listpdf8');
+
+
+?>
 	<a href="#" class="toTop"> ↑ </a>
 
 	<section class="pagos">
 		<div class="work-flex">
 			<div class="img-second">
-				<img src="<?php echo get_template_directory_uri(); ?>/assets/images/Ayuda.jpg">
+				<img src="<?php echo $ayudaimagenseccion1; ?>">
 			</div>
 			<div class=" text-second">
-				<p style="font-weight: bold; color:#000; font-size: 16px;">AYUDA AL DUELO</p>
-				<h6 style="color:#000; font-size: 35px;">Enséñame a<span style="color: #33508d"> Despedirme</span></h6>
-				<p> Enséñame a despedirme es una colección de 8 guías que nacen de nuestro compromiso con el cuidado de las familias que confían en nosotros y que están viviendo una situación de duelo.</p>
+				<p style="font-weight: bold; color:#000; font-size: 16px;"><?php echo $ayudasubtituloseccion1; ?></p>
+				<h6 style="color:#000; font-size: 35px;"><?php echo $ayudatituloseccion1; ?></h6>
+				<p> <?php echo $ayudadescripcionseccion1; ?></p>
 
 <!--<p>
 	Nuestro objetivo es que familiares y allegados sepan actuar mediante la resolución de dudas frecuentes, así como ofrecerles  herramientas, a través de un lenguaje sencillo y accesible, para una gestión emocional más eficaz.
@@ -21,84 +59,153 @@
 		</section>
 
 	<section class="recaudos">
-		<h6>ÍNDICE DE PUBLICACIONES</h6>
-		<h5>"Enséñame a Despedirme"</h5>
+		<h6><?php echo $ayudasubtituloseccion2; ?></h6>
+		<h5><?php echo $ayudatituloseccion2 ?></h5>
 		<p>
-			Podrás encontrar estas publicaciones en nuestras funerarias. Además, puedes descargarlas de manera gratuita haciendo clic en cada título.
+			<?php echo $ayudadescripcionseccion2 ?>
 		</p>
 <div class="publicaciones-flex">
 	<div class="icon-publicacion">
+		
+		
+	  
+  <?php if($ayudalistpdf): ?>
 		<div class="publicacion-item">
 			
 			<p>
-				Edición Especial – Despedida cuando no es posible velación. 
-				<span  style="    color: #33508d;
-    font-weight: 800;"><a style="    color: #33508d;" target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/images/DESPEDIDA-SIN-VELACI%C3%93N_PREVER_SIEMPRE_191020.pdf">haz clic aquí.</a></span> <br>
+				
+			<a style=" font-weight:bold;    font-size: 18px;  color: #33508d;" target="_blank" href="<?php echo $ayudalist; ?> "><?php echo $ayudalist; ?>  </a> <br>
 			</p>
 		</div>
-			<div class="publicacion-item">
-				
+	
+
+    <?php else: ?>
+		
+		<div class="publicacion-item">
+			<p><?php echo $ayudalist; ?>  <br></p>
+		</div>
+		<?php endif; ?>
+
+	
+	
+		
+				<?php if($ayudalistpdf1): ?>
+		<div class="publicacion-item">	
 			<p>
-				1. Dudas habituales de los adultos sobre el proceso de duelo en los niños. <span style="    color: #33508d;
-    font-weight: 800;"> <a style="    color: #33508d;" target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/images/ENSÉÑAME-A-DESPEDIRME_1_PREVER_WEB.pdf">haz clic aquí.</a></span> <br>
+	 			<a style="  font-weight:bold;    font-size: 18px;   color: #33508d;" target="_blank" href="<?php echo $ayudalistpdf1; ?>">1. <?php echo $ayudalist1; ?> </a> <br>
 			
 			</p>
 		</div>
-			<div class="publicacion-item">
-				
-			<p>
-				2. Duelo por la muerte de mi mascota. <span style="    color: #33508d;
-    font-weight: 800;"> <a style="    color: #33508d;" target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/images/ENSÉÑAME-A-DESPEDIRME_2_PREVER_DIGITAL.pdf">haz clic aquí.</a></span><br>
-				
-			</p>
-		</div>
-			<div class="publicacion-item">
-				
-			<p>
-				3. Duelo en personas mayores. <span style="    color: #33508d;
-    font-weight: 800;"> <a style="    color: #33508d;" target="_blank" href="<?php echo get_template_directory_uri(); ?>/assets/images/PREVER_DUELO-EN-PERSONAS-MAYORES.pdf">haz clic aquí.</a></span><br>
-				
-			</p>
-		</div>
+		<?php else: ?>
+		
 		<div class="publicacion-item">
-				
+			<p>1. <?php echo $ayudalist1; ?>  <br></p>
+		</div>
+		<?php endif; ?>
+<?php if($ayudalistpdf2): ?>
+		<div class="publicacion-item">	
 			<p>
-				4. Duelo tras la muerte de mi pareja. <br>
-				
+	 			<a style="  font-weight:bold;    font-size: 18px;   color: #33508d;" target="_blank" href="<?php echo $ayudalistpdf2; ?>">2. <?php echo $ayudalist2; ?> </a> <br>
+			
 			</p>
 		</div>
+		<?php else: ?>
+		
 		<div class="publicacion-item">
-				
+			<p>2. <?php echo $ayudalist2; ?>  <br></p>
+		</div>
+		<?php endif; ?>
+		
+		
+		 <?php if($ayudalistpdf3): ?>
+		<div class="publicacion-item">	
 			<p>
-				5. Duelo perinatal y neonatal. <br>
-				
+	 			<a style="  font-weight:bold;    font-size: 18px;   color: #33508d;" target="_blank" href="<?php echo $ayudalistpdf3; ?>">3. <?php echo $ayudalist3; ?> </a> <br>
+			
 			</p>
 		</div>
+		<?php else: ?>
+		
 		<div class="publicacion-item">
-				
+			<p>3. <?php echo $ayudalist3; ?>  <br></p>
+		</div>
+		<?php endif; ?>
+
+
+    <?php if($ayudalistpdf4): ?>
+		<div class="publicacion-item">	
 			<p>
-				6. Duelo en caso de suicidio.<br>
-				
+	 			<a style="  font-weight:bold;    font-size: 18px;   color: #33508d;" target="_blank" href="<?php echo $ayudalistpdf4; ?>">4. <?php echo $ayudalist4; ?> </a> <br>
+			
 			</p>
 		</div>
+		<?php else: ?>
+		
 		<div class="publicacion-item">
-				
+			<p>4. <?php echo $ayudalist4; ?>  <br></p>
+		</div>
+		<?php endif; ?>
+
+    <?php if($ayudalistpdf5): ?>
+		<div class="publicacion-item">	
 			<p>
-				7. Duelo en el aula. <br>
-				
+	 			<a style="  font-weight:bold;    font-size: 18px;   color: #33508d;" target="_blank" href="<?php echo $ayudalistpdf5; ?>">5. <?php echo $ayudalist5; ?> </a> <br>
+			
 			</p>
 		</div>
+		<?php else: ?>
+		
 		<div class="publicacion-item">
-				
+			<p>5. <?php echo $ayudalist5; ?>  <br></p>
+		</div>
+		<?php endif; ?>
+
+
+    <?php if($ayudalistpdf6): ?>
+		<div class="publicacion-item">	
 			<p>
-				8. Duelo en personas con discapacidad.<br>
-				
+	 			<a style="  font-weight:bold;    font-size: 18px;   color: #33508d;" target="_blank" href="<?php echo $ayudalistpdf6; ?>">6. <?php echo $ayudalist6; ?> </a> <br>
+			
 			</p>
 		</div>
+		<?php else: ?>
+		
+		<div class="publicacion-item">
+			<p>6. <?php echo $ayudalist6; ?>  <br></p>
+		</div>
+		<?php endif; ?>
+
+    <?php if($ayudalistpdf7): ?>
+		<div class="publicacion-item">	
+			<p>
+	 			<a style="  font-weight:bold;    font-size: 18px;   color: #33508d;" target="_blank" href="<?php echo $ayudalistpdf7; ?>">7. <?php echo $ayudalist7; ?> </a> <br>
+			
+			</p>
+		</div>
+		<?php else: ?>
+		
+		<div class="publicacion-item">
+			<p>7. <?php echo $ayudalist7; ?>  <br></p>
+		</div>
+		<?php endif; ?>
+
+    <?php if($ayudalistpdf8): ?>
+		<div class="publicacion-item">	
+			<p>
+	 			<a style="  font-weight:bold;    font-size: 18px;   color: #33508d;" target="_blank" href="<?php echo $ayudalistpdf8; ?>">8. <?php echo $ayudalist8; ?> </a> <br>
+			
+			</p>
+		</div>
+		<?php else: ?>
+		
+		<div class="publicacion-item">
+			<p>8. <?php echo $ayudalist8; ?>  <br></p>
+		</div>
+		<?php endif; ?>        
 	</div>
 
 	<div class="image-publicacion">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/images/duelo2.jpg">
+		<img src="<?php echo $ayudaimagenseccion2; ?>">
 	</div>
 </div>
 		

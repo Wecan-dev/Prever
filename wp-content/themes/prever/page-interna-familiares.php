@@ -50,7 +50,7 @@
 
 						</ul>
 						<div class="btn-planes">
-							<button class="btn_view3"><a href="">Cotizar <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></a></button>
+							<button class="btn_view3"><a target="_blank" href="">Cotizar <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></a></button>
 						</div>
 					</div>	</div>
 
@@ -87,7 +87,7 @@
 									</li>
 					</ul>
 								<div class="btn-planes">
-									<button class="btn_view3"><a href="">Cotizar <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></a></button>
+									<button class="btn_view3"><a target="_blank" href="">Cotizar <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></a></button>
 								</div>
 							</div>	</div>
 					<div class="card-item-plan">
@@ -122,7 +122,7 @@
 									</li>
 					</ul>
 							<div  class="btn-planes">
-								<button class="btn_view3"><a href="">Cotizar <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></a></button>
+								<button class="btn_view3"><a target="_blank" href="">Cotizar <img src="<?php echo get_template_directory_uri(); ?>/assets/images/flecha.svg"></a></button>
 							</div>
 						</div>	
 					</div>

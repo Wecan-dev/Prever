@@ -3,7 +3,7 @@
 		<h3>Diseñados especialmente para <span style="color: #33508d"> ti y tu familia</span></h3>
 		<div class="card-services">
 			<div class="multiple-items">
-      <?php $product_categories = get_categories( array( 'taxonomy' => 'category', 'orderby' => 'category', 'order' => 'desc','parent' =>0 )); $i = 0; ?>
+      <?php $product_categories = get_categories( array( 'taxonomy' => 'category', 'orderby' => 'category', 'order' => 'DESC','exclude' => '15,6')); $i = 0; ?>
       <?php foreach($product_categories as $category):  global $wpdb;?>
      
 				

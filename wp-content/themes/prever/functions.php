@@ -382,6 +382,162 @@ function Servicios() {
 }
 add_action( 'init', 'Servicios', 0 );
 
+// Register Custom ClienteEmpresarial
+function ClienteEmpresarial() {
+
+    $labels = array(
+        'name'                  => _x( 'Cliente Empresarial ', 'Post Type General Name', 'prever' ),
+        'singular_name'         => _x( 'Cliente Empresarial', 'Post Type Singular Name', 'prever' ),
+        'menu_name'             => __( 'Cliente Empresarial', 'prever' ),
+        'name_admin_bar'        => __( 'Cliente Empresarial', 'prever' ),
+        'archives'              => __( 'Archivo', 'prever' ),
+        'attributes'            => __( 'Atributos', 'prever' ),
+        'parent_item_colon'     => __( 'Artículo principal', 'prever' ),
+        'all_items'             => __( 'Todos los artículos', 'prever' ),
+        'add_new_item'          => __( 'Agregar ítem nuevo', 'prever' ),
+        'add_new'               => __( 'Añadir nuevo', 'prever' ),
+        'new_item'              => __( 'Nuevo artículo', 'prever' ),
+        'edit_item'             => __( 'Editar elemento', 'prever' ),
+        'update_item'           => __( 'Actualizar artículo', 'prever' ),
+        'view_item'             => __( 'Ver ítem', 'prever' ),
+        'view_items'            => __( 'Ver artículos', 'prever' ),
+        'search_items'          => __( 'Buscar artículo', 'prever' ),
+        'not_found'             => __( 'Extraviado', 'prever' ),
+        'not_found_in_trash'    => __( 'No se encuentra en la basura', 'prever' ),
+        'featured_image'        => __( 'Foto principal', 'prever' ),
+        'set_featured_image'    => __( 'Establecer imagen destacada', 'prever' ),
+        'remove_featured_image' => __( 'Remove featured image', 'prever' ),
+        'use_featured_image'    => __( 'Usar como imagen destacada', 'prever' ),
+        'insert_into_item'      => __( 'Insertar en el elemento', 'prever' ),
+        'uploaded_to_this_item' => __( 'Subido a este artículo', 'prever' ),
+        'items_list'            => __( 'Lista de artículos', 'prever' ),
+        'items_list_navigation' => __( 'Lista de elementos de navegación', 'prever' ),
+        'filter_items_list'     => __( 'Lista de elementos de filtro', 'prever' ),
+    );
+    $args = array(
+        'label'                 => __( 'Cliente Empresarial Home', 'prever' ),
+        'description'           => __( 'Post Type Description', 'prever' ),
+        'labels'                => $labels,
+        'supports'              => array( 'title'),
+        'taxonomies'            => array(  ),
+        'hierarchical'          => false,
+        'public'                => true,
+        'show_ui'               => true,
+        'show_in_menu'          => true,
+        'menu_position'         => 5,
+        'menu_icon'             => 'dashicons-awards',
+        'show_in_admin_bar'     => true,
+        'show_in_nav_menus'     => true,
+        'can_export'            => true,
+        'has_archive'           => true,
+        'exclude_from_search'   => false,
+        'publicly_queryable'    => true,
+        'capability_type'       => 'page',
+    );
+    register_post_type( 'ClienteEmpresarial', $args );
+
+}
+add_action( 'init', 'ClienteEmpresarial', 0 );
+
+
+// Register Custom Recaudos
+function Recaudos() {
+
+    $labels = array(
+        'name'                  => _x( 'Recaudos ', 'Post Type General Name', 'prever' ),
+        'singular_name'         => _x( 'Recaudos ', 'Post Type Singular Name', 'prever' ),
+        'menu_name'             => __( 'Recaudos', 'prever' ),
+        'name_admin_bar'        => __( 'Recaudos', 'prever' ),
+        'archives'              => __( 'Archivo', 'prever' ),
+        'attributes'            => __( 'Atributos', 'prever' ),
+        'parent_item_colon'     => __( 'Artículo principal', 'prever' ),
+        'all_items'             => __( 'Todos los artículos', 'prever' ),
+        'add_new_item'          => __( 'Agregar ítem nuevo', 'prever' ),
+        'add_new'               => __( 'Añadir nuevo', 'prever' ),
+        'new_item'              => __( 'Nuevo artículo', 'prever' ),
+        'edit_item'             => __( 'Editar elemento', 'prever' ),
+        'update_item'           => __( 'Actualizar artículo', 'prever' ),
+        'view_item'             => __( 'Ver ítem', 'prever' ),
+        'view_items'            => __( 'Ver artículos', 'prever' ),
+        'search_items'          => __( 'Buscar artículo', 'prever' ),
+        'not_found'             => __( 'Extraviado', 'prever' ),
+        'not_found_in_trash'    => __( 'No se encuentra en la basura', 'prever' ),
+        'featured_image'        => __( 'Foto principal', 'prever' ),
+        'set_featured_image'    => __( 'Establecer imagen destacada', 'prever' ),
+        'remove_featured_image' => __( 'Remove featured image', 'prever' ),
+        'use_featured_image'    => __( 'Usar como imagen destacada', 'prever' ),
+        'insert_into_item'      => __( 'Insertar en el elemento', 'prever' ),
+        'uploaded_to_this_item' => __( 'Subido a este artículo', 'prever' ),
+        'items_list'            => __( 'Lista de artículos', 'prever' ),
+        'items_list_navigation' => __( 'Lista de elementos de navegación', 'prever' ),
+        'filter_items_list'     => __( 'Lista de elementos de filtro', 'prever' ),
+    );
+    $args = array(
+        'label'                 => __( 'Recaudos', 'prever' ),
+        'description'           => __( 'Post Type Description', 'prever' ),
+        'labels'                => $labels,
+        'supports'              => array( 'title','editor', 'thumbnail' ),
+        'taxonomies'            => array(  ),
+        'hierarchical'          => false,
+        'public'                => true,
+        'show_ui'               => true,
+        'show_in_menu'          => true,
+        'menu_position'         => 5,
+        'menu_icon'             => 'dashicons-awards',
+        'show_in_admin_bar'     => true,
+        'show_in_nav_menus'     => true,
+        'can_export'            => true,
+        'has_archive'           => true,
+        'exclude_from_search'   => false,
+        'publicly_queryable'    => true,
+        'capability_type'       => 'page',
+    );
+    register_post_type( 'Recaudos', $args );
+
+}
+add_action( 'init', 'Recaudos', 0 );
+
+
+
+// Register Recaudos Custom Taxonomy
+function recaudos_taxonomy() {
+
+	$labels = array(
+		'name'                       => _x( '<span class="name_none">Seleccione tipo de recaudo</span>', 'Taxonomy General Name', 'text_domain' ),
+		'singular_name'              => _x( 'Seleccione tipo de recaudo', 'Taxonomy Singular Name', 'text_domain' ),
+		'menu_name'                  => __( 'Seleccione tipo de recaudo', 'text_domain' ),
+		'all_items'                  => __( 'Todos los Recaudos', 'text_domain' ),
+		'parent_item'                => __( 'Parent Recaudos', 'text_domain' ),
+		'parent_item_colon'          => __( 'Parent Recaudos:', 'text_domain' ),
+		'new_item_name'              => __( 'Nueva Recaudos', 'text_domain' ),
+		'add_new_item'               => __( 'Agregar Nueva Recaudos', 'text_domain' ),
+		'edit_item'                  => __( 'Editar Recaudos', 'text_domain' ),
+		'update_item'                => __( 'Actualizar Recaudos', 'text_domain' ),
+		'view_item'                  => __( 'Ver Item', 'text_domain' ),
+		'separate_items_with_commas' => __( 'Separate items with commas', 'text_domain' ),
+		'add_or_remove_items'        => __( 'Add or remove items', 'text_domain' ),
+		'choose_from_most_used'      => __( 'Choose from the most used items', 'text_domain' ),
+		'popular_items'              => __( 'Popular Items', 'text_domain' ),
+		'search_items'               => __( 'Buscar Recaudos', 'text_domain' ),
+		'not_found'                  => __( 'Not Found', 'text_domain' ),
+		'no_terms'                   => __( 'No items', 'text_domain' ),
+		'items_list'                 => __( 'Items list', 'text_domain' ),
+		'items_list_navigation'      => __( 'Items list navigation', 'text_domain' ),
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+		'show_tagcloud'              => true,
+		
+	);
+	register_taxonomy( 'tipo_recaudos', array( 'recaudos' ), $args );
+}
+add_action( 'init', 'recaudos_taxonomy', 0 );
+
 
 // Register Custom Homenaje
 function Homenaje() {
@@ -441,6 +597,105 @@ function Homenaje() {
 add_action( 'init', 'Homenaje', 0 );
 
 
+
+// Register Custom Recaudos
+function alianza() {
+
+    $labels = array(
+        'name'                  => _x( 'alianza ', 'Post Type General Name', 'prever' ),
+        'singular_name'         => _x( 'alianza ', 'Post Type Singular Name', 'prever' ),
+        'menu_name'             => __( 'alianza', 'prever' ),
+        'name_admin_bar'        => __( 'alianza', 'prever' ),
+        'archives'              => __( 'Archivo', 'prever' ),
+        'attributes'            => __( 'Atributos', 'prever' ),
+        'parent_item_colon'     => __( 'Artículo principal', 'prever' ),
+        'all_items'             => __( 'Todos los artículos', 'prever' ),
+        'add_new_item'          => __( 'Agregar ítem nuevo', 'prever' ),
+        'add_new'               => __( 'Añadir nuevo', 'prever' ),
+        'new_item'              => __( 'Nuevo artículo', 'prever' ),
+        'edit_item'             => __( 'Editar elemento', 'prever' ),
+        'update_item'           => __( 'Actualizar artículo', 'prever' ),
+        'view_item'             => __( 'Ver ítem', 'prever' ),
+        'view_items'            => __( 'Ver artículos', 'prever' ),
+        'search_items'          => __( 'Buscar artículo', 'prever' ),
+        'not_found'             => __( 'Extraviado', 'prever' ),
+        'not_found_in_trash'    => __( 'No se encuentra en la basura', 'prever' ),
+        'featured_image'        => __( 'Foto principal', 'prever' ),
+        'set_featured_image'    => __( 'Establecer imagen destacada', 'prever' ),
+        'remove_featured_image' => __( 'Remove featured image', 'prever' ),
+        'use_featured_image'    => __( 'Usar como imagen destacada', 'prever' ),
+        'insert_into_item'      => __( 'Insertar en el elemento', 'prever' ),
+        'uploaded_to_this_item' => __( 'Subido a este artículo', 'prever' ),
+        'items_list'            => __( 'Lista de artículos', 'prever' ),
+        'items_list_navigation' => __( 'Lista de elementos de navegación', 'prever' ),
+        'filter_items_list'     => __( 'Lista de elementos de filtro', 'prever' ),
+    );
+    $args = array(
+        'label'                 => __( 'alianza', 'prever' ),
+        'description'           => __( 'Post Type Description', 'prever' ),
+        'labels'                => $labels,
+        'supports'              => array( 'title','editor', 'thumbnail' ),
+        'taxonomies'            => array(  ),
+        'hierarchical'          => false,
+        'public'                => true,
+        'show_ui'               => true,
+        'show_in_menu'          => true,
+        'menu_position'         => 5,
+        'menu_icon'             => 'dashicons-awards',
+        'show_in_admin_bar'     => true,
+        'show_in_nav_menus'     => true,
+        'can_export'            => true,
+        'has_archive'           => true,
+        'exclude_from_search'   => false,
+        'publicly_queryable'    => true,
+        'capability_type'       => 'page',
+    );
+    register_post_type( 'alianza', $args );
+
+}
+add_action( 'init', 'alianza', 0 );
+
+
+
+// Register alianza Custom Taxonomy
+function alianza_taxonomy() {
+
+	$labels = array(
+		'name'                       => _x( '<span class="name_none">Seleccione tipo de alianza</span>', 'Taxonomy General Name', 'text_domain' ),
+		'singular_name'              => _x( 'Seleccione tipo de alianza', 'Taxonomy Singular Name', 'text_domain' ),
+		'menu_name'                  => __( 'Seleccione tipo de alianza', 'text_domain' ),
+		'all_items'                  => __( 'Todos los alianza', 'text_domain' ),
+		'parent_item'                => __( 'Parent alianza', 'text_domain' ),
+		'parent_item_colon'          => __( 'Parent alianza:', 'text_domain' ),
+		'new_item_name'              => __( 'Nueva alianza', 'text_domain' ),
+		'add_new_item'               => __( 'Agregar Nueva alianza', 'text_domain' ),
+		'edit_item'                  => __( 'Editar alianza', 'text_domain' ),
+		'update_item'                => __( 'Actualizar alianza', 'text_domain' ),
+		'view_item'                  => __( 'Ver Item', 'text_domain' ),
+		'separate_items_with_commas' => __( 'Separate items with commas', 'text_domain' ),
+		'add_or_remove_items'        => __( 'Add or remove items', 'text_domain' ),
+		'choose_from_most_used'      => __( 'Choose from the most used items', 'text_domain' ),
+		'popular_items'              => __( 'Popular Items', 'text_domain' ),
+		'search_items'               => __( 'Buscar alianza', 'text_domain' ),
+		'not_found'                  => __( 'Not Found', 'text_domain' ),
+		'no_terms'                   => __( 'No items', 'text_domain' ),
+		'items_list'                 => __( 'Items list', 'text_domain' ),
+		'items_list_navigation'      => __( 'Items list navigation', 'text_domain' ),
+	);
+	$args = array(
+		'labels'                     => $labels,
+		'hierarchical'               => true,
+		'public'                     => true,
+		'show_ui'                    => true,
+		'show_admin_column'          => true,
+		'show_in_nav_menus'          => true,
+		'show_tagcloud'              => true,
+		
+	);
+	register_taxonomy( 'tipo_alianza', array( 'alianza' ), $args );
+}
+add_action( 'init', 'alianza_taxonomy', 0 );
+
 /***************** Termmeta *****************/
 function termmeta_value( $meta_key, $post_id ){
             global $wpdb;  
@@ -483,7 +738,7 @@ function theme_customize_register($wp_customize){
         'title' => 'Misión',
         'panel' => 'Quienes Somos'
       ));
-      //image
+      
       $wp_customize->add_setting('mision_item_1');
     
       $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'mision_item_1', array (
@@ -515,12 +770,7 @@ function theme_customize_register($wp_customize){
       //image
       $wp_customize->add_setting('mision_item_4');
     
-      $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'mision_item_4', array (
-        'label' => 'Imagen',
-        'description' => 'Imagen Misión',
-        'section' => 'mision',
-        'settings' => 'mision_item_4'
-      )));
+     
     
     
            $wp_customize->add_section('vision', array (
@@ -556,14 +806,47 @@ function theme_customize_register($wp_customize){
         'type' => 'textarea'
         
       )));
-      //image
-      $wp_customize->add_setting('vision_item_4');
+	  $wp_customize->add_section('calidad', array (
+        'title' => 'Calidad',
+        'panel' => 'Quienes Somos'
+      ));
+           
+      $wp_customize->add_setting('calidad_item_1');
     
-      $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'vision_item_4', array (
+      $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'calidad_item_1', array (
+        'label' => 'Subtitulo',
+        'description' => 'Subtitulo Visión',
+        'section' => 'calidad',
+        'settings' => 'calidad_item_1'
+      )));
+      //image
+      $wp_customize->add_setting('calidad_item_2');
+    
+      $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'calidad_item_2', array (
+        'label' => 'Titulo',
+        'description' => 'Titulo Visión',
+        'section' => 'calidad',
+        'settings' => 'calidad_item_2',
+      )));
+    //image
+      $wp_customize->add_setting('calidad_item_3');
+    
+      $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'calidad_item_3', array (
+        'label' => 'Texto',
+        'description' => 'Texto Visión',
+        'section' => 'calidad',
+        'settings' => 'calidad_item_3',
+        'type' => 'textarea'
+        
+      )));
+      //image
+      $wp_customize->add_setting('quienes_somos_img');
+    
+      $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'quienes_somos_img', array (
         'label' => 'Imagen',
-        'description' => 'Imagen Visión',
-        'section' => 'vision',
-        'settings' => 'vision_item_4'
+        'description' => 'Imagen ',
+        'section' => 'calidad',
+        'settings' => 'quienes_somos_img'
       )));
 
 
@@ -787,8 +1070,622 @@ function theme_customize_register($wp_customize){
             'settings' => 'ayuda_item_4'
           )));
         
-        }
+
 /***********************/
+
+
+
+/** Trabaja con nosotros **/
+$wp_customize->add_panel('Trabaja con nosotros',
+                array(
+                    'title' => 'Trabaja con nosotros',
+                    'priority' => 1,
+                    )
+                );
+          $wp_customize->add_section('Seccion 1', array (
+            'title' => 'Informacion principal',
+            'panel' => 'Trabaja con nosotros'
+          ));
+$wp_customize->add_section('Seccion 2', array (
+            'title' => 'Logos',
+            'panel' => 'Trabaja con nosotros'
+          ));
+          //image
+          $wp_customize->add_setting('trabaja_item_1');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'trabaja_item_1', array (
+            'label' => 'Subtitulo',
+            'description' => 'Subtitulo Trabaja con nosotros',
+            'section' => 'Seccion 1',
+            'settings' => 'trabaja_item_1'
+          )));
+          //image
+          $wp_customize->add_setting('trabaja_item_2');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'trabaja_item_2', array (
+            'label' => 'Titulo',
+            'description' => 'Titulo Trabaja con nosotros',
+            'section' => 'Seccion 1',
+            'settings' => 'trabaja_item_2',
+          )));
+        //image
+          $wp_customize->add_setting('trabaja_item_3');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'trabaja_item_3', array (
+            'label' => 'Texto',
+            'description' => 'Texto Trabaja con nosotros',
+            'section' => 'Seccion 1',
+            'settings' => 'trabaja_item_3',
+            'type' => 'textarea'
+            
+          )));
+          //image
+          $wp_customize->add_setting('trabaja_item_4');
+        
+          $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'trabaja_item_4', array (
+            'label' => 'Imagen',
+            'description' => 'Imagen Trabaja con nosotros',
+            'section' => 'Seccion 1',
+            'settings' => 'trabaja_item_4'
+          )));
+
+        
+		$wp_customize->add_setting('linktrabaja_item_1');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'linktrabaja_item_1', array (
+            'label' => 'Url',
+            'description' => 'Titulo Trabaja con nosotros',
+            'section' => 'Seccion 1',
+            'settings' => 'linktrabaja_item_1',
+          )));
+		
+
+	
+        
+		$wp_customize->add_setting('linktrabaja_item_2');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'linktrabaja_item_2', array (
+            'label' => 'Url',
+            'description' => 'Titulo Trabaja con nosotros',
+            'section' => 'Seccion 1',
+            'settings' => 'linktrabaja_item_2',
+          )));
+	
+        
+		$wp_customize->add_setting('linktrabaja_item_3');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'linktrabaja_item_3', array (
+            'label' => 'Url',
+            'description' => 'Titulo Trabaja con nosotros',
+            'section' => 'Seccion 1',
+            'settings' => 'linktrabaja_item_3',
+          )));
+	
+        
+		$wp_customize->add_setting('linktrabaja_item_4');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'linktrabaja_item_4', array (
+            'label' => 'Url',
+            'description' => 'Titulo Trabaja con nosotros',
+            'section' => 'Seccion 1',
+            'settings' => 'linktrabaja_item_4',
+          )));
+
+		/** Section 2*/
+		//image logo 1
+          $wp_customize->add_setting('logotrabaja_item_1');
+        
+          $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'logotrabaja_item_1', array (
+            'label' => 'Imagen',
+            'description' => 'Logo 1',
+            'section' => 'Seccion 2',
+            'settings' => 'logotrabaja_item_1'
+          )));
+	$wp_customize->add_setting('urltrabaja_item_1');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'urltrabaja_item_1', array (
+            'label' => 'Url de logos',
+            'description' => 'Enlace',
+            'section' => 'Seccion 2',
+            'settings' => 'urltrabaja_item_1',
+          )));
+        
+        
+		//image logo 2
+          $wp_customize->add_setting('logotrabaja_item_2');
+        
+          $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'logotrabaja_item_2', array (
+            'label' => 'Imagen',
+            'description' => 'Logo 2',
+            'section' => 'Seccion 2',
+            'settings' => 'logotrabaja_item_2'
+          )));
+	$wp_customize->add_setting('urltrabaja_item_2');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'urltrabaja_item_2', array (
+            'label' => 'Url de logos',
+            'description' => 'Enlace',
+            'section' => 'Seccion 2',
+            'settings' => 'urltrabaja_item_2',
+          )));
+        
+        
+        
+
+		/** Pagos **/
+$wp_customize->add_panel('Medios de pagos',
+                array(
+                    'title' => 'Medios de pagos',
+                    'priority' => 1,
+                    )
+                );
+          $wp_customize->add_section('Seccion de principal', array (
+            'title' => 'Informacion principal',
+            'panel' => 'Medios de pagos'
+          ));
+$wp_customize->add_section('Seccion comunicate', array (
+            'title' => 'Comunícate con nosotros',
+            'panel' => 'Medios de pagos'
+          ));
+
+          
+       
+          $wp_customize->add_setting('pagos_item_1');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'pagos_item_1', array (
+            'label' => 'Titulo',
+            'description' => 'Titulo Medios de pagos',
+            'section' => 'Seccion de principal',
+            'settings' => 'pagos_item_1',
+          )));
+        
+          $wp_customize->add_setting('pagos_item_2');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'pagos_item_2', array (
+            'label' => 'Descripcion',
+            'description' => 'Texto Medios de pagos',
+            'section' => 'Seccion de principal',
+            'settings' => 'pagos_item_2',
+            'type' => 'textarea'
+            
+          )));
+
+          $wp_customize->add_setting('pagos_item_3');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'pagos_item_3', array (
+            'label' => 'Texto en negrita',
+            'description' => 'Texto Medios de pagos',
+            'section' => 'Seccion de principal',
+            'settings' => 'pagos_item_3',
+            'type' => 'textarea'
+            
+          )));
+          //image
+          $wp_customize->add_setting('pagos_item_4');
+        
+          $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'pagos_item_4', array (
+            'label' => 'Imagen',
+            'description' => 'Imagen Medios de pagos',
+            'section' => 'Seccion de principal',
+            'settings' => 'pagos_item_4'
+          )));
+
+        $wp_customize->add_setting('textopago_item_1');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'textopago_item_1', array (
+            'label' => 'Texto de botón 1',
+            'section' => 'Seccion de principal',
+            'settings' => 'textopago_item_1',
+          )));
+	
+		$wp_customize->add_setting('linkpago_item_1');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'linkpago_item_1', array (
+            'label' => 'Url Botón 1',
+            'section' => 'Seccion de principal',
+            'settings' => 'linkpago_item_1',
+          )));
+
+          
+		 $wp_customize->add_setting('textopago_item_2');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'textopago_item_2', array (
+            'label' => 'Texto de botón 2',
+            'section' => 'Seccion de principal',
+            'settings' => 'textopago_item_2',
+          )));
+
+
+          $wp_customize->add_setting('linkpago_item_2');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'linkpago_item_2', array (
+            'label' => 'Url Botón 2',
+            'section' => 'Seccion de principal',
+            'settings' => 'linkpago_item_2',
+          )));
+
+         
+			 $wp_customize->add_setting('textopago_item_3');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'textopago_item_3', array (
+            'label' => 'Texto de botón 3',
+            'section' => 'Seccion de principal',
+            'settings' => 'textopago_item_3',
+          )));
+	
+	
+          $wp_customize->add_setting('linkpago_item_3');
+        
+          $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'linkpago_item_3', array (
+            'label' => 'Url Botón 3',
+            'section' => 'Seccion de principal',
+            'settings' => 'linkpago_item_3',
+          )));
+		
+	
+		//ICONO
+        $wp_customize->add_setting('comunicate_item_3');
+    
+        $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'comunicate_item_3', array (
+        'label' => 'Icono',
+        'description' => 'Icono Comunícate con nosotros',
+        'section' => 'Seccion comunicate',
+        'settings' => 'comunicate_item_3'
+        )));
+		$wp_customize->add_setting('comunicate_item_1');
+        
+        $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'comunicate_item_1', array (
+        'label' => 'Titulo',
+        'description' => 'Titulo Comunícate con nosotros',
+        'section' => 'Seccion comunicate',
+        'settings' => 'comunicate_item_1',
+        )));
+    
+        $wp_customize->add_setting('comunicate_item_2');
+    
+        $wp_customize->add_control(new WP_Customize_Control($wp_customize, 'comunicate_item_2', array (
+        'label' => 'Descripcion',
+        'description' => 'Texto Comunícate con nosotros',
+        'section' => 'Seccion comunicate',
+        'settings' => 'comunicate_item_2',
+        'type' => 'textarea'
+        
+        )));
+
+     
+        //image
+        $wp_customize->add_setting('comunicate_item_4');
+    
+        $wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'comunicate_item_4', array (
+        'label' => 'Imagen',
+        'description' => 'Imagen Comunícate con nosotros',
+        'section' => 'Seccion comunicate',
+        'settings' => 'comunicate_item_4'
+        )));
+
+	/** Ayuda al duelo **/
+$wp_customize->add_panel('Ayuda al duelo',
+        array(
+            'title' => 'Ayuda al duelo',
+            'priority' => 1,
+            )
+        );
+  $wp_customize->add_section('Ayuda Seccion 1', array (
+    'title' => 'Informacion principal',
+    'panel' => 'Ayuda al duelo'
+  ));
+$wp_customize->add_section('Ayuda Seccion 2', array (
+  'title' => 'Indice de publicaciones',
+  'panel' => 'Ayuda al duelo'
+));
+
+$wp_customize->add_setting('ayuda_seccion1_item_1');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion1_item_1', array (
+  'label' => 'Subtitulo',
+  'description' => 'Subtitulo Ayuda_seccion1 al duelo',
+  'section' => 'Ayuda Seccion 1',
+  'settings' => 'ayuda_seccion1_item_1'
+)));
+
+$wp_customize->add_setting('ayuda_seccion1_item_2');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion1_item_2', array (
+  'label' => 'Titulo',
+  'description' => 'Titulo Ayuda_seccion1 al duelo',
+  'section' => 'Ayuda Seccion 1',
+  'settings' => 'ayuda_seccion1_item_2',
+)));
+
+$wp_customize->add_setting('ayuda_seccion1_item_3');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion1_item_3', array (
+  'label' => 'Texto',
+  'description' => 'Texto Ayuda_seccion1 al duelo',
+  'section' => 'Ayuda Seccion 1',
+  'settings' => 'ayuda_seccion1_item_3',
+  'type' => 'textarea'
+  
+)));
+
+$wp_customize->add_setting('ayuda_seccion1_item_4');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion1_item_4', array (
+  'label' => 'Imagen',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 1',
+  'settings' => 'ayuda_seccion1_item_4'
+)));
+
+
+
+
+$wp_customize->add_setting('ayuda_seccion2_item_1');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_item_1', array (
+  'label' => 'Subtitulo',
+  'description' => 'Subtitulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_item_1'
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_item_2');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_item_2', array (
+  'label' => 'Titulo',
+  'description' => 'Titulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_item_2',
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_item_3');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_item_3', array (
+  'label' => 'Texto',
+  'description' => 'Texto Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_item_3',
+  'type' => 'textarea'
+  
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_item_4');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion2_item_4', array (
+  'label' => 'Imagen',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_item_4'
+)));
+	
+	$wp_customize->add_setting('ayuda_seccion2_list');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_list', array (
+  'label' => 'Texto Principal',
+  'description' => 'Subtitulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_list'
+)));
+	$wp_customize->add_setting('ayuda_seccion2_listpdf');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion2_listpdf', array (
+  'label' => 'PDF edicion especial',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_listpdf'
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_list1');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_list1', array (
+  'label' => 'Texto 1',
+  'description' => 'Subtitulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_list1'
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_listpdf1');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion2_listpdf1', array (
+  'label' => 'PDF 1',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_listpdf1'
+)));
+	
+
+
+$wp_customize->add_setting('ayuda_seccion2_list2');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_list2', array (
+  'label' => 'Texto 2',
+  'description' => 'Subtitulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_list2'
+)));
+
+
+$wp_customize->add_setting('ayuda_seccion2_listpdf2');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion2_listpdf2', array (
+  'label' => 'PDF 1',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_listpdf2'
+)));
+	
+
+$wp_customize->add_setting('ayuda_seccion2_list3');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_list3', array (
+  'label' => 'Texto 3',
+  'description' => 'Subtitulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_list3'
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_listpdf3');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion2_listpdf3', array (
+  'label' => 'PDF 1',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_listpdf3'
+)));
+	
+
+$wp_customize->add_setting('ayuda_seccion2_list4');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_list4', array (
+  'label' => 'Texto 4',
+  'description' => 'Subtitulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_list4'
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_listpdf4');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion2_listpdf4', array (
+  'label' => 'PDF 1',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_listpdf4'
+)));
+	
+
+
+$wp_customize->add_setting('ayuda_seccion2_list5');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_list5', array (
+  'label' => 'Texto 5',
+  'description' => 'Subtitulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_list5'
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_listpdf5');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion2_listpdf5', array (
+  'label' => 'PDF 1',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_listpdf5'
+)));
+	
+
+$wp_customize->add_setting('ayuda_seccion2_list6');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_list6', array (
+  'label' => 'Texto 6',
+  'description' => 'Subtitulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_list6'
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_listpdf6');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion2_listpdf6', array (
+  'label' => 'PDF 1',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_listpdf6'
+)));
+	
+
+$wp_customize->add_setting('ayuda_seccion2_list7');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_list7', array (
+  'label' => 'Texto 7',
+  'description' => 'Subtitulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_list7'
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_listpdf7');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion2_listpdf7', array (
+  'label' => 'PDF 1',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_listpdf7'
+)));
+	
+
+$wp_customize->add_setting('ayuda_seccion2_list8');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'ayuda_seccion2_list8', array (
+  'label' => 'Texto 8',
+  'description' => 'Subtitulo Ayuda_seccion2 al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_list8'
+)));
+
+$wp_customize->add_setting('ayuda_seccion2_listpdf8');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'ayuda_seccion2_listpdf8', array (
+  'label' => 'PDF 1',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Ayuda Seccion 2',
+  'settings' => 'ayuda_seccion2_listpdf8'
+)));
+	
+	
+	/** Club de beneficios **/
+$wp_customize->add_panel('Club de beneficios',
+        array(
+            'title' => 'Club de beneficios',
+            'priority' => 1,
+            )
+        );
+  $wp_customize->add_section('Club Seccion 1', array (
+    'title' => 'Informacion principal',
+    'panel' => 'Club de beneficios'
+  ));
+
+
+
+  $wp_customize->add_setting('club_seccion1_item_1');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'club_seccion1_item_1', array (
+  'label' => 'Subtitulo',
+  'description' => 'Subtitulo club_seccion1 al duelo',
+  'section' => 'Club Seccion 1',
+  'settings' => 'club_seccion1_item_1'
+)));
+
+$wp_customize->add_setting('club_seccion1_item_2');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'club_seccion1_item_2', array (
+  'label' => 'Titulo',
+  'description' => 'Titulo club_seccion1 al duelo',
+  'section' => 'Club Seccion 1',
+  'settings' => 'club_seccion1_item_2',
+)));
+
+$wp_customize->add_setting('club_seccion1_item_3');
+
+$wp_customize->add_control(new WP_Customize_Control($wp_customize, 'club_seccion1_item_3', array (
+  'label' => 'Texto',
+  'description' => 'Texto club_seccion1 al duelo',
+  'section' => 'Club Seccion 1',
+  'settings' => 'club_seccion1_item_3',
+  'type' => 'textarea'
+  
+)));
+
+$wp_customize->add_setting('club_seccion1_item_4');
+
+$wp_customize->add_control(new WP_Customize_Image_Control($wp_customize, 'club_seccion1_item_4', array (
+  'label' => 'Imagen',
+  'description' => 'Imagen Ayuda al duelo',
+  'section' => 'Club Seccion 1',
+  'settings' => 'club_seccion1_item_4'
+)));
+
+
+	
+	
+        }
 
     add_action('customize_register','theme_customize_register');
 

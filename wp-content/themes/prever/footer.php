@@ -27,6 +27,7 @@
 								<li ><a href="<?php echo bloginfo('url').'/index.php/privacidad-de-datos';?>">Políticas de datos</a></li>
 								<li ><a href="<?php echo bloginfo('url').'/index.php/preguntas-frecuentes';?>">FAQS</a></li>
 								<li ><a href="	">Red prestadora de servicios</a></li>
+							   <li ><a target="_blank" href="tel:018000518910"> Comunícate con nuestra Línea Gratuita Nacional: 018000518910</a></li>
 							
 
 							</ul>
@@ -41,7 +42,7 @@
 							<ul>
 								<li ><a href="<?php echo bloginfo('url').'/index.php/quienes-somos';?>">Quiénes somos</a></li>
 								<li ><a href="<?php echo bloginfo('url').'/index.php/nuestros-servicios';?>">Nuestros servicios</a></li>
-								<li ><a href="https://prever.com.co/club-de-beneficios/#1571928741283-8a776011-ac90">Tu portal</a></li>
+								<li ><a target="_blank" href="https://tuportalprever.com.co/api/empresarial/modules/login.php">Tu portal</a></li>
 								<li ><a href="<?php echo bloginfo('url').'/index.php/pagos';?>">Pagos</a></li>
 
 							</ul>
@@ -54,7 +55,8 @@
 						<h2 class="ftco-heading-2 line2">Contacto</h2>
 						<div class="block-237 ">
 							<ul>
-								<li><img class="icon-this" style="width: 10%; margin-right: 3px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/loca.svg"><a href="https://www.google.com/maps/uv?pb=!1s0x8e3f9a9720c5cd1d:0x6d74d982e0b275a4!3m1!7e115!4s/maps/place/Carrera%2B11A%2B%2523%2B98%2B-%2B50%2BEdificio%2BPunto%2B99%2BOf.%2B304/@4.6819601,-74.0446691,3a,75y,106.14h,90t/data%3D*213m4*211e1*213m2*211slHeoyY-SWoxR8r9KI5A8yg*212e0*214m2*213m1*211s0x8e3f9a9720c5cd1d:0x6d74d982e0b275a4?sa%3DX!5sCarrera+11A+%23+98+-+50+Edificio+Punto+99+Of.+304+-+Buscar+con+Google!15zQ2dJZ0FRPT0&imagekey=!1e2!2slHeoyY-SWoxR8r9KI5A8yg&hl=es-419&sa=X&ved=2ahUKEwiqlMDGj5zuAhU5GFkFHYEMCswQpx8wE3oECCEQCA" target="_blank" style="color: #fff;">Carrera 11A # 98 - 50 Edificio Punto 99 Of. 304</a></li>
+								<li><img class="icon-this" style="width: 10%; margin-right: 3px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/loca.svg"><a href="https://www.google.com/maps/place/Cra.+11B+%2397-56,+Bogot%C3%A1,+Colombia/@4.6812442,-74.0477597,17z/data=!3m1!4b1!4m8!1m2!2m1!1s+Carrera+11B+%2397-56+Edificio+%C3%81pice+97+Of.+302!3m4!1s0x8e3f9a96d26ce6f7:0xea81b013dc2df9d8!8m2!3d4.6812442!4d-74.045571" target="_blank" style="color: #fff;">
+Carrera 11B #97-56 Edificio Ápice 97 Of. 302</a></li>
 								<li><a target="_blank" href="mailto:encontacto@prever.com.co"><img class="icon-this" style="width: 10%;margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/envelope.svg"><span class="text">correo: encontacto@prever.com.co</span></a></li>
 								<li ><a target="_blank" href="tel:17440959"><img class="icon-this" style="width: 10%; margin-right: 8px;" src="<?php echo get_template_directory_uri(); ?>/assets/images/phone-call.svg"><span class="text">Teléfono: (1) 7440959</span></a></li>
 							</ul>

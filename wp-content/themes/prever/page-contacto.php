@@ -9,7 +9,9 @@
 <h6>Encuentra Nuestras oficinas Administrativas de Prever</h6>
 <h5>o comunícate en la línea nacional 01 8000 81 59 10</h5>
 <div class="row_content">
-<div class="row-contact__tabs">
+	<div class="row-contact__tabs">
+	
+
     <div class="nav flex-column nav-pills" id="v-pills-tab" role="tablist" aria-orientation="vertical">
       <a class="nav-link active" id="Armenia-tab" data-toggle="pill" href="#Armenia" role="tab" aria-controls="Armenia" aria-selected="true">
         <p>Armenia</p> <i class="fa fa-angle-right" aria-hidden="true"></i>
@@ -32,32 +34,23 @@
     </div>
 </div>
 <div class="row-contact__content">
+
     <div class="tab-content" id="v-pills-tabContent">
       <div class="tab-pane fade show active" id="Armenia" role="tabpanel" aria-labelledby="Armenia-tab">
         <div id="Fundaciones" class="tabcontent">
                     <div class="text-content">
                         <div class="map2">
-							<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d127272.16977332806!2d-75.6483011!3d4.548016500000016!3m2!1i1024!2i768!4f13.1!5e0!3m2!1ses-419!2sve!4v1610737322913!5m2!1ses-419!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+							<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3977.2675918450154!2d-75.66406158479386!3d4.5457908442459525!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e38f4fea9a7e8dd%3A0xe49e6aed8ec78d06!2sCra.%2013a%2C%20Armenia%2C%20Quind%C3%ADo%2C%20Colombia!5e0!3m2!1ses-419!2sve!4v1612837565401!5m2!1ses-419!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                         
                         </div>
                         <div class="text-left-content">
                             <h6>Armenia</h6>
-                            <!-- <div class="flex-star">
-                            <div>5/5</div>
-                            <div class="ec-stars-wrapper">
-                                <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-                                <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-                                <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-                                <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-                                <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-                            </div>
-                            <div>(20 reviews)</div>
-                        </div> -->
+                            
                         <div class="text-horario">
-                            <div class="pin">
+                            <a href="https://www.google.com/maps/place/Cra.+13a,+Armenia,+Quind%C3%ADo,+Colombia/@4.5457908,-75.6640616,17z/data=!3m1!4b1!4m8!1m2!2m1!1sprever+carrera+13a+%23+2+norte+%E2%80%93+01+54+-+47+armenia!3m4!1s0x8e38f4fea9a7e8dd:0xe49e6aed8ec78d06!8m2!3d4.5457855!4d-75.6618729" class="pin">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
-                                <p>Carrera 13A # 2 Norte – 01  <br> 54 - 47</p>
-                            </div>
+                                <p>Carrera 13A # 2 Norte – 01  </p>
+                            </a>
                             <hr>
                             <div class="pin">
                                 <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
@@ -81,22 +74,16 @@
       <div class="tab-pane fade" id="Bogota" role="tabpanel" aria-labelledby="Bogota-tab">
         <div id="convocatorias" class="tabcontent">
             <div class="text-content">
-                <div class="map2">
-					<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127248.15890290834!2d-74.03061!3d4.681938!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses-419!2sus!4v1610737508384!5m2!1ses-419!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+               
+					<div class="map2">
+		
+						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3976.5088785817456!2d-74.04775968479386!3d4.681249543128289!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f9a96d26ce6f7%3A0xea81b013dc2df9d8!2sCra.%2011B%20%2397-56%2C%20Bogot%C3%A1%2C%20Colombia!5e0!3m2!1ses!2sve!4v1612817999023!5m2!1ses!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                        </div>
+					
                  
                 <div class="text-left-content">
                     <h6>Bogotá</h6>
-                    <!-- <div class="flex-star">
-                        <div>5/5</div>
-                        <div class="ec-stars-wrapper">
-                            <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-                            <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-                            <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-                            <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-                            <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-                        </div>
-                        <div>(20 reviews)</div>
-                    </div> -->
+                    
                     <div class="text-horario">
                         <div class="pin">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
@@ -122,30 +109,21 @@
             </div>
         </div>
       </div>
+		
       <div class="tab-pane fade" id="Cali" role="tabpanel" aria-labelledby="Cali-tab">
         <div id="eventos" class="tabcontent">
             <div class="text-content">
                 <div class="map2">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127437.03489567741!2d-76.508908!3d3.492739!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses-419!2sve!4v1610739813107!5m2!1ses-419!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3982.4071866963404!2d-76.52457308479295!3d3.492775251916996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e30a8977df19aed%3A0x2ec013879d6d622!2sCl.%2064%20Nte.%20%23146%2C%20Cali%2C%20Valle%20del%20Cauca%2C%20Colombia!5e0!3m2!1ses-419!2sve!4v1612836497122!5m2!1ses-419!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
                 <div class="text-left-content">
                     <h6>Cali</h6>
-                    <!-- <div class="flex-star">
-                        <div>5/5</div> 
-                        <div class="ec-stars-wrapper">
-                            <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-                            <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-                            <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-                            <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-                            <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-                        </div>  
-                        <div>(20 reviews)</div>
-                    </div> -->
+                  
                     <div class="text-horario">
-                        <div class="pin">
+                        <a href="https://www.google.com/maps/place/Cl.+64+Nte.+%23146,+Cali,+Valle+del+Cauca,+Colombia/@3.4927753,-76.5245731,17z/data=!3m1!4b1!4m5!3m4!1s0x8e30a8977df19aed:0x2ec013879d6d622!8m2!3d3.4927699!4d-76.5223844" class="pin">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
                             <p>Calle 64N # 5BN – 146 Centro Empresa Local 110 Sector G.  </p>
-                        </div>
+                        </a>
                         <hr>
                         <div class="pin">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
@@ -171,27 +149,17 @@
         <div id="Noticias" class="tabcontent">
             <div class="text-content">
                 <div class="map2">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127175.98050316714!2d-75.484328!3d5.063278!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses-419!2sus!4v1610740844035!5m2!1ses-419!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                   <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3974.248683834409!2d-75.49836190577467!3d5.063393019753643!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e476f89815bc439%3A0x969b9d14bfaf1b01!2sCl.%2050%20%23%2324-05%2C%20Manizales%2C%20Caldas%2C%20Colombia!5e0!3m2!1ses-419!2sve!4v1612835871907!5m2!1ses-419!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
 
                 <div class="text-left-content">
                     <h6>Manizales</h6>
-                    <!-- <div class="flex-star">
-                        <div>5/5</div> 
-                        <div class="ec-stars-wrapper">
-                            <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-                            <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-                            <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-                            <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-                            <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-                        </div>  
-                        <div>(20 reviews)</div>
-                    </div> -->
+                   
                     <div class="text-horario">
-                        <div class="pin">
+                        <a href="https://www.google.com/maps/place/Cl.+50+%23%2324-05,+Manizales,+Caldas,+Colombia/@5.063393,-75.4983619,17z/data=!4m13!1m7!3m6!1s0x8e476f89815bc439:0x969b9d14bfaf1b01!2sCl.+50+%23%2324-05,+Manizales,+Caldas,+Colombia!3b1!8m2!3d5.0632889!4d-75.4982148!3m4!1s0x8e476f89815bc439:0x969b9d14bfaf1b01!8m2!3d5.0632889!4d-75.4982148" class="pin">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
                             <p>Calle 50 # 24 – 05 </p>
-                        </div>
+                        </a>
                         <hr>
                         <div class="pin">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
@@ -217,27 +185,17 @@
         <div id="Noticias" class="tabcontent">
             <div class="text-content">
                 <div class="map2">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d126914.64859389543!2d-75.551012!3d6.252825!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses-419!2sus!4v1610740876629!5m2!1ses-419!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+              <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63459.533652713755!2d-75.5945373611562!3d6.2345921277386935!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xeba02b0fff307deb!2sPrever!5e0!3m2!1ses-419!2sve!4v1612835414443!5m2!1ses-419!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
 
                 <div class="text-left-content">
                     <h6>Medellín</h6>
-                    <!-- <div class="flex-star">
-                        <div>5/5</div> 
-                        <div class="ec-stars-wrapper">
-                            <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-                            <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-                            <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-                            <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-                            <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-                        </div>  
-                        <div>(20 reviews)</div>
-                    </div> -->
+                   
                     <div class="text-horario">
-                        <div class="pin">
+                        <a href="https://www.google.com/maps/place/Prever/@6.2528871,-75.5651598,15z/data=!4m5!3m4!1s0x0:0xeba02b0fff307deb!8m2!3d6.2528871!4d-75.5651598" class="pin">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
                             <p>Carrera 49 # 54 – 47   </p>
-                        </div>
+                        </a>
                         <hr>
                         <div class="pin">
                             <img src="<?php echo get_template_directory_uri(); ?>/assets/images/tec.jpg">
@@ -263,25 +221,15 @@
         <div id="Noticias" class="tabcontent">
             <div class="text-content">
                 <div class="map2">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d127224.19793771094!2d-75.705994!3d4.811875!3m2!1i1024!2i768!4f13.1!4m3!3e6!4m0!4m0!5e0!3m2!1ses-419!2sus!4v1610742157687!5m2!1ses-419!2sus" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15903.038793234982!2d-75.7060221!3d4.8112736!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x3fdc3a93b412bba8!2sPrever!5e0!3m2!1ses-419!2sve!4v1612834808373!5m2!1ses-419!2sve" width="600" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
                 </div>
 
                 <div class="text-left-content">
                     <h6>Pereira</h6>
-                    <!-- <div class="flex-star">
-                        <div>5/5</div> 
-                        <div class="ec-stars-wrapper">
-                            <a href="#" data-value="1" title="Votar con 1 estrellas">&#9733;</a>
-                            <a href="#" data-value="2" title="Votar con 2 estrellas">&#9733;</a>
-                            <a href="#" data-value="3" title="Votar con 3 estrellas">&#9733;</a>
-                            <a href="#" data-value="4" title="Votar con 4 estrellas">&#9733;</a>
-                            <a href="#" data-value="5" title="Votar con 5 estrellas">&#9733;</a>
-                        </div>  
-                        <div>(20 reviews)</div>
-                    </div> -->
+                   
                     <div class="text-horario">
                         <div class="pin">
-							<a href="https://www.google.com/maps/dir//Prever,+Cra.+13b,+Pereira,+Risaralda,+Colombia/@4.81127,-75.7760627,12z/data=!3m1!4b1!4m9!4m8!1m1!4e2!1m5!1m1!1s0x8e38875a4fbd160b:0x3fdc3a93b412bba8!2m2!1d-75.7060221!2d4.8112736">
+							<a target="_blank" href="https://www.google.com/maps/place/Prever/@4.8112736,-75.7060221,15z/data=!4m5!3m4!1s0x0:0x3fdc3a93b412bba8!8m2!3d4.8112736!4d-75.7060221">
 								<img src="<?php echo get_template_directory_uri(); ?>/assets/images/pin.svg">
                             <p>Carrera 13BIS # 32 -51   </p>
 							</a>
@@ -325,7 +273,8 @@
         <img src="<?php echo get_template_directory_uri(); ?>/assets/images/assitent.png">
     </div>
 	<div class="form">
-	<?php echo FrmFormsController::get_form_shortcode( array( 'id' => 5, 'title' => false, 'description' => false ) ); ?>
+		<?php echo do_shortcode('[hubspot type=form portal=5679320 id=55c385ea-5c7c-4bda-a696-003a772cc765]'); ?>
+	<!--< ?php echo FrmFormsController::get_form_shortcode( array( 'id' => 5, 'title' => false, 'description' => false ) ); ?>-->
 		   </div>
    
 </div>

@@ -1,4 +1,3 @@
-
 (function ($) {
     // USE STRICT
     "use strict";
@@ -44,7 +43,7 @@
             appendDots: $('.wrap-slick1-dots'),
             dotsClass:'slick1-dots',
             infinite: true,
-            autoplay: true,
+            autoplay: false,
             autoplaySpeed: 6000,
             arrows: true,
             appendArrows: $('.wrap-slick1'),

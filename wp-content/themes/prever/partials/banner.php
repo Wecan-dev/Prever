@@ -1,4 +1,4 @@
-	<section class="slide1">
+<section class="slide1">
 		<div class="wrap-slick1">
 
 			<div class="slick1">
@@ -19,7 +19,7 @@
 									<!-- Button -->
 									<?php $boton = get_field( 'boton' ); ?>
 									<?php if ( $boton ) : ?>
-									<a class="btn-oficial flex-c-m size2  s-text2 bgwhite hov1 trans-0-4" href="<?php echo esc_url( $boton['url'] ); ?>" target="<?php echo esc_attr( $boton['target'] ); ?>"><?php echo esc_html( $boton['title'] ); ?></a>
+									<a class="btn-oficial flex-c-m size2  s-text2 bgwhite hov1 trans-0-4" target="_blank" href="<?php echo esc_url( $boton['url'] ); ?>" target="<?php echo esc_attr( $boton['target'] ); ?>"><?php echo esc_html( $boton['title'] ); ?></a>
 									<?php endif; ?>
 									
 								</div>
